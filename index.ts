@@ -504,15 +504,17 @@ export const getServiceStatus = async (...include: UConnService[]): Promise<UCon
         let status = determineStatusFromHTML($(selector).html());
 
         services.push({
-            service: UConnService[name.toUpperCase()] || UConnService.UNKNOWN,
+            service: UConnService[replaceAll(name.toUpperCase(), ' ', '_')] || UConnService.UNKNOWN,
             status: status,
             time: Date.now()
         });
     });
 
     if (include && include.length)
-        services = services.filter(srv => include.includes(srv.service)
-                                       && srv.service !== UConnService.UNKNOWN);
+        services = services.filter(srv => include.includes(srv.service));
+
+    if (services.some(srv => srv.service === UConnService.UNKNOWN))
+        services = services.filter(srv => srv.service !== UConnService.UNKNOWN);
 
     return services;
 }
