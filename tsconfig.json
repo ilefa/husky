@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "es5",
+            "es6",
+            "ES2019.String"
+        ],
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "declaration": true,
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+    },
+    "exclude": [
+        "./node_modules",
+        "./dist",
+        "./test",
+    ]
+}
