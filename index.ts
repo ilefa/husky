@@ -511,7 +511,8 @@ export const getServiceStatus = async (...include: UConnService[]): Promise<UCon
     });
 
     if (include && include.length)
-        services = services.filter(srv => include.includes(srv.service));
+        services = services.filter(srv => include.includes(srv.service)
+                                       && srv.service !== UConnService.UNKNOWN);
 
     return services;
 }
