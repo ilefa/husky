@@ -81,7 +81,7 @@ let geog1700 = CourseMappings.find(course => course.name === 'GEOG1700');
 In the inevitable case that courses are updated, added, or removed over time, you may execute ``npm run mappings`` to regenerate the mappings. Please note that regenerating will take some time (~26 minutes), but this will depend on your hardware and internet capabilities.
 
 ## Manually finding internal course information
-*Please note this information is included for your convience within the ``[searchCourse](index.ts#L144)`` response under ``[SectionData#internal](index.ts#L51)``*
+*Please note this information is included for your convience within the [searchCourse](index.ts#L144) response under [SectionData#internal](index.ts#L51)*
 
 1. Visit the [UConn Course Catalog](https://catalog.uconn.edu/directory-of-courses/), and find the course you want.
 
