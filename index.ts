@@ -14,6 +14,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+
 import qs from 'qs';
 import axios from 'axios';
 import moment from 'moment';
@@ -128,6 +129,9 @@ export type EnrollmentPayload = {
     percent: number;
 }
 
+const DEFAULT_PREREQS = 'There are no prerequisites for this course.';
+const DEFAULT_DESC = 'There is no description provided for this course.';
+
 /**
  * Attempts to retrieve data regarding
  * a specific UConn course, and returns
@@ -172,12 +176,20 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
         .trim()
         .split(' ')[0] || 'Unknown Credits';
 
-    let prereqs = $('.prerequisites')
-        .text()?.
-        trim()?.
-        split('Prerequisites: ')[1]?.
-        split('Prerequisite: ')[1]?.
-        split('Recommended Preparation')[0] || 'There are no prerequisites for this course.';
+    let prereqs = $('.prerequisites').text() || DEFAULT_PREREQS;
+    if (prereqs && prereqs !== DEFAULT_PREREQS) {
+        let parts = prereqs
+            .trim()
+            .split(/Prerequisite(?:s){0,1}\:\s/);
+
+        prereqs = parts.length === 1 ? parts[0] : parts[1];
+        
+        if (prereqs.includes('None.'))
+            prereqs = DEFAULT_PREREQS;
+        
+        if (prereqs.includes('Recommended Preparation'))
+            prereqs = prereqs.split('Recommended Preparation')[0].trim()
+    }
 
     let lastDataRaw = $('.last-refresh').text() || moment().format('DD-MMM-YY h.mm.ss.[123456] a').toUpperCase();
     if (lastDataRaw.includes('.')) {
@@ -186,7 +198,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
 
     let lastDataMarker = new Date(lastDataRaw.split(/:\d{6}/).join(''));      
 
-    let desc = $('.description').text() || 'There is no description provided for this course.';
+    let desc = $('.description').text() || DEFAULT_DESC;
     let sections: SectionData[] = [];
 
     let data: string[][] = ($('.tablesorter') as any).parsetable();

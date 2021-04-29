@@ -45,7 +45,44 @@ let statuses = await getServiceStatus();
 let statuses = await getServiceStatus(UConnService.HUSKYCT, UConnService.STUDENT_ADMIN);
 ```
 
-## Finding internal course information
+## Course Mappings
+Husky offers a complete static set of "course mappings" aka course information from the course catalog.
+
+The data stored in the course mappings JSON file is sorted alphabetically by course name (ABCD1234),
+and is wrapped in an array. It can be can be imported via ``@ilefa/husky/courses.json``:
+
+```ts
+import CourseMappings from '@ilefa/husky/courses.json';
+
+// For example, retrieving GEOG1700 will yield the following data:
+let geog1700 = CourseMappings.find(course => course.name === 'GEOG1700');
+
+{
+    "name": "GEOG1700",
+    "catalogName": "World Regional Geography",
+    "catalogNumber": "1700",
+    "prerequisites": "RHAG students cannot take more than 22 credits of 1000 level courses",
+    "attributes": {
+        "lab": false,
+        "writing": false,
+        "quantitative": false,
+        "environmental": false,
+        "contentAreas": [
+            "CA2",
+            "CA4INT"
+        ]
+    },
+    "credits": 3,
+    "grading": "Graded",
+    "description": "Study of geographic relationships among natural and cultural environments that help to distinguish one part of the world from another. Analysis of selected countries as well as larger regions, with specific reference to the non-western world. CA 2. CA 4-INT."
+}
+```
+
+In the inevitable case that courses are updated, added, or removed over time, you may execute ``npm run mappings`` to regenerate the mappings. Please note that regenerating will take some time (~26 minutes), but this will depend on your hardware and internet capabilities.
+
+## Manually finding internal course information
+*Please note this information is included for your convience within the ``[searchCourse](index.ts#L144)`` response under ``[SectionData#internal](index.ts#L51)``*
+
 1. Visit the [UConn Course Catalog](https://catalog.uconn.edu/directory-of-courses/), and find the course you want.
 
 2. Next, open your browser's DOM inspector. This can typically be done by right clicking anywhere on the page, and then clicking *Inspect Element*.
