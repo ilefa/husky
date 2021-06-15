@@ -19,6 +19,7 @@ import qs from 'qs';
 import axios from 'axios';
 import moment from 'moment';
 import cheerio from 'cheerio';
+import CourseMappings from './courses.json';
 import tableparse from 'cheerio-tableparser';
 
 import { decode as decodeEntity } from 'html-entities';
@@ -84,6 +85,15 @@ export type RateMyProfessorResponse = {
     rmpIds: string[];
 }
 
+export type RateMyProfessorReport = {
+    name: string;
+    average: number;
+    ratings: number;
+    takeAgain: number;
+    difficulty: number;
+    tags: string[];
+}
+
 export enum UConnService {
     AURORA = 'Aurora',
     EMAIL = 'Email',
@@ -117,6 +127,11 @@ export type CampusType = 'any'
                 | 'waterbury' 
                 | 'avery_point';
 
+export enum SearchParts {
+    SECTIONS,
+    PROFESSORS
+}
+
 export type EnrollmentPayload = {
     course: {
         term: string;
@@ -131,6 +146,7 @@ export type EnrollmentPayload = {
 
 const DEFAULT_PREREQS = 'There are no prerequisites for this course.';
 const DEFAULT_DESC = 'There is no description provided for this course.';
+const DEFAULT_SEARCH_PARTS = [SearchParts.SECTIONS, SearchParts.PROFESSORS];
 
 /**
  * Attempts to retrieve data regarding
@@ -138,16 +154,47 @@ const DEFAULT_DESC = 'There is no description provided for this course.';
  * all sections, metadata, and other related
  * data about it.
  * 
+ * Using ``useMappings`` as true will only return
+ * the base course information, and will always
+ * omit professors and sections from the result.
+ * 
+ * Do note that if the mapping does not exist,
+ * it will fallback to querying the catalog.
+ * 
+ * Also do note that {@link SearchParts.PROFESSORS} is contingent
+ * upon {@link SearchParts.SECTIONS} being included, so if it is
+ * not, you will not get professors data.
+ * 
  * @param identifier a valid course identifier
  * @param campus a valid campus type
+ * @param useMappings whether or not to use offline mappings first, and if not found then query catalog
+ * @param include overrides what parts are included in the CoursePayload, omit parameter to include all parts
  */
-export const searchCourse = async (identifier: string, campus: CampusType = 'any'): Promise<CoursePayload> => {
-    if (!COURSE_IDENTIFIER.test(identifier)) {
+export const searchCourse = async (identifier: string, campus: CampusType = 'any', useMappings: boolean = false, include: SearchParts[] = DEFAULT_SEARCH_PARTS): Promise<CoursePayload> => {
+    if (!COURSE_IDENTIFIER.test(identifier))
         return null;
-    }
     
     let prefix = identifier.split(/[0-9]/)[0].toUpperCase();
     let number = identifier.split(/[a-zA-Z]{2,4}/)[1];
+
+    if (useMappings) {
+        let mapping = CourseMappings.find(ent => ent.name === identifier);
+        if (!mapping) return await searchCourse(identifier, campus, false, []);
+        let marker = moment().isBefore(new Date().setHours(6))
+            ? moment(new Date().setHours(-6))
+            : moment(new Date().setHours(0));
+
+        return {
+            name: mapping.name,
+            grading: mapping.grading,
+            credits: mapping.credits.toString(),
+            prereqs: mapping.prerequisites,
+            lastDataMarker: marker.toDate(),
+            description: mapping.description,
+            sections: [],
+            professors: []
+        }
+    }
 
     let target = `https://catalog.uconn.edu/directory-of-courses/course/${prefix}/${number}/`;
     let res = await axios
@@ -196,21 +243,25 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
         lastDataRaw = replaceAll(lastDataRaw, '.', ':');
     }
 
-    let lastDataMarker = new Date(lastDataRaw.split(/:\d{6}/).join(''));      
+    let lastDataMarker = new Date(lastDataRaw.split(/:\d{6}/).join(''));
+    let description = $('.description').text() || DEFAULT_DESC;
+    if (!include.includes(SearchParts.SECTIONS)) return {
+        name, grading, credits,
+        prereqs, lastDataMarker,
+        description,
+        sections: [],
+        professors: []
+    };
 
-    let desc = $('.description').text() || DEFAULT_DESC;
     let sections: SectionData[] = [];
-
     let data: string[][] = ($('.tablesorter') as any).parsetable();
-    if (!data[0]) {
-        return {
-            name, grading, credits,
-            prereqs, lastDataMarker,
-            description: desc,
-            sections: [],
-            professors: []
-        };
-    }
+    if (!data[0]) return {
+        name, grading, credits,
+        prereqs, lastDataMarker,
+        description,
+        sections: [],
+        professors: []
+    };
 
     let sectionCount = data[0].length - 1;
 
@@ -291,6 +342,13 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
     let professors: ProfessorData[] = [];
     sections = sections.slice(1, sections.length);
 
+    if (!include.includes(SearchParts.PROFESSORS)) return {
+        name, grading, credits,
+        prereqs, lastDataMarker,
+        description, sections,
+        professors: []
+    }
+
     for (let section of sections) {
         let prof = section.instructor;
         if (professors.some(p => p.name === prof)) {
@@ -339,8 +397,8 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
     return {
         name, grading, credits,
         prereqs, lastDataMarker,
-        description: desc,
-        sections, professors
+        description, sections,
+        professors
     }
 }
 
@@ -354,17 +412,15 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
  */
 export const searchBySection = async (identifier: string, section: string): Promise<SectionPayload> => {
     let res = await searchCourse(identifier, detectCampusBySection(section) || 'any');
-    if (!res) {
+    if (!res)
         return null;
-    }
 
     let data = res
         .sections
         .find(({ section: sec }) => sec.toLowerCase() === section.toLowerCase());
 
-    if (!data) {
+    if (!data)
         return null;
-    }
 
     return {
         name: res.name,
@@ -384,18 +440,16 @@ export const searchBySection = async (identifier: string, section: string): Prom
  * @param instructor the instructor to search for
  */
 export const searchRMP = async (instructor: string): Promise<RateMyProfessorResponse> => {
-    let $ = await axios.get(`https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&queryBy=teacherName&schoolName=University+Of+Connecticut&query=${instructor.replace(' ', '+')}`)
+    let $: cheerio.Root = await axios.get(`https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&queryBy=teacherName&schoolName=University+Of+Connecticut&query=${instructor.replace(' ', '+')}`)
         .then(res => res.data)
         .then(data => cheerio.load(data))
         .catch(_ => null);
 
     instructor = decodeEntity(replaceAll(instructor, '<br>', ' '));
 
-    if (!$) {
-        return {
-            name: instructor,
-            rmpIds: []
-        }
+    if (!$) return {
+        name: instructor,
+        rmpIds: []
     }
 
     let rmp: string[] = [];
@@ -413,6 +467,45 @@ export const searchRMP = async (instructor: string): Promise<RateMyProfessorResp
     return {
         name: instructor,
         rmpIds: rmp
+    }
+}
+
+/**
+ * Attempts to create a report based
+ * off of RMP data available for a
+ * specified professor's RMP ID.
+ * 
+ * @param id the instructor's ratemyprofessors' id
+ */
+export const getRmpReport = async (id: string): Promise<RateMyProfessorReport> => {
+    let $: cheerio.Root = await axios.get(`https://www.ratemyprofessors.com/ShowRatings.jsp?tid=${id}`)
+        .then(res => res.data)
+        .then(data => cheerio.load(data))
+        .catch(_ => null);
+
+    if (!$) return null;
+
+    let name = $('.NameTitle__Name-dowf0z-0 > span:nth-child(1)').text().trim() + ' ' + $('.NameTitle__LastNameWrapper-dowf0z-2').text().trim();
+    let average = parseFloat($('.RatingValue__Numerator-qw8sqy-2').text());
+    let ratings = parseInt($('.RatingValue__NumRatings-qw8sqy-0 > div:nth-child(1) > a:nth-child(1)').text().split(' ')[0]);
+    let takeAgain = NaN;
+    let difficulty = NaN;
+    let tags = [];
+
+    $('.FeedbackItem__StyledFeedbackItem-uof32n-0').each((i: number) => {
+        let ent = $(`div.FeedbackItem__StyledFeedbackItem-uof32n-0:nth-child(${i + 1})`);
+        if (i == 0) takeAgain = parseFloat(ent.text().split('%')[0]);
+        if (i == 1) difficulty = parseFloat(ent.text());
+    })
+    
+    $('.Tag-bs9vf4-0').each((i: number) => {
+        tags.push($(`.TeacherTags__TagsContainer-sc-16vmh1y-0 > span:nth-child(${i + 1})`).text());
+    });
+
+    return {
+        name, average, ratings,
+        takeAgain, difficulty,
+        tags: tags.filter(tag => !!tag)
     }
 }
 
@@ -443,6 +536,22 @@ export const detectCampusBySection = (section: string): CampusType => {
 }
 
 /**
+ * Returns whether or not the provided campus
+ * is a valid member of the {@link CampusType} type.
+ * 
+ * @param input the inputted campus
+ */
+export const isCampusType = (input: string): input is CampusType => {
+    let lower = input.toLowerCase();
+    return lower === 'any'
+        || lower === 'storrs'
+        || lower === 'hartford'
+        || lower === 'stamford'
+        || lower === 'waterbury'
+        || lower === 'avery_point'
+}
+
+/**
  * Attempts to query enrollment data from the
  * course catalog enrollment API.
  * 
@@ -464,9 +573,8 @@ export const getRawEnrollment = async (term: string, classNumber: string, sectio
     }))
     .then(res => res.data)
     .then(async res => {
-        if (!res.success) {
+        if (!res.success)
             throw new Error('Request failed');
-        }
 
         let seats: string[] = res.data.split('/');
         let available = parseInt(seats[0]);

@@ -1,5 +1,8 @@
 # Husky
 
+![version badge](https://img.shields.io/github/package-json/v/ilefa/husky?color=2573bc)
+![vuln badge](https://img.shields.io/snyk/vulnerabilities/github/ilefa/husky)
+
 Husky is a TypeScript library that contains several useful utilities for interfacing with UConn services.
 
 ## Installation
@@ -21,24 +24,35 @@ Since Husky is currently hosted on GitHub packages, you will need to make a ``.n
 ```ts
 import {
     getRawEnrollment,
+    getRmpReport,
     getServiceStatus
     searchBySection,
     searchCourse,
     searchRMP,
+    SearchParts,
     UConnService
 } from '@ilefa/husky';
 
-// Lookup a course by it's name, and optionally by it's campus
-let course = await searchCourse('CSE1729', 'storrs');
+// Lookup a course by it's name, and optionally it's campus
+let course = await searchCourse('CSE2050', 'storrs');
+
+// Lookup a course by it's name, using the provided local mappings
+let course = await searchCourse('CSE2050', 'storrs', true)
+
+// Lookup a course by it's name, and only retrieve certain parts
+let course = await searchCourse('CSE2050', 'storrs', false, [SearchParts.SECTIONS]);
 
 // Lookup a section by the course name and section identifier
-let section = await searchBySection('CSE1729', '015L');
+let section = await searchBySection('CSE2050', '021L');
 
 // Lookup a professor (via RateMyProfessors)
-let prof = await searchRMP('Gregory Johnson');
+let prof = await searchRMP('Jacob Scoggin');
+
+// Retrieve a professor report (via RateMyProfessors)
+let report = await getRmpReport('2525133');
 
 // Lookup a course's raw enrollment data using it's internal course number
-let enrollment = await getRawEnrollment('1208', '6011', '001');
+let enrollment = await getRawEnrollment('1218', '13767', '021L');
 
 // Retrieve current UConn service statuses (all of them, or specify some to return)
 let statuses = await getServiceStatus();
@@ -48,7 +62,7 @@ let statuses = await getServiceStatus(UConnService.HUSKYCT, UConnService.STUDENT
 ## Course Mappings
 Husky offers a complete static set of "course mappings" aka course information from the course catalog.
 
-The data stored in the course mappings JSON file is sorted alphabetically by course name (ABCD1234),
+The data stored in the course mappings JSON file is sorted alphabetically by course name (ABCD1234Q),
 and is wrapped in an array. It can be can be imported via ``@ilefa/husky/courses.json``:
 
 ```ts
@@ -78,7 +92,7 @@ let geog1700 = CourseMappings.find(course => course.name === 'GEOG1700');
 }
 ```
 
-In the inevitable case that courses are updated, added, or removed over time, you may execute ``npm run mappings`` to regenerate the mappings. Please note that regenerating will take some time (~26 minutes), but this will depend on your hardware and internet capabilities.
+In the inevitable case that courses are updated, added, or removed over time, you may execute ``npm run mappings`` to regenerate the mappings. Please note that regenerating will take some time (~26 minutes in my case), but this will depend on your hardware and internet capabilities.
 
 ## Manually finding internal course information
 *Please note this information is included for your convience within the [searchCourse](index.ts#L144) response under [SectionData#internal](index.ts#L51)*

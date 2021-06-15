@@ -1,6 +1,6 @@
 {
     "name": "@ilefa/husky",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "author": "ILEFA Labs",
     "license": "GPL-3.0",
     "description": "A collection of utilities pertaining to UConn services.",
