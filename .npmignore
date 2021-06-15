@@ -1,0 +1,10 @@
+# Directories
+test/
+.assets/
+.github/
+.vscode/
+node_modules/
+
+# Files
+*.test.ts
+README.md

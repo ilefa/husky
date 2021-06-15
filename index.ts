@@ -355,18 +355,15 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             continue;
         }
 
-        let $ = await axios.get(`https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&queryBy=teacherName&schoolName=University+Of+Connecticut&query=${prof.replace(' ', '+')}`)
-            .then(res => res.data)
-            .then(data => cheerio.load(data))
-            .catch(_ => null);
-
+        let rmp = await searchRMP(prof);
+        
         let teaching = sections
             .filter(section => section.instructor === prof)
             .sort((a, b) => a.section.localeCompare(b.section));
 
         prof = decodeEntity(replaceAll(prof, '<br>', ' '));
 
-        if (!$) {
+        if (!rmp) {
             professors.push({
                 name: prof,
                 sections: teaching,
@@ -375,22 +372,10 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             continue;
         }
 
-        let rmp: string[] = [];
-        $('li.listing').each((i: number) => {
-            let school = $(`li.listing:nth-child(${i + 1}) > a:nth-child(1) > span:nth-child(2) > span:nth-child(2)`).text();
-            if (!school.includes('University of Connecticut')) {
-                return;
-            }
-
-            rmp.push($(`li.listing:nth-child(${i + 1}) > a:nth-child(1)`)
-                .attr('href')
-                .split('tid=')[1]);
-        });
-
         professors.push({
             name: prof,
             sections: teaching,
-            rmpIds: rmp
+            rmpIds: rmp.rmpIds
         });
     }
 
@@ -453,13 +438,13 @@ export const searchRMP = async (instructor: string): Promise<RateMyProfessorResp
     }
 
     let rmp: string[] = [];
-    $('li.listing').each((i: number) => {
-        let school = $(`li.listing:nth-child(${i + 1}) > a:nth-child(1) > span:nth-child(2) > span:nth-child(2)`).text();
+    $('.TeacherCard__StyledTeacherCard-syjs0d-0').each((i: number) => {
+        let school = $(`.TeacherCard__StyledTeacherCard-syjs0d-0:nth-child(${i + 1}) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2)`).text();
         if (!school.includes('University of Connecticut')) {
             return;
         }
 
-        rmp.push($(`li.listing:nth-child(${i + 1}) > a:nth-child(1)`)
+        rmp.push($(`.TeacherCard__StyledTeacherCard-syjs0d-0:nth-child(${i + 1})`)
             .attr('href')
             .split('tid=')[1]);
     });
