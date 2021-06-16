@@ -425,7 +425,7 @@ export const searchBySection = async (identifier: string, section: string): Prom
  * @param instructor the instructor to search for
  */
 export const searchRMP = async (instructor: string): Promise<RateMyProfessorResponse> => {
-    let $: cheerio.Root = await axios.get(`https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&queryBy=teacherName&schoolName=University+Of+Connecticut&query=${instructor.replace(' ', '+')}`)
+    let $: cheerio.Root = await axios.get(`https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&queryBy=teacherName&sid=U2Nob29sLTEwOTE=&query=${instructor.replace(' ', '+')}`)
         .then(res => res.data)
         .then(data => cheerio.load(data))
         .catch(_ => null);
