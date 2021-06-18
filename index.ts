@@ -19,6 +19,8 @@ import qs from 'qs';
 import axios from 'axios';
 import moment from 'moment';
 import cheerio from 'cheerio';
+import RmpIds from './rmpIds.json';
+import similarity from 'string-similarity';
 import CourseMappings from './courses.json';
 import tableparse from 'cheerio-tableparser';
 
@@ -142,6 +144,14 @@ export type EnrollmentPayload = {
     total: number;
     overfill: boolean;
     percent: number;
+}
+
+export enum RmpCampusIds {
+    STORRS = '1091',
+    HARTFORD = '5015',
+    STAMFORD = '4543',
+    WATERBURY = '4955',
+    AVERY_POINT = '4650'
 }
 
 const DEFAULT_PREREQS = 'There are no prerequisites for this course.';
@@ -425,7 +435,23 @@ export const searchBySection = async (identifier: string, section: string): Prom
  * @param instructor the instructor to search for
  */
 export const searchRMP = async (instructor: string): Promise<RateMyProfessorResponse> => {
-    let $: cheerio.Root = await axios.get(`https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&queryBy=teacherName&sid=U2Nob29sLTEwOTE=&query=${instructor.replace(' ', '+')}`)
+    let local = RmpIds.find(ent => ent.name.toLowerCase() === instructor.toLowerCase());
+    if (local) return {
+        name: instructor,
+        rmpIds: local.rmpIds
+    }
+
+    let similar = RmpIds
+        .map(entry => ({ ...entry, similarity: similarity.compareTwoStrings(instructor, entry.name) }))
+        .sort((a, b) => b.similarity - a.similarity)
+        .filter(entry => entry.similarity > 0.70);
+
+    if (similar.length) return {
+        name: similar[0].name,
+        rmpIds: similar[0].rmpIds  
+    }
+
+    let $: cheerio.Root = await axios.get(`https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&queryBy=teacherName&schoolName=University+of+Connecticut=&query=${instructor.replace(' ', '+')}`)
         .then(res => res.data)
         .then(data => cheerio.load(data))
         .catch(_ => null);
@@ -438,11 +464,20 @@ export const searchRMP = async (instructor: string): Promise<RateMyProfessorResp
     }
 
     let rmp: string[] = [];
+
     $('.TeacherCard__StyledTeacherCard-syjs0d-0').each((i: number) => {
         let school = $(`.TeacherCard__StyledTeacherCard-syjs0d-0:nth-child(${i + 1}) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2)`).text();
         if (!school.includes('University of Connecticut')) {
             return;
         }
+
+        let name = $(`.CardName__StyledCardName-sc-1gyrgim-0:nth-child(${i + 1})`).text();
+        let s1 = instructor.toLowerCase().split(' ');
+        let s2 = name.toLowerCase().split(' ');
+        let sim = similarity.compareTwoStrings(s1.join(' '), s2.join(' '));
+
+        if (!s1.every(ent => s2.includes(ent)))
+            if (sim < 0.7) return;
 
         rmp.push($(`.TeacherCard__StyledTeacherCard-syjs0d-0:nth-child(${i + 1})`)
             .attr('href')

@@ -60,6 +60,12 @@ let statuses = await getServiceStatus();
 let statuses = await getServiceStatus(UConnService.HUSKYCT, UConnService.STUDENT_ADMIN);
 ```
 
+## Heads up
+
+If you plan to utilize any of the mappings files directly in a TypeScript project, you will need to specify the ``resolveJsonModule`` option as ``true`` in the compiler options of your ``tsconfig.json`` file.
+
+If you do not, you may have a problem importing the JSON file directly.
+
 ## Course Mappings
 Husky offers a complete static set of "course mappings" aka course information from the course catalog.
 
@@ -94,6 +100,16 @@ let geog1700 = CourseMappings.find(course => course.name === 'GEOG1700');
 ```
 
 In the inevitable case that courses are updated, added, or removed over time, you may execute ``npm run mappings`` to regenerate the mappings. Please note that regenerating will take some time (~26 minutes in my case), but this will depend on your hardware and internet capabilities.
+
+## RMP Mappings
+Husky also offers a complete static set of mappings for RateMyProfessors IDs for all UConn campuses and professors.
+
+The data is stored in the RMP mappings file, and sorted alphabetically by professor name in the form of an array.
+It can either be queried by using the [searchRMP](index.ts#L437) function, or directly by importing ``@ilefa/husky/rmpIds.json``.
+
+Also, do note that the functionality of the [searchRMP](index.ts#L437) function has been changed - now, it will search for RMP IDs locally, and then falls back to creating a request to RMP if the data is not found locally.
+
+Regardless of how this data is queried, it will return a payload in the form of a [RateMyProfessorResponse](index.ts#L85). Additionally, we have all of the campus IDs stored in the [RmpCampusIds](index.ts#L149) enum in case you need them for anything.
 
 ## Manually finding internal course information
 *Please note this information is included for your convience within the [searchCourse](index.ts#L144) response under [SectionData#internal](index.ts#L51)*
