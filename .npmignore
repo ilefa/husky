@@ -6,5 +6,6 @@ test/
 node_modules/
 
 # Files
+rmpIds-*.json
 *.test.ts
 README.md

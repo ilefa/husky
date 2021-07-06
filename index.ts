@@ -27,7 +27,7 @@ import tableparse from 'cheerio-tableparser';
 import { decode as decodeEntity } from 'html-entities';
 
 export const COURSE_IDENTIFIER = /^[a-zA-Z]{2,4}\d{4}(Q|E|W)*$/;
-export const SECTION_IDENTIFIER = /^(H|Z|W|N)*\d{2,3}(L|D)*$/;
+export const SECTION_IDENTIFIER = /^(H|Z|W|N)*\d{2,3}(L|D|X)*$/;
 
 export type CoursePayload = {
     name: string;
@@ -120,6 +120,139 @@ export type UConnServiceReport = {
     service: UConnService;
     status: UConnServiceStatus;
     time: number;
+}
+
+export type Classroom = {
+    name: string;
+    building: {
+        name: string;
+        code: string;
+    };
+    room: string;
+    techType: string;
+    techDescription?: string;
+    seatingType: keyof SeatingType;
+    boardType: keyof BoardType;
+    capacity: {
+        covid: number;
+        full: number;
+    };
+    byodTesting?: boolean;
+    airConditioned?: boolean;
+    videoConference: ClassroomConferenceType;
+    lectureCapture: keyof LectureCaptureType;
+    liveStreamUrl?: string;
+    threeSixtyView: string;
+}
+
+export type ConferenceTypeCapabilities = {
+    shareContent: boolean;
+    instructorFacingCamera: boolean;
+    studentFacingCamera: boolean;
+    presentMediaFrontOfRoom: boolean;
+    presentMediaBackOfRoom: boolean;
+    instructorMicrophone: boolean;
+    studentMicrophone: boolean;
+    connectToWebex: boolean;
+}
+
+export class ClassroomConferenceType {
+
+    static readonly FULL = new ClassroomConferenceType('FULL', 'Full Video Conference', {
+        shareContent: true,
+        instructorFacingCamera: true,
+        studentFacingCamera: true,
+        presentMediaFrontOfRoom: true,
+        presentMediaBackOfRoom: true,
+        instructorMicrophone: true,
+        studentMicrophone: true,
+        connectToWebex: true
+    });
+    
+    static readonly TEACH_FROM = new ClassroomConferenceType('TEACH_FROM', 'Teach From Video Conference', {
+        shareContent: true,
+        instructorFacingCamera: true,
+        studentFacingCamera: false,
+        presentMediaFrontOfRoom: false,
+        presentMediaBackOfRoom: true,
+        instructorMicrophone: true,
+        studentMicrophone: false,
+        connectToWebex: true    
+    });
+    
+    static readonly SEMINAR = new ClassroomConferenceType('SEMINAR', 'Seminar Video Conference', {
+        shareContent: true,
+        instructorFacingCamera: true,
+        studentFacingCamera: false,
+        presentMediaFrontOfRoom: true,
+        presentMediaBackOfRoom: false,
+        instructorMicrophone: true,
+        studentMicrophone: true,
+        connectToWebex: true
+    });
+    
+    static readonly NONE = new ClassroomConferenceType('NONE', 'None', {
+        shareContent: false,
+        instructorFacingCamera: false,
+        studentFacingCamera: false,
+        presentMediaFrontOfRoom: false,
+        presentMediaBackOfRoom: false,
+        instructorMicrophone: false,
+        studentMicrophone: false,
+        connectToWebex: false
+    });
+
+    private constructor(private readonly key: string, public readonly name: string, public readonly attributes: ConferenceTypeCapabilities) {}
+
+    static fromString = (input: string) => {
+        let valid = ['FULL', 'TEACH_FROM', 'SEMINAR'];
+        if (valid.some(v => input.toLowerCase() === v))
+            return ClassroomConferenceType[input.toUpperCase()];
+
+        return valid
+            .map(v => ClassroomConferenceType[v])
+            .map(ent => {
+                let k = ent as ClassroomConferenceType;
+                if (k.name.toLowerCase() === input.toLowerCase())
+                    return k;
+            })
+            .filter(ent => !!ent)
+            .map(({ name, attributes }) => ({ name, attributes }))[0];
+    }
+
+    toString = () => this.key;
+
+}
+
+export enum SeatingType {
+    TABLES = 'Tables',
+    TABLES_AND_ARMCHAIRS = 'Tables and Tablet Armchairs',
+    TABLET_ARMCHAIRS = 'Tablet Armchairs',
+    FIXED_AUDITORIUM = 'Fixed/Auditorium',
+    FIXED_TABLES = 'Fixed Seating Tables',
+    FIXED_LEVELED_TABLES = 'Fixed Tier Leveled Tables',
+    LAB_TABLES = 'Lab Tables and Chairs',
+    ACTIVE = 'Active Learning',
+    UNKNOWN = 'Unknown'
+}
+
+export enum TechType {
+    FULL = 'Full Hi-Tech',
+    BASIC = 'Basic Hi-Tech',
+    UNKNOWN = 'Unknown',
+}
+
+export enum BoardType {
+    NONE = 'None',
+    WHITEBOARD = 'Whiteboard',
+    CHALKBOARD = 'Chalkboard',
+    UNKNOWN = 'Unknown'
+}
+
+export enum LectureCaptureType {
+    ALL = 'All',
+    NONE = 'None',
+    SELF_SERVICE_RECORDING = 'Self Service Recording'
 }
 
 export type CampusType = 'any' 

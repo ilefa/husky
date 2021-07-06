@@ -99,7 +99,55 @@ let geog1700 = CourseMappings.find(course => course.name === 'GEOG1700');
 }
 ```
 
-In the inevitable case that courses are updated, added, or removed over time, you may execute ``npm run mappings`` to regenerate the mappings. Please note that regenerating will take some time (~26 minutes in my case), but this will depend on your hardware and internet capabilities.
+## Classroom Mappings
+Husky also offers a complete static set of "classroom mappings" aka classroom information from the [classroom viewer website](https://classrooms.uconn.edu/classroom/).
+
+The data stored in the classroom mappings JSON file is sorted alphabetically by room name (BLDG1234),
+and is wrapped in an array. It can be can be imported via ``@ilefa/husky/classrooms.json``:
+
+```ts
+import ClassroomMappings from '@ilefa/husky/classrooms.json';
+
+// For example, retrieving ARJ105 will yield the following data:
+let arj105 = ClassroomMappings.find(room => room.name === 'ARJ105');
+
+{
+    "name": "ARJ105",
+    "building": {
+        "name": "Arjona",
+        "code": "ARJ"
+    },
+    "room": "105",
+    "techType": "FULL",
+    "techDescription": "",
+    "seatingType": "FIXED_AUDITORIUM",
+    "boardType": "WHITEBOARD",
+    "capacity": {
+        "covid": 42,
+        "full": 226
+    },
+    "byodTesting": true,
+    "airConditioned": false,
+    "videoConference": {
+        "name": "Teach From Video Conference",
+        "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+        }
+    },
+    "lectureCapture": "ALL",
+    "liveStreamUrl": "http://www.kaltura.com/tiny/rw5g6",
+    "threeSixtyView": "https://live.staticflickr.com/65535/47864045151_3b4af52c27_o_d.jpg"
+}
+```
+
+In the case that classrooms are updated, added, or removed over time, you may execute ``npm run classrooms`` to regenerate the mappings.
 
 ## RMP Mappings
 Husky also offers a complete static set of mappings for RateMyProfessors IDs for all UConn campuses and professors.

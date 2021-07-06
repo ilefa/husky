@@ -1,0 +1,4136 @@
+[
+   {
+      "name": "ARJ105",
+      "building": {
+         "name": "Arjona",
+         "code": "ARJ"
+      },
+      "room": "105",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 42,
+         "full": 226
+      },
+      "byodTesting": true,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/rw5g6",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47864045151_3b4af52c27_o_d.jpg"
+   },
+   {
+      "name": "ARJ119",
+      "building": {
+         "name": "Arjona",
+         "code": "ARJ"
+      },
+      "room": "119",
+      "techType": "FULL",
+      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ARJ139",
+      "building": {
+         "name": "Arjona",
+         "code": "ARJ"
+      },
+      "room": "139",
+      "techType": "FULL",
+      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ARJ143",
+      "building": {
+         "name": "Arjona",
+         "code": "ARJ"
+      },
+      "room": "143",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 42,
+         "full": 224
+      },
+      "byodTesting": true,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/r5f3g",
+      "threeSixtyView": "https://live.staticflickr.com/65535/32919938857_a05f8e3763_o_d.jpg"
+   },
+   {
+      "name": "ARTB106",
+      "building": {
+         "name": "Art Building",
+         "code": "ARTB"
+      },
+      "room": "106",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 14,
+         "full": 45
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/48600390326_d8cea6443c_o_d.jpg"
+   },
+   {
+      "name": "ARTB107",
+      "building": {
+         "name": "Art Building",
+         "code": "ARTB"
+      },
+      "room": "107",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 34
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/48600525207_e0e96587ca_o_d.jpg"
+   },
+   {
+      "name": "ATWRA001",
+      "building": {
+         "name": "Atwater",
+         "code": "ATWR"
+      },
+      "room": "A001",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Seminar Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": false,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7892/46780200351_f8952de56c_o_d.jpg"
+   },
+   {
+      "name": "AUST102",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "102",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/31800558207_30723907e9_o_d.jpg"
+   },
+   {
+      "name": "AUST103",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "103",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 42
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/u9rph",
+      "threeSixtyView": "https://live.staticflickr.com/7839/46017431124_62bb39c2a5_o_d.jpg"
+   },
+   {
+      "name": "AUST105",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "105",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 127
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/jew94",
+      "threeSixtyView": "https://live.staticflickr.com/65535/31800558367_fe1ee854f3_o_d.jpg"
+   },
+   {
+      "name": "AUST108",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "108",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 37,
+         "full": 334
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ljcyv",
+      "threeSixtyView": "https://live.staticflickr.com/65535/42808389730_3dac278327_o_d.jpg"
+   },
+   {
+      "name": "AUST110",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "110",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 22,
+         "full": 123
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/q8h1o",
+      "threeSixtyView": "https://live.staticflickr.com/65535/46780200061_4d750b8993_o_d.jpg"
+   },
+   {
+      "name": "AUST163",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "163",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 60
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "AUST164",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "164",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 26
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4843/31800557937_f27a6f1ebf_o_d.jpg"
+   },
+   {
+      "name": "AUST202",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "202",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 46
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7824/45826558835_0df1d2452b_o_d.jpg"
+   },
+   {
+      "name": "AUST247",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "247",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 39
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/31800557417_470740b7ea_o_d.jpg"
+   },
+   {
+      "name": "AUST313",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "313",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 46
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/46689257382_dfc01b70cf_o_d.jpg"
+   },
+   {
+      "name": "AUST344",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "344",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 53
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4838/31800557137_611c3ae351_o_d.jpg"
+   },
+   {
+      "name": "AUST434",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "434",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 63
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4879/46780199801_3242258ae5_o_d.jpg"
+   },
+   {
+      "name": "AUST445",
+      "building": {
+         "name": "Austin",
+         "code": "AUST"
+      },
+      "room": "445",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/46780199501_5aca00a2a1_o_d.jpg"
+   },
+   {
+      "name": "BCH302",
+      "building": {
+         "name": "Beach",
+         "code": "BCH"
+      },
+      "room": "302",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 12,
+         "full": 46
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4908/32879920268_314e86ee8c_o_d.jpg"
+   },
+   {
+      "name": "BCH317",
+      "building": {
+         "name": "Beach",
+         "code": "BCH"
+      },
+      "room": "317",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 66
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7825/46755484221_d24f5f90d9_o_d.jpg"
+   },
+   {
+      "name": "BCH443",
+      "building": {
+         "name": "Beach",
+         "code": "BCH"
+      },
+      "room": "443",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 17,
+         "full": 42
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7818/32879920058_ff94e26116_o_d.jpg"
+   },
+   {
+      "name": "BISH006",
+      "building": {
+         "name": "Bishop",
+         "code": "BISH"
+      },
+      "room": "006",
+      "techType": "FULL",
+      "seatingType": "ACTIVE",
+      "capacity": {
+         "covid": 8,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390348023_01f1d39c75_o_d.jpg"
+   },
+   {
+      "name": "BISH007",
+      "building": {
+         "name": "Bishop",
+         "code": "BISH"
+      },
+      "room": "007",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390823771_f98b8ee535_o_d.jpg"
+   },
+   {
+      "name": "BISH136",
+      "building": {
+         "name": "Bishop",
+         "code": "BISH"
+      },
+      "room": "136",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390823716_9de16d9c42_o_d.jpg"
+   },
+   {
+      "name": "BISH146",
+      "building": {
+         "name": "Bishop",
+         "code": "BISH"
+      },
+      "room": "146",
+      "techType": "FULL",
+      "seatingType": "LAB_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 21,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/33986788158_572e7ae407_o_d.jpg"
+   },
+   {
+      "name": "BOUSA105",
+      "building": {
+         "name": "Bousfield",
+         "code": "BOUS"
+      },
+      "room": "A105",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4887/46790625601_1b73a9b10a_o_d.jpg"
+   },
+   {
+      "name": "BOUSA106",
+      "building": {
+         "name": "Bousfield",
+         "code": "BOUS"
+      },
+      "room": "A106",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "NONE",
+      "capacity": {
+         "covid": 30,
+         "full": 95
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/lg2d6",
+      "threeSixtyView": "https://live.staticflickr.com/7863/31848943447_0555b3dfe5_o_d.jpg"
+   },
+   {
+      "name": "BPB130",
+      "building": {
+         "name": "Biology/Physics Building",
+         "code": "BPB"
+      },
+      "room": "130",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 32,
+         "full": 150
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ikbyk",
+      "threeSixtyView": "https://live.staticflickr.com/4893/46780199301_d07a96c859_o_d.jpg"
+   },
+   {
+      "name": "BPB131",
+      "building": {
+         "name": "Biology/Physics Building",
+         "code": "BPB"
+      },
+      "room": "131",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 32,
+         "full": 148
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/po77j",
+      "threeSixtyView": "https://www.flickr.com/photos/163649633@N04/46780199101/sizes/l/"
+   },
+   {
+      "name": "BRON124",
+      "building": {
+         "name": "Bronwell",
+         "code": "BRON"
+      },
+      "room": "124",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 34
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47900587351_eea8f7f5c3_o_d.jpg"
+   },
+   {
+      "name": "BUSN106",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "106",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 41,
+         "full": 136
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/l519a",
+      "threeSixtyView": "https://live.staticflickr.com/4863/46753259521_1116f989d5_o_d.jpg"
+   },
+   {
+      "name": "BUSN112",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "112",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 44
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/46700311102_4ca68b2ab9_o_d.jpg"
+   },
+   {
+      "name": "BUSN122",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "122",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 44
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1969/45317199402_51fe6f2a60_o_d.jpg"
+   },
+   {
+      "name": "BUSN127",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "127",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 60
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://www.flickr.com/photos/163649633@N04/39787783463/sizes/l/"
+   },
+   {
+      "name": "BUSN202",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "202",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 44
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/46753259191_332fc12406_o_d.jpg"
+   },
+   {
+      "name": "BUSN203",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "203",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 44
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/46700310602_7506e7a8b8_o_d.jpg"
+   },
+   {
+      "name": "BUSN204",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "204",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 14,
+         "full": 44
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/mi8db",
+      "threeSixtyView": "https://live.staticflickr.com/65535/44453982355_1f06a88a38_o_d.jpg"
+   },
+   {
+      "name": "BUSN211",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "211",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 19,
+         "full": 60
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/wepfk",
+      "threeSixtyView": "https://live.staticflickr.com/7806/46780198231_021995e990_o_d.jpg"
+   },
+   {
+      "name": "BUSN215",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "215",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/39787782323_16fa20f5da_o_d.jpg"
+   },
+   {
+      "name": "BUSN218",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "218",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 17,
+         "full": 43
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/pmbo8",
+      "threeSixtyView": "https://live.staticflickr.com/1922/44453984705_dd39208b4f_o_d.jpg"
+   },
+   {
+      "name": "BUSN226",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "226",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 42
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/31811546037_6d5b5621d0_o_d.jpg"
+   },
+   {
+      "name": "BUSN227",
+      "building": {
+         "name": "Business",
+         "code": "BUSN"
+      },
+      "room": "227",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4847/39787781733_2613832198_o_d.jpg"
+   },
+   {
+      "name": "CAST201",
+      "building": {
+         "name": "Castleman",
+         "code": "CAST"
+      },
+      "room": "201",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4824/46780197821_16721e6b44_o_d.jpg"
+   },
+   {
+      "name": "CAST204",
+      "building": {
+         "name": "Castleman",
+         "code": "CAST"
+      },
+      "room": "204",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 12,
+         "full": 34
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4872/46780197571_40825cdf1f_o_d.jpg"
+   },
+   {
+      "name": "CAST212",
+      "building": {
+         "name": "Castleman",
+         "code": "CAST"
+      },
+      "room": "212",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 31,
+         "full": 195
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/oq2g8",
+      "threeSixtyView": "https://live.staticflickr.com/4857/46755485761_3e9def1ce1_o_d.jpg"
+   },
+   {
+      "name": "CHEMA120",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "A120",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 44,
+         "full": 248
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/r6oad",
+      "threeSixtyView": "https://live.staticflickr.com/4845/46780197391_99882222ec_o_d.jpg"
+   },
+   {
+      "name": "CHEMA203",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "A203",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 120
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vxwui",
+      "threeSixtyView": "https://live.staticflickr.com/7854/46780197131_e64e845cc0_o_d.jpg"
+   },
+   {
+      "name": "CHEMT112",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "T112",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 27
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4891/46780196871_a5066cfc36_o_d.jpg"
+   },
+   {
+      "name": "CHEMT113",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "T113",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 19
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4829/31838392307_a1dca34b42_o_d.jpg"
+   },
+   {
+      "name": "CHEMT114",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "T114",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 21
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4871/46727553272_879cb46dbf_o_d.jpg"
+   },
+   {
+      "name": "CHEMT212",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "T212",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 21
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4881/31838391517_6947bfaa17_o_d.jpg"
+   },
+   {
+      "name": "CHEMT213",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "T213",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 27
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4902/46780196281_8b3121ab3b_o_d.jpg"
+   },
+   {
+      "name": "CHEMT215",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "T215",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 27
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/yhzi5",
+      "threeSixtyView": "https://live.staticflickr.com/4879/46780202801_323023e0cf_o_d.jpg"
+   },
+   {
+      "name": "CHEMT309",
+      "building": {
+         "name": "Chemistry Building",
+         "code": "CHEM"
+      },
+      "room": "T309",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z78u5",
+      "threeSixtyView": "https://live.staticflickr.com/4880/46780202571_999fa45c7c_o_d.jpg"
+   },
+   {
+      "name": "E2321",
+      "building": {
+         "name": "Engineering 2",
+         "code": "E2"
+      },
+      "room": "321",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 32
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4906/46780202391_cd2c8e4ffc_o_d.jpg"
+   },
+   {
+      "name": "E2322",
+      "building": {
+         "name": "Engineering 2",
+         "code": "E2"
+      },
+      "room": "322",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7869/46780202141_e16edb0dbd_o_d.jpg"
+   },
+   {
+      "name": "E2323",
+      "building": {
+         "name": "Engineering 2",
+         "code": "E2"
+      },
+      "room": "323",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4813/46780201911_02cbac3c84_o_d.jpg"
+   },
+   {
+      "name": "FG101",
+      "building": {
+         "name": "Floriculture - Greenhouse",
+         "code": "FG"
+      },
+      "room": "101",
+      "techType": "BASIC",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 19,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/40934161293_2306b0c698_o_d.jpg"
+   },
+   {
+      "name": "FG107",
+      "building": {
+         "name": "Floriculture - Greenhouse",
+         "code": "FG"
+      },
+      "room": "107",
+      "techType": "BASIC",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 18
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/48592818666_1de7621eff_o_d.jpg"
+   },
+   {
+      "name": "FSB025",
+      "building": {
+         "name": "Family Studies Building",
+         "code": "FSB"
+      },
+      "room": "025",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 21,
+         "full": 90
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/nwn5h",
+      "threeSixtyView": "https://live.staticflickr.com/4814/32879919888_a9469a161e_o_d.jpg"
+   },
+   {
+      "name": "FSB102",
+      "building": {
+         "name": "Family Studies Building",
+         "code": "FSB"
+      },
+      "room": "102",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7877/46755482291_89ca9228f4_o_d.jpg"
+   },
+   {
+      "name": "FSB103",
+      "building": {
+         "name": "Family Studies Building",
+         "code": "FSB"
+      },
+      "room": "103",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 20,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4890/32879919708_c75dd74c59_o_d.jpg"
+   },
+   {
+      "name": "FSB18",
+      "building": {
+         "name": "Family Studies Building",
+         "code": "FSB"
+      },
+      "room": "18",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4912/46755483311_56fb857fb0_o_d.jpg"
+   },
+   {
+      "name": "FSB202",
+      "building": {
+         "name": "Family Studies Building",
+         "code": "FSB"
+      },
+      "room": "202",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4831/46755481731_5d09a79a66_o_d.jpg"
+   },
+   {
+      "name": "FSB216",
+      "building": {
+         "name": "Family Studies Building",
+         "code": "FSB"
+      },
+      "room": "216",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 49
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7923/32879919498_c352a1765e_o_d.jpg"
+   },
+   {
+      "name": "FSB220",
+      "building": {
+         "name": "Family Studies Building",
+         "code": "FSB"
+      },
+      "room": "220",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 20,
+         "full": 60
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/luez4",
+      "threeSixtyView": "https://live.staticflickr.com/7900/46755488481_60d63381b8_o_d.jpg"
+   },
+   {
+      "name": "GENT101",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "101",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 14,
+         "full": 26
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1799/44017894111_2cfa32ee74_o_d.jpg"
+   },
+   {
+      "name": "GENT103",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "103",
+      "techType": "FULL",
+      "seatingType": "TABLES_AND_ARMCHAIRS",
+      "capacity": {
+         "covid": 8,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1839/43299028354_13029989ff_o_d.jpg"
+   },
+   {
+      "name": "GENT119E",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "119E",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1837/44017893401_260f59fe0e_o_d.jpg"
+   },
+   {
+      "name": "GENT131",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "131",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "capacity": {
+         "covid": 19,
+         "full": 120
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/kj663",
+      "threeSixtyView": "https://live.staticflickr.com/1789/43969298762_56e27e2fc9_o_d.jpg"
+   },
+   {
+      "name": "GENT140",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "140",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/32919938487_8ebb1be922_o_d.jpg"
+   },
+   {
+      "name": "GENT140C",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "140C",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 6,
+         "full": 15
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1773/43969298052_8539f492a0_o_d.jpg"
+   },
+   {
+      "name": "GENT201",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "201",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 14,
+         "full": 26
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1778/43299029204_f8e775ef3c_o_d.jpg"
+   },
+   {
+      "name": "GENT203",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "203",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 18
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1838/44017894671_6b9e24e4a2_o_d.jpg"
+   },
+   {
+      "name": "GENT221",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "221",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 34
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/32919938317_b6a7b6929c_o_d.jpg"
+   },
+   {
+      "name": "GENT225",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "225",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1811/44017896721_3a7a048fa8_o_d.jpg"
+   },
+   {
+      "name": "GENT232",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "232",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 6,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/33986787678_b7f4b580bc_o_d.jpg"
+   },
+   {
+      "name": "GENT246",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "246",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 7,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1813/43299032884_6aa9a45182_o_d.jpg"
+   },
+   {
+      "name": "GENT319",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "319",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 22
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1833/44017895281_3b7938c49f_o_d.jpg"
+   },
+   {
+      "name": "GENT425",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "425",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1831/43299029914_3f677c140c_o_d.jpg"
+   },
+   {
+      "name": "GENT430",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "430",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 4,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/46984571215_fc45a011da_o_d.jpg"
+   },
+   {
+      "name": "GENT436",
+      "building": {
+         "name": "Gentry",
+         "code": "GENT"
+      },
+      "room": "436",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 4,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/32919938087_d91638e313_o_d.jpg"
+   },
+   {
+      "name": "GN20",
+      "building": {
+         "name": "Gant North",
+         "code": "GN"
+      },
+      "room": "20",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "capacity": {
+         "covid": 28,
+         "full": 140
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/lqwur",
+      "threeSixtyView": "https://live.staticflickr.com/7825/46780201571_7d6c6f0cf5_o_d.jpg"
+   },
+   {
+      "name": "HALL104",
+      "building": {
+         "name": "Hall Dorm",
+         "code": "HALL"
+      },
+      "room": "104",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 7,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7812/32879920468_cee3d416d0_o_d.jpg"
+   },
+   {
+      "name": "HALL129",
+      "building": {
+         "name": "Hall Dorm",
+         "code": "HALL"
+      },
+      "room": "129",
+      "techType": "BASIC",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 4,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Seminar Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": false,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7901/46755484841_f35bb0729c_o_d.jpg"
+   },
+   {
+      "name": "HAWL204",
+      "building": {
+         "name": "Hawley Armory",
+         "code": "HAWL"
+      },
+      "room": "204",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 15,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390874051_5725fac7d9_o_d.jpg"
+   },
+   {
+      "name": "HBL2153",
+      "building": {
+         "name": "Homer Babbidge Library",
+         "code": "HBL"
+      },
+      "room": "2153",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 30
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Seminar Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": false,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/48592995877_cb8475f533_o_d.jpg"
+   },
+   {
+      "name": "ITE119",
+      "building": {
+         "name": "Information Technology Engineering",
+         "code": "ITE"
+      },
+      "room": "119",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/1980/45317200152_3a63bf14ce_o_d.jpg"
+   },
+   {
+      "name": "ITE125",
+      "building": {
+         "name": "Information Technology Engineering",
+         "code": "ITE"
+      },
+      "room": "125",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47848536182_300fa4f6d5_o_d.jpg"
+   },
+   {
+      "name": "ITE127",
+      "building": {
+         "name": "Information Technology Engineering",
+         "code": "ITE"
+      },
+      "room": "127",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4835/46790625101_b0e6af29fb_o_d.jpg"
+   },
+   {
+      "name": "ITE336",
+      "building": {
+         "name": "Information Technology Engineering",
+         "code": "ITE"
+      },
+      "room": "336",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/y6qcp",
+      "threeSixtyView": "https://live.staticflickr.com/4820/31848942847_970d99f1a0_o_d.jpg"
+   },
+   {
+      "name": "ITEC80",
+      "building": {
+         "name": "Information Technology Engineering",
+         "code": "ITE"
+      },
+      "room": "C80",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "capacity": {
+         "covid": 84,
+         "full": 350
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/qy5xw",
+      "threeSixtyView": "https://live.staticflickr.com/4911/46790624571_3159399723_o_d.jpg"
+   },
+   {
+      "name": "JONS229",
+      "building": {
+         "name": "Jones - Nutritional Sciences",
+         "code": "JONS"
+      },
+      "room": "229",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/48593332061_3bbc6e6985_o_d.jpg"
+   },
+   {
+      "name": "JRB204",
+      "building": {
+         "name": "Ryan Building",
+         "code": "JRB"
+      },
+      "room": "204",
+      "techType": "FULL",
+      "seatingType": "TABLES_AND_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 25,
+         "full": 54
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/gjred",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47864044371_494defcea8_o_d.jpg"
+   },
+   {
+      "name": "KNS103",
+      "building": {
+         "name": "Koons Hall",
+         "code": "KNS"
+      },
+      "room": "103",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 6,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4874/32879921118_7e210f504c_o_d.jpg"
+   },
+   {
+      "name": "KNS105",
+      "building": {
+         "name": "Koons Hall",
+         "code": "KNS"
+      },
+      "room": "105",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 6,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7824/46755487521_1db5b902eb_o_d.jpg"
+   },
+   {
+      "name": "KNS111",
+      "building": {
+         "name": "Koons Hall",
+         "code": "KNS"
+      },
+      "room": "111",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 34
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7866/32879920878_501f9f833a_o_d.jpg"
+   },
+   {
+      "name": "KNS116",
+      "building": {
+         "name": "Koons Hall",
+         "code": "KNS"
+      },
+      "room": "116",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 7,
+         "full": 34
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4888/46755486751_22c3fb92a2_o_d.jpg"
+   },
+   {
+      "name": "KNS201",
+      "building": {
+         "name": "Koons Hall",
+         "code": "KNS"
+      },
+      "room": "201",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 11,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49391070557_fc0307f4a0_o_d.jpg"
+   },
+   {
+      "name": "KNS202",
+      "building": {
+         "name": "Koons Hall",
+         "code": "KNS"
+      },
+      "room": "202",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 11,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7886/32879920728_4d9f14ce82_o_d.jpg"
+   },
+   {
+      "name": "LAFAC110",
+      "building": {
+         "name": "Lafayette",
+         "code": "LAFA"
+      },
+      "room": "C110",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 45
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47900588861_dd3fbec3c1_o_d.jpg"
+   },
+   {
+      "name": "MCHU101",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "101",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 37,
+         "full": 208
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/y3ahs",
+      "threeSixtyView": "https://live.staticflickr.com/7919/46780200941_a67eb7c00f_o_d.jpg"
+   },
+   {
+      "name": "MCHU102",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "102",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 86,
+         "full": 414
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/nel92",
+      "threeSixtyView": "https://live.staticflickr.com/1778/28990611357_7d358f3c34_o_d.jpg"
+   },
+   {
+      "name": "MCHU106",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "106",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4894/46689257122_43b0cb4d8f_o_d.jpg"
+   },
+   {
+      "name": "MCHU107",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "107",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4848/31800556727_ac4337c1bb_o_d.jpg"
+   },
+   {
+      "name": "MCHU108",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "108",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4813/46689256982_0e0ab7972b_o_d.jpg"
+   },
+   {
+      "name": "MCHU109",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "109",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4844/31848942167_c9f78525bb_o_d.jpg"
+   },
+   {
+      "name": "MCHU110",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "110",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/855/43208886844_2c5d8ccd2d_o_d.jpg"
+   },
+   {
+      "name": "MCHU111",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "111",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7923/31800556227_327498ebbd_o_d.jpg"
+   },
+   {
+      "name": "MCHU201",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "201",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 23,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7922/46689256852_65e7e5dc72_o_d.jpg"
+   },
+   {
+      "name": "MCHU202",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "202",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/lywag"
+   },
+   {
+      "name": "MCHU205",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "205",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7885/31800555767_4e371c65f5_o_d.jpg"
+   },
+   {
+      "name": "MCHU206",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "206",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7874/46689256582_b22a5fb845_o_d.jpg"
+   },
+   {
+      "name": "MCHU301",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "301",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7803/31800555217_178fdf031a_o_d.jpg"
+   },
+   {
+      "name": "MCHU302",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "302",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390873946_b60e6e22e7_o_d.jpg"
+   },
+   {
+      "name": "MCHU305",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "305",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7897/31800554747_9564b09bcb_o_d.jpg"
+   },
+   {
+      "name": "MCHU306",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "306",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7837/46689256252_3a83d84439_o_d.jpg"
+   },
+   {
+      "name": "MCHU307",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "307",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 17,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4818/46790624061_c4b1b4fc57_o_d.jpg"
+   },
+   {
+      "name": "MCHU308",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "308",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4894/31800554047_8208425a61_o_d.jpg"
+   },
+   {
+      "name": "MCHU309",
+      "building": {
+         "name": "McHugh Hall",
+         "code": "MCHU"
+      },
+      "room": "309",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4857/46689256022_2bc367d3de_o_d.jpg"
+   },
+   {
+      "name": "MONT104",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "104",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 33,
+         "full": 192
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z1muh",
+      "threeSixtyView": "https://live.staticflickr.com/7924/31800558777_f5ae227b8d_o_d.jpg"
+   },
+   {
+      "name": "MONT110",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "110",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7875/39776912023_e21c611290_o_d.jpg"
+   },
+   {
+      "name": "MONT111",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "111",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 49
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4826/32866890758_bb9a6a36b5_o_d.jpg"
+   },
+   {
+      "name": "MONT112",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "112",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7920/31800558897_90b225990e_o_d.jpg"
+   },
+   {
+      "name": "MONT113",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "113",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 28
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7816/32866891178_f991ffe70d_o_d.jpg"
+   },
+   {
+      "name": "MONT225",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "225",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4887/32866891508_59ff27ee2e_o_d.jpg"
+   },
+   {
+      "name": "MONT226",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "226",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 19,
+         "full": 49
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390873876_acb1dbcedc_o_d.jpg"
+   },
+   {
+      "name": "MONT227",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "227",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 28
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4826/31800559107_f60701ee99_o_d.jpg"
+   },
+   {
+      "name": "MONT314",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "314",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 29
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/mbduh",
+      "threeSixtyView": "https://live.staticflickr.com/7897/32866891908_584e1ae147_o_d.jpg"
+   },
+   {
+      "name": "MONT319",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "319",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 19,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4881/31800559257_9773455ee2_o_d.jpg"
+   },
+   {
+      "name": "MONT320",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "320",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4803/45826566915_6cd52bb059_o_d.jpg"
+   },
+   {
+      "name": "MONT321",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "321",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7844/31800559397_a42baba859_o_d.jpg"
+   },
+   {
+      "name": "MONT414",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "414",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 29
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7815/45826567795_62fee10595_o_d.jpg"
+   },
+   {
+      "name": "MONT419",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "419",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7801/31800559547_78ed9c57e2_o_d.jpg"
+   },
+   {
+      "name": "MONT420",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "420",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 19,
+         "full": 48
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7831/39776911623_9b4524edff_o_d.jpg"
+   },
+   {
+      "name": "MONT421",
+      "building": {
+         "name": "Monteith",
+         "code": "MONT"
+      },
+      "room": "421",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 43
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7851/45826568865_6b702f36e5_o_d.jpg"
+   },
+   {
+      "name": "OAK101",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "101",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 38,
+         "full": 200
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/rx006",
+      "threeSixtyView": "https://live.staticflickr.com/7853/46688717331_f3e332a092_o_d.jpg"
+   },
+   {
+      "name": "OAK104",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "104",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/nhjdv",
+      "threeSixtyView": "https://live.staticflickr.com/7813/46635920102_5ffb06fb46_o_d.jpg"
+   },
+   {
+      "name": "OAK105",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "105",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7882/32813822968_1c217de524_o_d.jpg"
+   },
+   {
+      "name": "OAK106",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "106",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4849/46635920692_98854e6a59_o_d.jpg"
+   },
+   {
+      "name": "OAK107",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "107",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4884/32813823318_20c630c41f_o_d.jpg"
+   },
+   {
+      "name": "OAK108",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "108",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7887/46790627871_4403b8acdf_o_d.jpg"
+   },
+   {
+      "name": "OAK109",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "109",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4901/31848945657_7072b7f43a_o_d.jpg"
+   },
+   {
+      "name": "OAK110",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "110",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4823/46635921122_082c763c56_o_d.jpg"
+   },
+   {
+      "name": "OAK111",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "111",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4853/32813823708_b04ebe8628_o_d.jpg"
+   },
+   {
+      "name": "OAK112",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "112",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 20,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/qcpkc",
+      "threeSixtyView": "https://live.staticflickr.com/4865/46635921602_cd7a19f043_o_d.jpg"
+   },
+   {
+      "name": "OAK117",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "117",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 19,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/rf6c3",
+      "threeSixtyView": "https://live.staticflickr.com/4853/32813824208_01110dd2ef_o_d.jpg"
+   },
+   {
+      "name": "OAK201",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "201",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7835/32866890298_4b2a87a7c7_o_d.jpg"
+   },
+   {
+      "name": "OAK235",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "235",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7813/46790627201_45e99e3a2b_o_d.jpg"
+   },
+   {
+      "name": "OAK239",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "239",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7868/46635922082_81a27d09d7_o_d.jpg"
+   },
+   {
+      "name": "OAK267",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "267",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7823/31747253037_d34d088360_o_d.jpg"
+   },
+   {
+      "name": "OAK268",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "268",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4869/46688772151_06d219b291_o_d.jpg"
+   },
+   {
+      "name": "OAK269",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "269",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390873796_ebd493b0a2_o_d.jpg"
+   },
+   {
+      "name": "OAK301",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "301",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7864/31800553547_2987378bc7_o_d.jpg"
+   },
+   {
+      "name": "OAK340",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "340",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4856/31800558507_6e06b1dcee_o_d.jpg"
+   },
+   {
+      "name": "OAK401",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "401",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4896/32866889798_8b2a4da22f_o_d.jpg"
+   },
+   {
+      "name": "OAK441",
+      "building": {
+         "name": "Oak Hall",
+         "code": "OAK"
+      },
+      "room": "441",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47864043781_32d7df0167_o_d.jpg"
+   },
+   {
+      "name": "PBB129",
+      "building": {
+         "name": "Pharmacy Building",
+         "code": "PBB"
+      },
+      "room": "129",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 32,
+         "full": 110
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/5z63r",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49391070837_d8cb3cf2e0_o_d.jpg"
+   },
+   {
+      "name": "PBB131",
+      "building": {
+         "name": "Pharmacy Building",
+         "code": "PBB"
+      },
+      "room": "131",
+      "techType": "FULL",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 28,
+         "full": 116
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/qj5cz",
+      "threeSixtyView": "https://live.staticflickr.com/7802/46780200611_37d4c72408_o_d.jpg"
+   },
+   {
+      "name": "RHBA001",
+      "building": {
+         "name": "Ratcliffe Hicks Building and Arena",
+         "code": "RHBA"
+      },
+      "room": "001",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 33
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47900588621_18142eeb11_o_d.jpg"
+   },
+   {
+      "name": "RHBA101",
+      "building": {
+         "name": "Ratcliffe Hicks Building and Arena",
+         "code": "RHBA"
+      },
+      "room": "101",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47848535172_89a6e4d724_o_d.jpg"
+   },
+   {
+      "name": "RHBA201",
+      "building": {
+         "name": "Ratcliffe Hicks Building and Arena",
+         "code": "RHBA"
+      },
+      "room": "201",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "capacity": {
+         "covid": 21,
+         "full": 100
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ROWE122",
+      "building": {
+         "name": "Rowe/CUE",
+         "code": "ROWE"
+      },
+      "room": "122",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 25,
+         "full": 90
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/r1t9e",
+      "threeSixtyView": "https://live.staticflickr.com/4868/31811545537_dca73197a4_o_d.jpg"
+   },
+   {
+      "name": "ROWE131",
+      "building": {
+         "name": "Rowe/CUE",
+         "code": "ROWE"
+      },
+      "room": "131",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4842/46753258351_011b7e9011_o_d.jpg"
+   },
+   {
+      "name": "ROWE132",
+      "building": {
+         "name": "Rowe/CUE",
+         "code": "ROWE"
+      },
+      "room": "132",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7834/31811545057_fb0069f1b8_o_d.jpg"
+   },
+   {
+      "name": "ROWE213",
+      "building": {
+         "name": "Rowe/CUE",
+         "code": "ROWE"
+      },
+      "room": "213",
+      "techType": "BASIC",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 4,
+         "full": 13
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Seminar Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": false,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7848/46753257961_784bf9cbef_o_d.jpg"
+   },
+   {
+      "name": "ROWE318",
+      "building": {
+         "name": "Rowe/CUE",
+         "code": "ROWE"
+      },
+      "room": "318",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/o4n1u",
+      "threeSixtyView": "https://live.staticflickr.com/7885/39787780403_7bc792680a_o_d.jpg"
+   },
+   {
+      "name": "ROWE320",
+      "building": {
+         "name": "Rowe/CUE",
+         "code": "ROWE"
+      },
+      "room": "320",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 45
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z1d9k",
+      "threeSixtyView": "https://live.staticflickr.com/65535/32919937297_ef977df5d6_o_d.jpg"
+   },
+   {
+      "name": "SCHN151",
+      "building": {
+         "name": "Schenker",
+         "code": "SCHN"
+      },
+      "room": "151",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 51,
+         "full": 305
+      },
+      "byodTesting": true,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/8eos8",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47811844112_e333691e17_o_d.jpg"
+   },
+   {
+      "name": "STRS001",
+      "building": {
+         "name": "Storrs Hall",
+         "code": "STRS"
+      },
+      "room": "001",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7810/39776912813_2ca0321d41_o_d.jpg"
+   },
+   {
+      "name": "STRS002",
+      "building": {
+         "name": "Storrs Hall",
+         "code": "STRS"
+      },
+      "room": "002",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390874181_ef963295e0_o_d.jpg"
+   },
+   {
+      "name": "STRS011",
+      "building": {
+         "name": "Storrs Hall",
+         "code": "STRS"
+      },
+      "room": "011",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "NONE",
+      "capacity": {
+         "covid": 14,
+         "full": 42
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "STRS117",
+      "building": {
+         "name": "Storrs Hall",
+         "code": "STRS"
+      },
+      "room": "117",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4863/39776913133_019c790bfc_o_d.jpg"
+   },
+   {
+      "name": "STRS303",
+      "building": {
+         "name": "Storrs Hall",
+         "code": "STRS"
+      },
+      "room": "303",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 6,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4815/45826561315_b2c863233b_o_d.jpg"
+   },
+   {
+      "name": "STRSWW01",
+      "building": {
+         "name": "Storrs Hall Widmer Wing",
+         "code": "WIDM"
+      },
+      "room": "01",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 60
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/o7er4",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49094901318_3bc060d0e8_o_d.jpg"
+   },
+   {
+      "name": "STRSWW16",
+      "building": {
+         "name": "Storrs Hall Widmer Wing",
+         "code": "WIDM"
+      },
+      "room": "16",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 34,
+         "full": 175
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/za6xc",
+      "threeSixtyView": "https://live.staticflickr.com/4917/39776912343_9043195f9e_o_d.jpg"
+   },
+   {
+      "name": "TLS154",
+      "building": {
+         "name": "Torrey Life Sciences",
+         "code": "TLS"
+      },
+      "room": "154",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 42,
+         "full": 297
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/iry5o",
+      "threeSixtyView": "https://live.staticflickr.com/4835/46790626751_932cfb5a9c_o_d.jpg"
+   },
+   {
+      "name": "TLS301",
+      "building": {
+         "name": "Torrey Life Sciences",
+         "code": "TLS"
+      },
+      "room": "301",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 12,
+         "full": 45
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7864/31848944437_ae0b1332c4_o_d.jpg"
+   },
+   {
+      "name": "TLS79",
+      "building": {
+         "name": "Torrey Life Sciences",
+         "code": "TLS"
+      },
+      "room": "79",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 7,
+         "full": 23
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7847/31848945127_53b8361af0_o_d.jpg"
+   },
+   {
+      "name": "UTEB150",
+      "building": {
+         "name": "United Technologies Building",
+         "code": "UTEB"
+      },
+      "room": "150",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 74
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/v82l6",
+      "threeSixtyView": "https://live.staticflickr.com/1890/44568854142_9b9ef7e09f_o_d.jpg"
+   },
+   {
+      "name": "UTEB175",
+      "building": {
+         "name": "United Technologies Building",
+         "code": "UTEB"
+      },
+      "room": "175",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 90
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/jrikg",
+      "threeSixtyView": "https://live.staticflickr.com/65535/49390397433_7e6ba97cec_o_d.jpg"
+   },
+   {
+      "name": "WH004A",
+      "building": {
+         "name": "Wood Hall",
+         "code": "WOOD"
+      },
+      "room": "004A",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 8,
+         "full": 21
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7850/46790626171_42a6043128_o_d.jpg"
+   },
+   {
+      "name": "WH004B",
+      "building": {
+         "name": "Wood Hall",
+         "code": "WOOD"
+      },
+      "room": "004B",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 5,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/4865/31848943897_af81305e1a_o_d.jpg"
+   },
+   {
+      "name": "WITE209",
+      "building": {
+         "name": "White Building",
+         "code": "WITE"
+      },
+      "room": "209",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 15,
+         "full": 55
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/48593483247_f8755f6f3e_o_d.jpg"
+   },
+   {
+      "name": "WSRH112",
+      "building": {
+         "name": "Wilson Residence Hall",
+         "code": "WSRH"
+      },
+      "room": "112",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 16,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47864043341_7bd3797892_o_d.jpg"
+   },
+   {
+      "name": "WSRH113",
+      "building": {
+         "name": "Wilson Residence Hall",
+         "code": "WSRH"
+      },
+      "room": "113",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 16,
+         "full": 45
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/32919936867_d5b5bf46bf_o_d.jpg"
+   },
+   {
+      "name": "YNG100",
+      "building": {
+         "name": "W.B. Young",
+         "code": "YNG"
+      },
+      "room": "100",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "capacity": {
+         "covid": 30,
+         "full": 120
+      },
+      "byodTesting": true,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "ALL",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/i2eeq",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47900588181_8d5fc00e25_o_d.jpg"
+   },
+   {
+      "name": "YNG128",
+      "building": {
+         "name": "W.B. Young",
+         "code": "YNG"
+      },
+      "room": "128",
+      "techType": "FULL",
+      "seatingType": "LAB_TABLES",
+      "capacity": {
+         "covid": 16,
+         "full": 42
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "YNG132",
+      "building": {
+         "name": "W.B. Young",
+         "code": "YNG"
+      },
+      "room": "132",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 45
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47900587931_dca0aef387_o_d.jpg"
+   },
+   {
+      "name": "YNG138",
+      "building": {
+         "name": "W.B. Young",
+         "code": "YNG"
+      },
+      "room": "138",
+      "techType": "BASIC",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 5,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Seminar Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": false,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/47848534122_7e4e98e1f3_o_d.jpg"
+   },
+   {
+      "name": "YNG327",
+      "building": {
+         "name": "W.B. Young",
+         "code": "YNG"
+      },
+      "room": "327",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 60
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/46984570045_4754be40d4_o_d.jpg"
+   }
+]
