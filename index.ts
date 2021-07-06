@@ -499,7 +499,6 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
         }
 
         let rmp = await searchRMP(prof);
-        
         let teaching = sections
             .filter(section => section.instructor === prof)
             .sort((a, b) => a.section.localeCompare(b.section));
@@ -583,6 +582,9 @@ export const searchRMP = async (instructor: string): Promise<RateMyProfessorResp
         name: similar[0].name,
         rmpIds: similar[0].rmpIds  
     }
+
+    if (!instructor.trim() || instructor.split(',').length)
+        return null;
 
     let $: cheerio.Root = await axios.get(`https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&queryBy=teacherName&schoolName=University+of+Connecticut=&query=${instructor.replace(' ', '+')}`)
         .then(res => res.data)
