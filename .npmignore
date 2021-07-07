@@ -6,6 +6,7 @@ test/
 node_modules/
 
 # Files
+README.md
 rmpIds-*.json
 *.test.ts
-README.md
+*.tgz

@@ -1,6 +1,9 @@
+# Directories
 dist/
+test/
 node_modules/
 
+# Files
 rmpIds-*.json
 *.tgz
 *.test.ts
