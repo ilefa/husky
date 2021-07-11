@@ -16,6 +16,7 @@
  */
 
 import fs from 'fs';
+import yn from 'yesno';
 import axios from 'axios';
 import cheerio from 'cheerio';
 import progress from 'progress';
@@ -75,6 +76,19 @@ const generateCourseMappings = async () => {
 
     let courses: Course[] = [];
     let table: string[][] = ($('.tablesorter') as any).parsetable();
+
+    if (fs.existsSync('./courses.json')) {
+        let existing = JSON.parse(fs.readFileSync('./courses.json', { encoding: 'utf8' }));
+        if (table[3].length === existing.length) {
+            const cont = await yn({ question: '[*] Catalog response has the same amount of entries as your existing mappings, continue?' });
+            if (!cont) return;
+        }
+        
+        let date = Date.now();
+        console.log(`[*] Existing mappings saved to [courses-${date}.json]`);
+        console.log(`[*] Origin: ${table[3].length}, local: ${existing.length}, delta: ${table[3].length - existing.length}`);
+        fs.copyFileSync('./courses.json', `./courses-${date}.json`);
+    }
 
     console.log(`[*] Ready to generate mappings for ${table[3].length.toLocaleString()} courses.`);
     let bar = new progress(':course [:bar] :rate/rps :etas (:current/:total) (:percent done)', {

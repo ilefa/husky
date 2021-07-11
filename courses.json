@@ -6006,7 +6006,7 @@
       "name": "BADM3274",
       "catalogName": "Real Estate Law",
       "catalogNumber": "3274",
-      "prerequisites": "BLAW 3175 or BADM 3720; open only to non-business students of junior or higher status. Not open to students who have passed or are taking BLAW 3274. May not be used to satisfy Junior-Senior level major requirements of the School of Business.",
+      "prerequisites": "BLAW 3175 or BADM 3720; open only to non-business students of junior or higher status. Not open to students who have passed or are taking BLAW 3274.",
       "attributes": {
          "lab": false,
          "writing": false,
@@ -9949,6 +9949,22 @@
       "credits": 3,
       "grading": "Graded",
       "description": "Leverages existing knowledge of C and covers all the essential capabilities of the most recent C++ standard, illustrating their specificities as well as how the language can be used to model object-oriented implementation of a number of classic problems."
+   },
+   {
+      "name": "CSE3193",
+      "catalogName": "International Study",
+      "catalogNumber": "3193",
+      "prerequisites": "There are no prerequisites for this course.",
+      "attributes": {
+         "lab": false,
+         "writing": false,
+         "quantitative": false,
+         "environmental": false,
+         "contentAreas": []
+      },
+      "credits": 1,
+      "grading": "Graded",
+      "description": "Consent of the department head or undergraduate coordinator required, normally before the student's departure. May count toward the major with consent of the advisor and either the department head or undergraduate coordinator. Formerly offered as CSE 3793."
    },
    {
       "name": "CSE3300",
@@ -27788,7 +27804,7 @@
       },
       "credits": 4,
       "grading": "Graded",
-      "description": "Knowledge and theory of graphic representation, exploration and development of design form. Introduction to basic design principles.   Application of graphic & design theory through free-hand drawing in a studio environment. Abstraction and transformation of form emphasized."
+      "description": "Knowledge and theory of graphic representation, exploration and development of design form. Introduction to basic design principles. Application of graphic and design theory through free-hand drawing in a studio environment. Abstraction and transformation of form emphasized."
    },
    {
       "name": "LAND2120",
@@ -27998,7 +28014,7 @@
       },
       "credits": 3,
       "grading": "Graded",
-      "description": "Business, legal and professional dimensions of landscape architecture. Modes of practice, licensure & ethics, and contract development & administration.  Emphasis on portfolio development and licensure preparation."
+      "description": "Business, legal and professional dimensions of landscape architecture. Modes of practice, licensure and ethics, and contract development and administration. Emphasis on portfolio development and licensure preparation."
    },
    {
       "name": "LAND4440",
@@ -36682,7 +36698,7 @@
       "name": "OPIM3801",
       "catalogName": "Principles of Project Management",
       "catalogNumber": "3801",
-      "prerequisites": "Open only to business majors of junior or higher status. Credit will not be given if OPIM 5270 has been taken to fulfill undergraduate degree requirements.",
+      "prerequisites": "Open only to business majors of junior or higher status. Credit will not be given if OPIM 5270 has been taken to fulfill undergraduate degree requirements. Not open for credit to students who have passed or are taking BADM 3801.",
       "attributes": {
          "lab": false,
          "writing": false,
@@ -36698,7 +36714,7 @@
       "name": "OPIM3802",
       "catalogName": "Data and Text Mining",
       "catalogNumber": "3802",
-      "prerequisites": "STAT 1000Q, or STAT 1100Q, or equivalent; open only to business majors of junior or higher status, others with permission of Department Head. Credit will not be given if OPIM 5604 has been taken to fulfill undergraduate degree requirements.",
+      "prerequisites": "STAT 1000Q, or STAT 1100Q, or equivalent; open only to business majors of junior or higher status, others with permission of Department Head. Credit will not be given if OPIM 5604 has been taken to fulfill undergraduate degree requirements. Not open for credit to students who have passed or are taking BADM 3802.",
       "attributes": {
          "lab": false,
          "writing": false,
@@ -36714,7 +36730,7 @@
       "name": "OPIM3803",
       "catalogName": "Spreadsheet Modeling for Business Analysis",
       "catalogNumber": "3803",
-      "prerequisites": "OPIM 3103 or instructor consent; open only to business majors of junior or higher status, others with permission of Department Head.",
+      "prerequisites": "BADM or OPIM 3103 or instructor's consent; open only to Business majors of junior or higher status; others with permission of Department Head. Not open for credit to students who have passed or are taking BADM 3803.",
       "attributes": {
          "lab": false,
          "writing": false,
@@ -36730,7 +36746,7 @@
       "name": "OPIM3804",
       "catalogName": "Data Visualization",
       "catalogNumber": "3804",
-      "prerequisites": "OPIM 3103 or instructor consent; open to Business majors juniors or higher. Each student is required to bring a laptop (with Windows or Mac OS) that can connect to the Internet and handle required software (see School of Business specs).",
+      "prerequisites": "BADM or OPIM 3103 or instructor consent; open to Business majors juniors or higher. Not open for credit to students who have passed BADM 3804.",
       "attributes": {
          "lab": false,
          "writing": false,
@@ -36740,7 +36756,7 @@
       },
       "credits": 3,
       "grading": "Graded",
-      "description": "Introduces the techniques and best practices in visualizing data. Examines cognitive function and its role in data visualization designs; showing that data visualization can reveal answers and questions alike. Utilizing state of the art software, the use of parameters, filters, calculated variables, color, space and motion to visually articulate the data are surveyed. The use of dashboards to quickly reveal data-driven information that has daily relevance to executives, managers, supervisors and line personnel are investigated."
+      "description": "Introduces the techniques and best practices in visualizing data. Examines cognitive function and its role in data visualization designs; showing that data visualization can reveal answers and questions alike. Utilizing state of the art software, the use of parameters, filters, calculated variables, color, space and motion to visually articulate the data are surveyed. The use of dashboards to quickly reveal data-driven information that has daily relevance to executives, managers, supervisors and line personnel are investigated. Each student is required to bring a laptop (with Windows or Mac OS) that can connect to the Internet and handle required software (see School of Business specifications)."
    },
    {
       "name": "OPIM3805",
@@ -42953,7 +42969,7 @@
    },
    {
       "name": "SAAS 113",
-      "catalogName": "Prin of Animal Nutrition and Feeding",
+      "catalogName": "Principles of Animal Nutrition and Feeding",
       "catalogNumber": " 113",
       "prerequisites": "There are no prerequisites for this course.",
       "attributes": {

@@ -131,8 +131,8 @@ export type Classroom = {
     room: string;
     techType: string;
     techDescription?: string;
-    seatingType: keyof SeatingType;
-    boardType: keyof BoardType;
+    seatingType: keyof typeof SeatingType;
+    boardType: keyof typeof BoardType;
     capacity: {
         covid: number;
         full: number;
@@ -140,7 +140,7 @@ export type Classroom = {
     byodTesting?: boolean;
     airConditioned?: boolean;
     videoConference: ClassroomConferenceType;
-    lectureCapture: keyof LectureCaptureType;
+    lectureCapture: keyof typeof LectureCaptureType;
     liveStreamUrl?: string;
     threeSixtyView: string;
 }

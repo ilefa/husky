@@ -4,6 +4,7 @@ test/
 node_modules/
 
 # Files
+courses-*.json
 rmpIds-*.json
 *.tgz
 *.test.ts

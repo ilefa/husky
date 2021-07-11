@@ -1,6 +1,6 @@
 {
     "name": "@ilefa/husky",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "author": "ILEFA Labs",
     "license": "GPL-3.0",
     "description": "A collection of utilities pertaining to UConn services.",
@@ -29,7 +29,8 @@
         "moment": "^2.29.1",
         "progress": "^2.0.3",
         "qs": "^6.10.1",
-        "string-similarity": "^4.0.4"
+        "string-similarity": "^4.0.4",
+        "yesno": "^0.3.1"
     },
     "devDependencies": {
         "@types/progress": "^2.0.3",
