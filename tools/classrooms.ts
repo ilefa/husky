@@ -104,8 +104,8 @@ const lookup = async (link: string, failed: string[]): Promise<Classroom> => {
         room: roomNumber,
         techType: getEnumKeyByEnumValue(TechType, techType),
         techDescription: techDescription || undefined,
-        seatingType: getEnumKeyByEnumValue(SeatingType, seatingType) as keyof SeatingType,
-        boardType: getEnumKeyByEnumValue(BoardType, boardType) as keyof BoardType,
+        seatingType: getEnumKeyByEnumValue(SeatingType, seatingType) as keyof typeof SeatingType,
+        boardType: getEnumKeyByEnumValue(BoardType, boardType) as keyof typeof BoardType,
         capacity: {
             covid: covidCapacity,
             full: regularCapacity
@@ -113,7 +113,7 @@ const lookup = async (link: string, failed: string[]): Promise<Classroom> => {
         byodTesting: byodTesting ? byodTesting.toLowerCase() === 'yes' : false,
         airConditioned: airConditioning ? airConditioning.toLowerCase() === 'yes' : false,
         videoConference: ClassroomConferenceType.fromString(conference),
-        lectureCapture: (getEnumKeyByEnumValue(LectureCaptureType, lectureType) || 'NONE') as keyof LectureCaptureType,
+        lectureCapture: (getEnumKeyByEnumValue(LectureCaptureType, lectureType) || 'NONE') as keyof typeof LectureCaptureType,
         liveStreamUrl: liveStream,
         threeSixtyView: threeSixty,
     };
