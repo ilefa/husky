@@ -498,8 +498,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
     };
 
     let sectionCount = data[0].length - 1;
-
-    for (let i = 0; i < sectionCount; i++) {
+    for (let i = 0; i < sectionCount + 1; i++) {
         let internalData = cheerio.load(data[0][i].trim());
         let term = data[1][i];
         let campus = decodeEntity(data[2][i]);
@@ -538,7 +537,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             : null;
 
         let notes = data[10][i];
-
+        
         let virtual: SectionData = {
             internal: {
                 termCode: internalData('span.term-code').text(),
@@ -611,6 +610,8 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             rmpIds: rmp.rmpIds
         });
     }
+
+    professors = professors.filter(prof => !!prof.name.trim())
 
     return {
         name, grading, credits,
