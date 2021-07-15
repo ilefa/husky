@@ -166,8 +166,12 @@ const lookup = async (prefix: string, number: string) => {
 
     let credits = $('.credits')
         .text()
-        .trim()
-        .split(' ')[0] || 'Unknown Credits';
+        .trim() === 'Zero credits'
+            ? "0"
+            : $('.credits')
+                .text()
+                .trim()
+                .split(' ')[0] || 'Unknown Credits';
 
     let prereqs = $('.prerequisites').text() || DEFAULT_PREREQS;
     if (prereqs && prereqs !== DEFAULT_PREREQS) {
