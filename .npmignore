@@ -8,5 +8,6 @@ node_modules/
 # Files
 README.md
 rmpIds-*.json
+courses-*.json
 *.test.ts
 *.tgz
