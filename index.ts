@@ -29,6 +29,50 @@ import { decode as decodeEntity } from 'html-entities';
 export const COURSE_IDENTIFIER = /^[a-zA-Z]{2,4}\d{4}(Q|E|W)*$/;
 export const SECTION_IDENTIFIER = /^(H|Z|W|N)*\d{2,3}(L|D|X)*$/;
 
+export type CompleteCoursePayload = {
+    name: string;
+    catalogName: string;
+    catalogNumber: string;
+    attributes: CourseAttributes;
+    grading: string;
+    credits: number;
+    prerequisites: string;
+    description: string;
+    sections: SectionData[];
+    professors: ProfessorData[];
+}
+
+export type CourseAttributes = {
+    lab: boolean;
+    writing: boolean;
+    quantitative: boolean;
+    environmental: boolean;
+    contentAreas: ContentArea[];
+}
+
+export enum ContentArea {
+    CA1 = 'CA1',
+    CA2 = 'CA2',
+    CA3 = 'CA3',
+    CA4 = 'CA4',
+    CA4INT = 'CA4INT'
+}
+
+export enum ContentAreaNames {
+    CA1 = 'Arts and Humanities',
+    CA2 = 'Social Sciences',
+    CA3 = 'Science and Technology',
+    CA4 = 'Diversity and Multiculturalism',
+    CA4INT = 'Diversity and Multiculturalism (International)'
+}
+
+export enum GradingTypeNames {
+    GRADED = 'Graded',
+    SATISFACTORY_UNSATISFACTORY = 'S/U',
+    HONORS_CREDIT = 'Honors',
+    REGISTERED = 'Registered'
+}
+
 export type CoursePayload = {
     name: string;
     grading: string;
@@ -256,95 +300,104 @@ export enum LectureCaptureType {
 }
 
 export enum BuildingCode {
-    ABL = 'Agricultural Biotechnology Laboratory',
-    ACS = 'Art Ceramic Studio',
-    ADC = 'Art Design Building',
-    AES = 'Architectural and Engineering Services',
-    APS = 'Art Printshop',
-    ARJ = 'Jamie Homero Arjona Building',
-    ARTB = 'Art Building',
-    ATWR = 'Wilbur O. Atwater Laboratory',
-    AUST = 'Philip E. Austin Building',
-    B1 = 'Biobehavioral Science #1',
-    B3 = 'Biobehavioral Science #3',
-    B4_A = 'Biobehavioral Science #4 and Annex',
-    B5 = 'Biobehavioral Science #5',
-    BCH = 'Charles Lewis Beach Hall',
-    BISH = 'Bishop',
-    BOUS = 'W.A. Bousfield – Psychology',
-    BPB = 'Biology/Physics Building',
-    BRON = 'A.B. Bronwell',
-    BUSN = 'School of Business',
-    CAST = 'F.L. Castleman',
-    CHEM = 'Chemistry Building',
-    CRU = 'Cattle Resource Center',
-    DODD = 'Thomas.J. Dodd Center',
-    DRMU = 'Drama/Music Building',
-    E2 = 'Engineering II',
-    FG = 'Floriculture – Greenhouse',
-    FSB = 'Family Studies Building',
-    GAMP = 'Gampel Pavilion Sports Center',
-    GANT = 'Gant Central Building',
-    GC = 'Gant Central Building',
-    GENT = 'C.B. Gentry – Education',
-    GN = 'Gant North Building',
-    GRE = 'Greer Field House',
-    GS = 'Gant South Building',
-    GW = 'Gant West Building',
-    HALL = 'Hall Dorm',
-    HAWL = 'Willis Nichols Hawley Armory',
-    HBL = 'Homer Babbidge Library',
-    HDC = 'Human Development Center',
-    HEW = 'H.G. Hewitt – Pharmacy',
-    HH = 'Honors House',
-    HJT = 'Harriet Jorgensen Theatre',
-    HU1 = 'Horse Unit 1',
-    HU2 = 'Horse Unit 2',
-    IMS = 'Gant North',
-    ITE = 'Information Technology Engineering',
-    JONS = 'RE. Jones – Nutritional Sciences',
-    JRB = 'J. Ray Ryan Building',
-    KEL = 'Kellogg Dairy Center',
-    KLIN = 'M.S. Klinck – Agriculture',
-    KNS = 'Koons Hall',
-    LAFA = 'Lafayette',
-    LH = 'Lawrence D. McHugh Hall',
-    LSA = 'Life Science Annex',
-    LOR = 'Lorentzon Stables',
-    LU1 = 'Livestock Unit 1 (Beef Barn)',
-    LU2 = 'Livestock Unit 2 (Swine Barn)',
-    MAN = 'Manchester Hall',
-    MCHU = 'Lawrence D. McHugh Hall',
-    MONT = 'H.R. Monteith – Social Science',
-    MSB = 'Gant South Building',
-    MUSB = 'Music Building',
-    MLIB = 'Music Library',
-    OAK = 'Oak Hall',
-    PB = 'Gant West Building',
-    PBB = 'Pharmacy/Biology Building',
-    PCSB = 'D.C. Phillips – Communication Sciences',
-    PR = 'Putnam Refectory',
-    PU1 = 'Poultry Farm Unit 1',
-    RHBA = 'Ratcliffe Hicks Building and Arena',
-    ROWE = 'John W. Rowe Center for Undergraduate Education',
-    SCHN = 'Andre Schenker',
-    SHA = 'Storrs Hall Annex',
-    SPRH = 'Shipee Hall',
-    SRH = 'Sprague Hall',
-    STRS = 'Storrs Hall',
-    TLS = 'Torrey Life Sciences',
-    TSK = 'Tasker Building',
-    UTEB = 'United Technologies Building',
-    VARC = 'Visual Arts Resource Center',
-    VDM = 'J. Louis von der Mehden Recital Hall',
-    WCB = 'Wilbur Cross Building',
-    WGC = 'Nathan L. Whetten Graduate Center',
-    WIDM = 'Carolyn Ladd Widmer Wing',
-    WITE = 'George C. White Building',
-    WOOD = 'Walter Childs Wood Hall',
-    WSH = 'Williams Student Health',
-    WSRH = 'Wilson South Residence Hall',
-    YNG = 'W.B. Young'
+    ABL = "Agricultural Biotechnology Laboratory",
+    ACS = "Art Ceramic Studio",
+    ACD = "Avery Point",
+    ADC = "Art Design Building",
+    AES = "Architectural and Engineering Services",
+    APS = "Art Printshop",
+    ARJ = "Arjona",
+    ARTB = "Art Building",
+    ATWR = "Atwater Laboratory",
+    AUST = "Austin",
+    B1 = "Biobehavioral Science #1",
+    B3 = "Biobehavioral Science #3",
+    B4_A = "Biobehavioral Science #4 and Annex",
+    B5 = "Biobehavioral Science #5",
+    BCH = "Beach Hall",
+    BISH = "Bishop",
+    BOUS = "W.A. Bousfield",
+    BPB = "Biology/Physics Building",
+    BRON = "Bronwell",
+    BUSN = "School of Business",
+    CAST = "Castleman",
+    CHEM = "Chemistry Building",
+    CRU = "Cattle Resource Center",
+    DODD = "Dodd Center",
+    DRMU = "Drama/Music Building",
+    DWTN = "Stamford Downtown",
+    E2 = "Engineering II",
+    FG = "Floriculture Greenhouse",
+    FSB = "Family Studies Building",
+    GAMP = "Gampel Pavilion",
+    GANT = "Gant Central Building",
+    GC = "Gant Central Building",
+    GENT = "Gentry",
+    GN = "Gant North Building",
+    GP = "Gant Plaza Building",
+    GRE = "Greer Field House",
+    GS = "Gant South Building",
+    GW = "Gant West Building",
+    HALL = "Hall Dorm",
+    HAWL = "Hawley Armory",
+    HBL = "Homer Babbidge Library",
+    HDC = "Human Development Center",
+    HEW = "Hewitt",
+    HH = "Honors House",
+    HJT = "Jorgensen Theatre",
+    HPL = "Hartford Public Library",
+    HTB = "Hartford Times Building",
+    HU1 = "Horse Unit 1",
+    HU2 = "Horse Unit 2",
+    IMS = "Gant North Building",
+    ITE = "Information Technology Engineering",
+    JONS = "RE. Jones",
+    JRB = "J. Ray Ryan Building",
+    KEL = "Kellogg Dairy Center",
+    KLIN = "M.S. Klinck",
+    KNS = "Koons Hall",
+    LAFA = "Lafayette",
+    LH = "McHugh Hall",
+    LSA = "Life Science Annex",
+    LOR = "Lorentzon Stables",
+    LU1 = "Livestock Unit 1",
+    LU2 = "Livestock Unit 2",
+    MAN = "Manchester Hall",
+    MARN = "Avery Point Marine Science",
+    MCHU = "McHugh Hall",
+    MONT = "Monteith",
+    MSB = "Gant South Building",
+    MUSB = "Music Building",
+    MLIB = "Music Library",
+    OAK = "Oak Hall",
+    PB = "Gant West Building",
+    PBB = "Pharmacy/Biology Building",
+    PCSB = "D.C. Phillips",
+    PR = "Putnam Refectory",
+    PU1 = "Poultry Farm Unit 1",
+    RHBA = "Ratcliffe Hicks",
+    ROWE = "John W. Rowe Center",
+    SCHN = "Andre Schenker",
+    SHA = "Storrs Hall Annex",
+    SPRH = "Shipee Hall",
+    SRH = "Sprague Hall",
+    SSW = "Hartford Social Work",
+    STRS = "Storrs Hall",
+    TLS = "Torrey Life Sciences",
+    TSK = "Tasker Building",
+    USRH = "Stamford Residence Hall",
+    UTEB = "United Technologies Building",
+    VARC = "Visual Arts Resource Center",
+    VDM = "J. Louis von der Mehden Recital Hall",
+    WCB = "Wilbur Cross Building",
+    WGC = "Graduate Center",
+    WIDM = "Widmer Wing",
+    WITE = "George C. White Building",
+    WH = "Wood Hall",
+    WSH = "Williams Student Health",
+    WSRH = "Wilson South Residence Hall",
+    WTBY = "Waterbury Downtown",
+    YNG = "W.B. Young"
 }
 
 export type CampusType = 'any' 
@@ -856,9 +909,8 @@ export const getServiceStatus = async (...include: UConnService[]): Promise<UCon
         .then(res => res.data)
         .catch(_ => null);
 
-    if (!data) {
+    if (!data)
         return null;
-    }
 
     if (include.includes(UConnService.UNKNOWN))
         include = include.filter(srv => srv !== UConnService.UNKNOWN);

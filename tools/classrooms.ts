@@ -20,53 +20,96 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import progress from 'progress';
 
-import { TechType } from '..';
-import { LectureCaptureType } from '..';
-import { ClassroomConferenceType } from '..';
-import { BoardType, Classroom, SeatingType } from '..';
+import {
+    BoardType,
+    CampusType,
+    Classroom,
+    ClassroomConferenceType,
+    LectureCaptureType,
+    SeatingType,
+    TechType
+} from '..';
+
+const remoteLinks = [
+    'https://classrooms.uconn.edu/classroom',
+    'https://classrooms.hartford.uconn.edu/classroom',
+    'https://classrooms.stamford.uconn.edu/classroom',
+    'https://classrooms.waterbury.uconn.edu/classroom',
+    'https://academicservices.averypoint.uconn.edu/classroom/'
+];
+
+const remoteLinkNames: CampusType[] = [
+    'storrs',
+    'hartford',
+    'stamford',
+    'waterbury',
+    'avery_point'
+];
+
+const realRoomCodes = {
+    'CHM': 'CHEM',
+    'WIDM': 'STRSWW',
+    'WOOD': 'WH',
+    'WREC': 'RECTORY'
+}
 
 const generateClassroomMappings = async () => {
     console.log('[*] Preparing to generate mappings..');
+    if (fs.existsSync('./classrooms.json')) {
+        let date = Date.now();
+        console.log(`[*] Existing mappings saved to [courses-${date}.json]`);
+        fs.copyFileSync('./classrooms.json', `./classrooms-${date}.json`);
+    }
+
     let start = Date.now();
-    let $: cheerio.Root = await axios
-        .get('https://classrooms.uconn.edu/classroom')
-        .then(res => res.data)
-        .then(res => cheerio.load(res))
-        .catch(_ => null);
-
-    if (!$) return console.error('Failed to retrieve data from the web.');
-
-    let links: string[] = [];
     let failed: string[] = [];
-    $('.classroom-item').each((i) => {
-        let link = $(`div.col-sm-3:nth-child(${i + 1}) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)`).attr('href');
-        links.push(link);
-    });
+    let all = await Promise.all(remoteLinks.map(async (link, i) => {
+        let campus = remoteLinkNames[i];
+        let $: cheerio.Root = await axios
+            .get(link)
+            .then(res => res.data)
+            .then(res => cheerio.load(res))
+            .catch(_ => null);
 
-    console.log(`[*] Ready to generate mappings for ${links.length.toLocaleString()} classrooms.`);
-    let bar = new progress(':room [:bar] :rate/rps :etas (:current/:total) (:percent done)', {
-        complete: '=',
-        incomplete: ' ',
-        width: 20,
-        total: links.length
-    });
+        if (!$) return console.error('Failed to retrieve data from the web.');
 
-    let rooms = await Promise.all(links.map(async (link, i) => {
-        let res = await lookup(link, failed);
-        bar.tick({
-            room: ((i + 1) >= links.length)
-                ? 'done'
-                : links[i]
+        let links: string[] = [];
+        $('.classroom-item')
+            .each((i) => links
+                .push($(`div.col-sm-3:nth-child(${i + 1}) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)`)
+                .attr('href')));
+
+        let bar = new progress(':room [:bar] :rate/rps :etas (:current/:total) (:percent done)', {
+            complete: '=',
+            incomplete: ' ',
+            width: 20,
+            total: links.length
         });
 
-        return res;
+        return await Promise.all(links.map(async (link, i) => {
+            let res = await lookup(link, failed, campus);
+            bar.tick({
+                room: ((i + 1) >= links.length)
+                    ? 'done'
+                    : links[i]
+            });
+
+            return res;
+        }));
     }));
 
+    let rooms = [].concat.apply([], all);
     fs.writeFileSync('./classrooms.json', JSON.stringify(rooms, null, 3));
-    console.log(`\n[*] Finished generating mappings for ${rooms.length} classrooms in ${getLatestTimeValue(Date.now() - start)}.`);
+    
+    if (failed.length > 0) {
+        console.log(`\n[*] Failed to generate ${failed.length} mappings:`);
+        failed.forEach(room => console.log(` - ${room}`));
+    }
+
+    console.log(`[*] Finished generating mappings for ${rooms.length} classrooms in ${getLatestTimeValue(Date.now() - start)}.`);
 }
 
-const lookup = async (link: string, failed: string[]): Promise<Classroom> => {
+const lookup = async (link: string, failed: string[], campus: string): Promise<Classroom> => {
     let $: cheerio.Root = await axios
         .get(link)
         .then(res => res.data)
@@ -96,10 +139,14 @@ const lookup = async (link: string, failed: string[]): Promise<Classroom> => {
     let airConditioning = $('.classroom-info-aircondition > span').text();
 
     return {
-        name: name.replace(' ', ''),
+        name: name.replace(/\s/, ''),
         building: {
             name: building,
-            code: buildingCode
+            code: !buildingCode
+                ? name.split(' ')[0]
+                : realRoomCodes[buildingCode]
+                    || buildingCode,
+            campus: campus.toUpperCase(),
         },
         room: roomNumber,
         techType: getEnumKeyByEnumValue(TechType, techType),

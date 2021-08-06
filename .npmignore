@@ -9,5 +9,6 @@ node_modules/
 README.md
 rmpIds-*.json
 courses-*.json
+classrooms-*.json
 *.test.ts
 *.tgz

@@ -3,7 +3,8 @@
       "name": "ARJ105",
       "building": {
          "name": "Arjona",
-         "code": "ARJ"
+         "code": "ARJ",
+         "campus": "STORRS"
       },
       "room": "105",
       "techType": "FULL",
@@ -36,7 +37,8 @@
       "name": "ARJ119",
       "building": {
          "name": "Arjona",
-         "code": "ARJ"
+         "code": "ARJ",
+         "campus": "STORRS"
       },
       "room": "119",
       "techType": "FULL",
@@ -55,7 +57,8 @@
       "name": "ARJ139",
       "building": {
          "name": "Arjona",
-         "code": "ARJ"
+         "code": "ARJ",
+         "campus": "STORRS"
       },
       "room": "139",
       "techType": "FULL",
@@ -74,7 +77,8 @@
       "name": "ARJ143",
       "building": {
          "name": "Arjona",
-         "code": "ARJ"
+         "code": "ARJ",
+         "campus": "STORRS"
       },
       "room": "143",
       "techType": "FULL",
@@ -107,7 +111,8 @@
       "name": "ARTB106",
       "building": {
          "name": "Art Building",
-         "code": "ARTB"
+         "code": "ARTB",
+         "campus": "STORRS"
       },
       "room": "106",
       "techType": "FULL",
@@ -126,7 +131,8 @@
       "name": "ARTB107",
       "building": {
          "name": "Art Building",
-         "code": "ARTB"
+         "code": "ARTB",
+         "campus": "STORRS"
       },
       "room": "107",
       "techType": "FULL",
@@ -145,7 +151,8 @@
       "name": "ATWRA001",
       "building": {
          "name": "Atwater",
-         "code": "ATWR"
+         "code": "ATWR",
+         "campus": "STORRS"
       },
       "room": "A001",
       "techType": "FULL",
@@ -177,7 +184,8 @@
       "name": "AUST102",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "102",
       "techType": "BASIC",
@@ -196,7 +204,8 @@
       "name": "AUST103",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "103",
       "techType": "BASIC",
@@ -216,7 +225,8 @@
       "name": "AUST105",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "105",
       "techType": "FULL",
@@ -236,7 +246,8 @@
       "name": "AUST108",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "108",
       "techType": "FULL",
@@ -256,7 +267,8 @@
       "name": "AUST110",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "110",
       "techType": "FULL",
@@ -276,7 +288,8 @@
       "name": "AUST163",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "163",
       "techType": "FULL",
@@ -294,7 +307,8 @@
       "name": "AUST164",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "164",
       "techType": "BASIC",
@@ -313,7 +327,8 @@
       "name": "AUST202",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "202",
       "techType": "FULL",
@@ -332,7 +347,8 @@
       "name": "AUST247",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "247",
       "techType": "FULL",
@@ -351,7 +367,8 @@
       "name": "AUST313",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "313",
       "techType": "FULL",
@@ -370,7 +387,8 @@
       "name": "AUST344",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "344",
       "techType": "FULL",
@@ -389,7 +407,8 @@
       "name": "AUST434",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "434",
       "techType": "FULL",
@@ -408,7 +427,8 @@
       "name": "AUST445",
       "building": {
          "name": "Austin",
-         "code": "AUST"
+         "code": "AUST",
+         "campus": "STORRS"
       },
       "room": "445",
       "techType": "FULL",
@@ -427,7 +447,8 @@
       "name": "BCH302",
       "building": {
          "name": "Beach",
-         "code": "BCH"
+         "code": "BCH",
+         "campus": "STORRS"
       },
       "room": "302",
       "techType": "BASIC",
@@ -445,7 +466,8 @@
       "name": "BCH317",
       "building": {
          "name": "Beach",
-         "code": "BCH"
+         "code": "BCH",
+         "campus": "STORRS"
       },
       "room": "317",
       "techType": "FULL",
@@ -464,7 +486,8 @@
       "name": "BCH443",
       "building": {
          "name": "Beach",
-         "code": "BCH"
+         "code": "BCH",
+         "campus": "STORRS"
       },
       "room": "443",
       "techType": "FULL",
@@ -482,7 +505,8 @@
       "name": "BISH006",
       "building": {
          "name": "Bishop",
-         "code": "BISH"
+         "code": "BISH",
+         "campus": "STORRS"
       },
       "room": "006",
       "techType": "FULL",
@@ -500,7 +524,8 @@
       "name": "BISH007",
       "building": {
          "name": "Bishop",
-         "code": "BISH"
+         "code": "BISH",
+         "campus": "STORRS"
       },
       "room": "007",
       "techType": "FULL",
@@ -518,7 +543,8 @@
       "name": "BISH136",
       "building": {
          "name": "Bishop",
-         "code": "BISH"
+         "code": "BISH",
+         "campus": "STORRS"
       },
       "room": "136",
       "techType": "FULL",
@@ -537,7 +563,8 @@
       "name": "BISH146",
       "building": {
          "name": "Bishop",
-         "code": "BISH"
+         "code": "BISH",
+         "campus": "STORRS"
       },
       "room": "146",
       "techType": "FULL",
@@ -556,7 +583,8 @@
       "name": "BOUSA105",
       "building": {
          "name": "Bousfield",
-         "code": "BOUS"
+         "code": "BOUS",
+         "campus": "STORRS"
       },
       "room": "A105",
       "techType": "FULL",
@@ -575,7 +603,8 @@
       "name": "BOUSA106",
       "building": {
          "name": "Bousfield",
-         "code": "BOUS"
+         "code": "BOUS",
+         "campus": "STORRS"
       },
       "room": "A106",
       "techType": "FULL",
@@ -608,7 +637,8 @@
       "name": "BPB130",
       "building": {
          "name": "Biology/Physics Building",
-         "code": "BPB"
+         "code": "BPB",
+         "campus": "STORRS"
       },
       "room": "130",
       "techType": "FULL",
@@ -641,7 +671,8 @@
       "name": "BPB131",
       "building": {
          "name": "Biology/Physics Building",
-         "code": "BPB"
+         "code": "BPB",
+         "campus": "STORRS"
       },
       "room": "131",
       "techType": "FULL",
@@ -674,7 +705,8 @@
       "name": "BRON124",
       "building": {
          "name": "Bronwell",
-         "code": "BRON"
+         "code": "BRON",
+         "campus": "STORRS"
       },
       "room": "124",
       "techType": "FULL",
@@ -693,7 +725,8 @@
       "name": "BUSN106",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "106",
       "techType": "FULL",
@@ -726,7 +759,8 @@
       "name": "BUSN112",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "112",
       "techType": "FULL",
@@ -745,7 +779,8 @@
       "name": "BUSN122",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "122",
       "techType": "FULL",
@@ -764,7 +799,8 @@
       "name": "BUSN127",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "127",
       "techType": "FULL",
@@ -783,7 +819,8 @@
       "name": "BUSN202",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "202",
       "techType": "FULL",
@@ -802,7 +839,8 @@
       "name": "BUSN203",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "203",
       "techType": "FULL",
@@ -821,7 +859,8 @@
       "name": "BUSN204",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "204",
       "techType": "FULL",
@@ -841,7 +880,8 @@
       "name": "BUSN211",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "211",
       "techType": "FULL",
@@ -861,7 +901,8 @@
       "name": "BUSN215",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "215",
       "techType": "FULL",
@@ -880,7 +921,8 @@
       "name": "BUSN218",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "218",
       "techType": "FULL",
@@ -913,7 +955,8 @@
       "name": "BUSN226",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "226",
       "techType": "FULL",
@@ -932,7 +975,8 @@
       "name": "BUSN227",
       "building": {
          "name": "Business",
-         "code": "BUSN"
+         "code": "BUSN",
+         "campus": "STORRS"
       },
       "room": "227",
       "techType": "FULL",
@@ -951,7 +995,8 @@
       "name": "CAST201",
       "building": {
          "name": "Castleman",
-         "code": "CAST"
+         "code": "CAST",
+         "campus": "STORRS"
       },
       "room": "201",
       "techType": "FULL",
@@ -969,7 +1014,8 @@
       "name": "CAST204",
       "building": {
          "name": "Castleman",
-         "code": "CAST"
+         "code": "CAST",
+         "campus": "STORRS"
       },
       "room": "204",
       "techType": "FULL",
@@ -987,7 +1033,8 @@
       "name": "CAST212",
       "building": {
          "name": "Castleman",
-         "code": "CAST"
+         "code": "CAST",
+         "campus": "STORRS"
       },
       "room": "212",
       "techType": "FULL",
@@ -1020,7 +1067,8 @@
       "name": "CHEMA120",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "A120",
       "techType": "FULL",
@@ -1053,7 +1101,8 @@
       "name": "CHEMA203",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "A203",
       "techType": "FULL",
@@ -1086,7 +1135,8 @@
       "name": "CHEMT112",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "T112",
       "techType": "FULL",
@@ -1105,7 +1155,8 @@
       "name": "CHEMT113",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "T113",
       "techType": "FULL",
@@ -1124,7 +1175,8 @@
       "name": "CHEMT114",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "T114",
       "techType": "FULL",
@@ -1143,7 +1195,8 @@
       "name": "CHEMT212",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "T212",
       "techType": "FULL",
@@ -1162,7 +1215,8 @@
       "name": "CHEMT213",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "T213",
       "techType": "FULL",
@@ -1181,7 +1235,8 @@
       "name": "CHEMT215",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "T215",
       "techType": "FULL",
@@ -1201,7 +1256,8 @@
       "name": "CHEMT309",
       "building": {
          "name": "Chemistry Building",
-         "code": "CHEM"
+         "code": "CHEM",
+         "campus": "STORRS"
       },
       "room": "T309",
       "techType": "FULL",
@@ -1221,7 +1277,8 @@
       "name": "E2321",
       "building": {
          "name": "Engineering 2",
-         "code": "E2"
+         "code": "E2",
+         "campus": "STORRS"
       },
       "room": "321",
       "techType": "FULL",
@@ -1240,7 +1297,8 @@
       "name": "E2322",
       "building": {
          "name": "Engineering 2",
-         "code": "E2"
+         "code": "E2",
+         "campus": "STORRS"
       },
       "room": "322",
       "techType": "FULL",
@@ -1259,7 +1317,8 @@
       "name": "E2323",
       "building": {
          "name": "Engineering 2",
-         "code": "E2"
+         "code": "E2",
+         "campus": "STORRS"
       },
       "room": "323",
       "techType": "FULL",
@@ -1278,7 +1337,8 @@
       "name": "FG101",
       "building": {
          "name": "Floriculture - Greenhouse",
-         "code": "FG"
+         "code": "FG",
+         "campus": "STORRS"
       },
       "room": "101",
       "techType": "BASIC",
@@ -1297,7 +1357,8 @@
       "name": "FG107",
       "building": {
          "name": "Floriculture - Greenhouse",
-         "code": "FG"
+         "code": "FG",
+         "campus": "STORRS"
       },
       "room": "107",
       "techType": "BASIC",
@@ -1316,7 +1377,8 @@
       "name": "FSB025",
       "building": {
          "name": "Family Studies Building",
-         "code": "FSB"
+         "code": "FSB",
+         "campus": "STORRS"
       },
       "room": "025",
       "techType": "FULL",
@@ -1335,7 +1397,8 @@
       "name": "FSB102",
       "building": {
          "name": "Family Studies Building",
-         "code": "FSB"
+         "code": "FSB",
+         "campus": "STORRS"
       },
       "room": "102",
       "techType": "FULL",
@@ -1354,7 +1417,8 @@
       "name": "FSB103",
       "building": {
          "name": "Family Studies Building",
-         "code": "FSB"
+         "code": "FSB",
+         "campus": "STORRS"
       },
       "room": "103",
       "techType": "FULL",
@@ -1372,7 +1436,8 @@
       "name": "FSB18",
       "building": {
          "name": "Family Studies Building",
-         "code": "FSB"
+         "code": "FSB",
+         "campus": "STORRS"
       },
       "room": "18",
       "techType": "FULL",
@@ -1391,7 +1456,8 @@
       "name": "FSB202",
       "building": {
          "name": "Family Studies Building",
-         "code": "FSB"
+         "code": "FSB",
+         "campus": "STORRS"
       },
       "room": "202",
       "techType": "FULL",
@@ -1410,7 +1476,8 @@
       "name": "FSB216",
       "building": {
          "name": "Family Studies Building",
-         "code": "FSB"
+         "code": "FSB",
+         "campus": "STORRS"
       },
       "room": "216",
       "techType": "FULL",
@@ -1429,7 +1496,8 @@
       "name": "FSB220",
       "building": {
          "name": "Family Studies Building",
-         "code": "FSB"
+         "code": "FSB",
+         "campus": "STORRS"
       },
       "room": "220",
       "techType": "FULL",
@@ -1448,7 +1516,8 @@
       "name": "GENT101",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "101",
       "techType": "FULL",
@@ -1466,7 +1535,8 @@
       "name": "GENT103",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "103",
       "techType": "FULL",
@@ -1484,7 +1554,8 @@
       "name": "GENT119E",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "119E",
       "techType": "FULL",
@@ -1503,7 +1574,8 @@
       "name": "GENT131",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "131",
       "techType": "FULL",
@@ -1535,7 +1607,8 @@
       "name": "GENT140",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "140",
       "techType": "FULL",
@@ -1554,7 +1627,8 @@
       "name": "GENT140C",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "140C",
       "techType": "FULL",
@@ -1573,7 +1647,8 @@
       "name": "GENT201",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "201",
       "techType": "FULL",
@@ -1592,7 +1667,8 @@
       "name": "GENT203",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "203",
       "techType": "FULL",
@@ -1611,7 +1687,8 @@
       "name": "GENT221",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "221",
       "techType": "FULL",
@@ -1630,7 +1707,8 @@
       "name": "GENT225",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "225",
       "techType": "FULL",
@@ -1649,7 +1727,8 @@
       "name": "GENT232",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "232",
       "techType": "FULL",
@@ -1668,7 +1747,8 @@
       "name": "GENT246",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "246",
       "techType": "FULL",
@@ -1687,7 +1767,8 @@
       "name": "GENT319",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "319",
       "techType": "FULL",
@@ -1706,7 +1787,8 @@
       "name": "GENT425",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "425",
       "techType": "FULL",
@@ -1725,7 +1807,8 @@
       "name": "GENT430",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "430",
       "techType": "FULL",
@@ -1744,7 +1827,8 @@
       "name": "GENT436",
       "building": {
          "name": "Gentry",
-         "code": "GENT"
+         "code": "GENT",
+         "campus": "STORRS"
       },
       "room": "436",
       "techType": "FULL",
@@ -1763,7 +1847,8 @@
       "name": "GN20",
       "building": {
          "name": "Gant North",
-         "code": "GN"
+         "code": "GN",
+         "campus": "STORRS"
       },
       "room": "20",
       "techType": "FULL",
@@ -1779,10 +1864,48 @@
       "threeSixtyView": "https://live.staticflickr.com/7825/46780201571_7d6c6f0cf5_o_d.jpg"
    },
    {
+      "name": "GW001",
+      "building": {
+         "name": "Gant West",
+         "code": "GW",
+         "campus": "STORRS"
+      },
+      "room": "001",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "capacity": {
+         "covid": 121,
+         "full": 121
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "GW002",
+      "building": {
+         "name": "Gant West",
+         "code": "GW",
+         "campus": "STORRS"
+      },
+      "room": "002",
+      "techType": "FULL",
+      "seatingType": "FIXED_AUDITORIUM",
+      "capacity": {
+         "covid": 256,
+         "full": 256
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/7816/46780201331_f117b96dd0_o_d.jpg"
+   },
+   {
       "name": "HALL104",
       "building": {
          "name": "Hall Dorm",
-         "code": "HALL"
+         "code": "HALL",
+         "campus": "STORRS"
       },
       "room": "104",
       "techType": "BASIC",
@@ -1801,7 +1924,8 @@
       "name": "HALL129",
       "building": {
          "name": "Hall Dorm",
-         "code": "HALL"
+         "code": "HALL",
+         "campus": "STORRS"
       },
       "room": "129",
       "techType": "BASIC",
@@ -1833,7 +1957,8 @@
       "name": "HAWL204",
       "building": {
          "name": "Hawley Armory",
-         "code": "HAWL"
+         "code": "HAWL",
+         "campus": "STORRS"
       },
       "room": "204",
       "techType": "FULL",
@@ -1851,7 +1976,8 @@
       "name": "HBL2153",
       "building": {
          "name": "Homer Babbidge Library",
-         "code": "HBL"
+         "code": "HBL",
+         "campus": "STORRS"
       },
       "room": "2153",
       "techType": "FULL",
@@ -1882,7 +2008,8 @@
       "name": "ITE119",
       "building": {
          "name": "Information Technology Engineering",
-         "code": "ITE"
+         "code": "ITE",
+         "campus": "STORRS"
       },
       "room": "119",
       "techType": "FULL",
@@ -1901,7 +2028,8 @@
       "name": "ITE125",
       "building": {
          "name": "Information Technology Engineering",
-         "code": "ITE"
+         "code": "ITE",
+         "campus": "STORRS"
       },
       "room": "125",
       "techType": "FULL",
@@ -1920,7 +2048,8 @@
       "name": "ITE127",
       "building": {
          "name": "Information Technology Engineering",
-         "code": "ITE"
+         "code": "ITE",
+         "campus": "STORRS"
       },
       "room": "127",
       "techType": "FULL",
@@ -1939,7 +2068,8 @@
       "name": "ITE336",
       "building": {
          "name": "Information Technology Engineering",
-         "code": "ITE"
+         "code": "ITE",
+         "campus": "STORRS"
       },
       "room": "336",
       "techType": "FULL",
@@ -1972,7 +2102,8 @@
       "name": "ITEC80",
       "building": {
          "name": "Information Technology Engineering",
-         "code": "ITE"
+         "code": "ITE",
+         "campus": "STORRS"
       },
       "room": "C80",
       "techType": "FULL",
@@ -2004,7 +2135,8 @@
       "name": "JONS229",
       "building": {
          "name": "Jones - Nutritional Sciences",
-         "code": "JONS"
+         "code": "JONS",
+         "campus": "STORRS"
       },
       "room": "229",
       "techType": "FULL",
@@ -2023,7 +2155,8 @@
       "name": "JRB204",
       "building": {
          "name": "Ryan Building",
-         "code": "JRB"
+         "code": "JRB",
+         "campus": "STORRS"
       },
       "room": "204",
       "techType": "FULL",
@@ -2056,7 +2189,8 @@
       "name": "KNS103",
       "building": {
          "name": "Koons Hall",
-         "code": "KNS"
+         "code": "KNS",
+         "campus": "STORRS"
       },
       "room": "103",
       "techType": "BASIC",
@@ -2075,7 +2209,8 @@
       "name": "KNS105",
       "building": {
          "name": "Koons Hall",
-         "code": "KNS"
+         "code": "KNS",
+         "campus": "STORRS"
       },
       "room": "105",
       "techType": "BASIC",
@@ -2094,7 +2229,8 @@
       "name": "KNS111",
       "building": {
          "name": "Koons Hall",
-         "code": "KNS"
+         "code": "KNS",
+         "campus": "STORRS"
       },
       "room": "111",
       "techType": "BASIC",
@@ -2113,7 +2249,8 @@
       "name": "KNS116",
       "building": {
          "name": "Koons Hall",
-         "code": "KNS"
+         "code": "KNS",
+         "campus": "STORRS"
       },
       "room": "116",
       "techType": "BASIC",
@@ -2132,7 +2269,8 @@
       "name": "KNS201",
       "building": {
          "name": "Koons Hall",
-         "code": "KNS"
+         "code": "KNS",
+         "campus": "STORRS"
       },
       "room": "201",
       "techType": "FULL",
@@ -2150,7 +2288,8 @@
       "name": "KNS202",
       "building": {
          "name": "Koons Hall",
-         "code": "KNS"
+         "code": "KNS",
+         "campus": "STORRS"
       },
       "room": "202",
       "techType": "FULL",
@@ -2168,7 +2307,8 @@
       "name": "LAFAC110",
       "building": {
          "name": "Lafayette",
-         "code": "LAFA"
+         "code": "LAFA",
+         "campus": "STORRS"
       },
       "room": "C110",
       "techType": "FULL",
@@ -2187,7 +2327,8 @@
       "name": "MCHU101",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "101",
       "techType": "FULL",
@@ -2220,7 +2361,8 @@
       "name": "MCHU102",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "102",
       "techType": "FULL",
@@ -2253,7 +2395,8 @@
       "name": "MCHU106",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "106",
       "techType": "FULL",
@@ -2272,7 +2415,8 @@
       "name": "MCHU107",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "107",
       "techType": "FULL",
@@ -2291,7 +2435,8 @@
       "name": "MCHU108",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "108",
       "techType": "FULL",
@@ -2310,7 +2455,8 @@
       "name": "MCHU109",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "109",
       "techType": "FULL",
@@ -2329,7 +2475,8 @@
       "name": "MCHU110",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "110",
       "techType": "FULL",
@@ -2348,7 +2495,8 @@
       "name": "MCHU111",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "111",
       "techType": "FULL",
@@ -2367,7 +2515,8 @@
       "name": "MCHU201",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "201",
       "techType": "FULL",
@@ -2386,7 +2535,8 @@
       "name": "MCHU202",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "202",
       "techType": "FULL",
@@ -2405,7 +2555,8 @@
       "name": "MCHU205",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "205",
       "techType": "FULL",
@@ -2424,7 +2575,8 @@
       "name": "MCHU206",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "206",
       "techType": "FULL",
@@ -2443,7 +2595,8 @@
       "name": "MCHU301",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "301",
       "techType": "FULL",
@@ -2462,7 +2615,8 @@
       "name": "MCHU302",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "302",
       "techType": "FULL",
@@ -2481,7 +2635,8 @@
       "name": "MCHU305",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "305",
       "techType": "FULL",
@@ -2500,7 +2655,8 @@
       "name": "MCHU306",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "306",
       "techType": "FULL",
@@ -2519,7 +2675,8 @@
       "name": "MCHU307",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "307",
       "techType": "FULL",
@@ -2538,7 +2695,8 @@
       "name": "MCHU308",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "308",
       "techType": "FULL",
@@ -2557,7 +2715,8 @@
       "name": "MCHU309",
       "building": {
          "name": "McHugh Hall",
-         "code": "MCHU"
+         "code": "MCHU",
+         "campus": "STORRS"
       },
       "room": "309",
       "techType": "FULL",
@@ -2576,7 +2735,8 @@
       "name": "MONT104",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "104",
       "techType": "FULL",
@@ -2609,7 +2769,8 @@
       "name": "MONT110",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "110",
       "techType": "FULL",
@@ -2628,7 +2789,8 @@
       "name": "MONT111",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "111",
       "techType": "FULL",
@@ -2647,7 +2809,8 @@
       "name": "MONT112",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "112",
       "techType": "FULL",
@@ -2666,7 +2829,8 @@
       "name": "MONT113",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "113",
       "techType": "FULL",
@@ -2685,7 +2849,8 @@
       "name": "MONT225",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "225",
       "techType": "FULL",
@@ -2704,7 +2869,8 @@
       "name": "MONT226",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "226",
       "techType": "FULL",
@@ -2723,7 +2889,8 @@
       "name": "MONT227",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "227",
       "techType": "FULL",
@@ -2742,7 +2909,8 @@
       "name": "MONT314",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "314",
       "techType": "FULL",
@@ -2762,7 +2930,8 @@
       "name": "MONT319",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "319",
       "techType": "FULL",
@@ -2781,7 +2950,8 @@
       "name": "MONT320",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "320",
       "techType": "FULL",
@@ -2800,7 +2970,8 @@
       "name": "MONT321",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "321",
       "techType": "FULL",
@@ -2819,7 +2990,8 @@
       "name": "MONT414",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "414",
       "techType": "FULL",
@@ -2838,7 +3010,8 @@
       "name": "MONT419",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "419",
       "techType": "FULL",
@@ -2857,7 +3030,8 @@
       "name": "MONT420",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "420",
       "techType": "FULL",
@@ -2876,7 +3050,8 @@
       "name": "MONT421",
       "building": {
          "name": "Monteith",
-         "code": "MONT"
+         "code": "MONT",
+         "campus": "STORRS"
       },
       "room": "421",
       "techType": "FULL",
@@ -2895,7 +3070,8 @@
       "name": "OAK101",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "101",
       "techType": "FULL",
@@ -2928,7 +3104,8 @@
       "name": "OAK104",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "104",
       "techType": "FULL",
@@ -2948,7 +3125,8 @@
       "name": "OAK105",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "105",
       "techType": "FULL",
@@ -2967,7 +3145,8 @@
       "name": "OAK106",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "106",
       "techType": "FULL",
@@ -2986,7 +3165,8 @@
       "name": "OAK107",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "107",
       "techType": "FULL",
@@ -3005,7 +3185,8 @@
       "name": "OAK108",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "108",
       "techType": "FULL",
@@ -3024,7 +3205,8 @@
       "name": "OAK109",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "109",
       "techType": "FULL",
@@ -3043,7 +3225,8 @@
       "name": "OAK110",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "110",
       "techType": "FULL",
@@ -3062,7 +3245,8 @@
       "name": "OAK111",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "111",
       "techType": "FULL",
@@ -3081,7 +3265,8 @@
       "name": "OAK112",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "112",
       "techType": "FULL",
@@ -3100,7 +3285,8 @@
       "name": "OAK117",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "117",
       "techType": "FULL",
@@ -3120,7 +3306,8 @@
       "name": "OAK201",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "201",
       "techType": "FULL",
@@ -3139,7 +3326,8 @@
       "name": "OAK235",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "235",
       "techType": "FULL",
@@ -3158,7 +3346,8 @@
       "name": "OAK239",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "239",
       "techType": "FULL",
@@ -3177,7 +3366,8 @@
       "name": "OAK267",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "267",
       "techType": "FULL",
@@ -3196,7 +3386,8 @@
       "name": "OAK268",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "268",
       "techType": "FULL",
@@ -3215,7 +3406,8 @@
       "name": "OAK269",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "269",
       "techType": "FULL",
@@ -3234,7 +3426,8 @@
       "name": "OAK301",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "301",
       "techType": "FULL",
@@ -3253,7 +3446,8 @@
       "name": "OAK340",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "340",
       "techType": "FULL",
@@ -3272,7 +3466,8 @@
       "name": "OAK401",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "401",
       "techType": "FULL",
@@ -3291,7 +3486,8 @@
       "name": "OAK441",
       "building": {
          "name": "Oak Hall",
-         "code": "OAK"
+         "code": "OAK",
+         "campus": "STORRS"
       },
       "room": "441",
       "techType": "FULL",
@@ -3310,7 +3506,8 @@
       "name": "PBB129",
       "building": {
          "name": "Pharmacy Building",
-         "code": "PBB"
+         "code": "PBB",
+         "campus": "STORRS"
       },
       "room": "129",
       "techType": "FULL",
@@ -3343,7 +3540,8 @@
       "name": "PBB131",
       "building": {
          "name": "Pharmacy Building",
-         "code": "PBB"
+         "code": "PBB",
+         "campus": "STORRS"
       },
       "room": "131",
       "techType": "FULL",
@@ -3376,7 +3574,8 @@
       "name": "RHBA001",
       "building": {
          "name": "Ratcliffe Hicks Building and Arena",
-         "code": "RHBA"
+         "code": "RHBA",
+         "campus": "STORRS"
       },
       "room": "001",
       "techType": "FULL",
@@ -3395,7 +3594,8 @@
       "name": "RHBA101",
       "building": {
          "name": "Ratcliffe Hicks Building and Arena",
-         "code": "RHBA"
+         "code": "RHBA",
+         "campus": "STORRS"
       },
       "room": "101",
       "techType": "FULL",
@@ -3414,7 +3614,8 @@
       "name": "RHBA201",
       "building": {
          "name": "Ratcliffe Hicks Building and Arena",
-         "code": "RHBA"
+         "code": "RHBA",
+         "campus": "STORRS"
       },
       "room": "201",
       "techType": "FULL",
@@ -3431,7 +3632,8 @@
       "name": "ROWE122",
       "building": {
          "name": "Rowe/CUE",
-         "code": "ROWE"
+         "code": "ROWE",
+         "campus": "STORRS"
       },
       "room": "122",
       "techType": "FULL",
@@ -3464,7 +3666,8 @@
       "name": "ROWE131",
       "building": {
          "name": "Rowe/CUE",
-         "code": "ROWE"
+         "code": "ROWE",
+         "campus": "STORRS"
       },
       "room": "131",
       "techType": "FULL",
@@ -3483,7 +3686,8 @@
       "name": "ROWE132",
       "building": {
          "name": "Rowe/CUE",
-         "code": "ROWE"
+         "code": "ROWE",
+         "campus": "STORRS"
       },
       "room": "132",
       "techType": "FULL",
@@ -3502,7 +3706,8 @@
       "name": "ROWE213",
       "building": {
          "name": "Rowe/CUE",
-         "code": "ROWE"
+         "code": "ROWE",
+         "campus": "STORRS"
       },
       "room": "213",
       "techType": "BASIC",
@@ -3534,7 +3739,8 @@
       "name": "ROWE318",
       "building": {
          "name": "Rowe/CUE",
-         "code": "ROWE"
+         "code": "ROWE",
+         "campus": "STORRS"
       },
       "room": "318",
       "techType": "FULL",
@@ -3567,7 +3773,8 @@
       "name": "ROWE320",
       "building": {
          "name": "Rowe/CUE",
-         "code": "ROWE"
+         "code": "ROWE",
+         "campus": "STORRS"
       },
       "room": "320",
       "techType": "FULL",
@@ -3599,7 +3806,8 @@
       "name": "SCHN151",
       "building": {
          "name": "Schenker",
-         "code": "SCHN"
+         "code": "SCHN",
+         "campus": "STORRS"
       },
       "room": "151",
       "techType": "FULL",
@@ -3632,7 +3840,8 @@
       "name": "STRS001",
       "building": {
          "name": "Storrs Hall",
-         "code": "STRS"
+         "code": "STRS",
+         "campus": "STORRS"
       },
       "room": "001",
       "techType": "FULL",
@@ -3651,7 +3860,8 @@
       "name": "STRS002",
       "building": {
          "name": "Storrs Hall",
-         "code": "STRS"
+         "code": "STRS",
+         "campus": "STORRS"
       },
       "room": "002",
       "techType": "FULL",
@@ -3670,7 +3880,8 @@
       "name": "STRS011",
       "building": {
          "name": "Storrs Hall",
-         "code": "STRS"
+         "code": "STRS",
+         "campus": "STORRS"
       },
       "room": "011",
       "techType": "FULL",
@@ -3688,7 +3899,8 @@
       "name": "STRS117",
       "building": {
          "name": "Storrs Hall",
-         "code": "STRS"
+         "code": "STRS",
+         "campus": "STORRS"
       },
       "room": "117",
       "techType": "FULL",
@@ -3707,7 +3919,8 @@
       "name": "STRS303",
       "building": {
          "name": "Storrs Hall",
-         "code": "STRS"
+         "code": "STRS",
+         "campus": "STORRS"
       },
       "room": "303",
       "techType": "FULL",
@@ -3726,7 +3939,8 @@
       "name": "STRSWW01",
       "building": {
          "name": "Storrs Hall Widmer Wing",
-         "code": "WIDM"
+         "code": "STRSWW",
+         "campus": "STORRS"
       },
       "room": "01",
       "techType": "FULL",
@@ -3759,7 +3973,8 @@
       "name": "STRSWW16",
       "building": {
          "name": "Storrs Hall Widmer Wing",
-         "code": "WIDM"
+         "code": "STRSWW",
+         "campus": "STORRS"
       },
       "room": "16",
       "techType": "FULL",
@@ -3792,7 +4007,8 @@
       "name": "TLS154",
       "building": {
          "name": "Torrey Life Sciences",
-         "code": "TLS"
+         "code": "TLS",
+         "campus": "STORRS"
       },
       "room": "154",
       "techType": "FULL",
@@ -3825,7 +4041,8 @@
       "name": "TLS301",
       "building": {
          "name": "Torrey Life Sciences",
-         "code": "TLS"
+         "code": "TLS",
+         "campus": "STORRS"
       },
       "room": "301",
       "techType": "FULL",
@@ -3843,7 +4060,8 @@
       "name": "TLS79",
       "building": {
          "name": "Torrey Life Sciences",
-         "code": "TLS"
+         "code": "TLS",
+         "campus": "STORRS"
       },
       "room": "79",
       "techType": "FULL",
@@ -3862,7 +4080,8 @@
       "name": "UTEB150",
       "building": {
          "name": "United Technologies Building",
-         "code": "UTEB"
+         "code": "UTEB",
+         "campus": "STORRS"
       },
       "room": "150",
       "techType": "FULL",
@@ -3895,7 +4114,8 @@
       "name": "UTEB175",
       "building": {
          "name": "United Technologies Building",
-         "code": "UTEB"
+         "code": "UTEB",
+         "campus": "STORRS"
       },
       "room": "175",
       "techType": "FULL",
@@ -3928,7 +4148,8 @@
       "name": "WH004A",
       "building": {
          "name": "Wood Hall",
-         "code": "WOOD"
+         "code": "WH",
+         "campus": "STORRS"
       },
       "room": "004A",
       "techType": "FULL",
@@ -3946,7 +4167,8 @@
       "name": "WH004B",
       "building": {
          "name": "Wood Hall",
-         "code": "WOOD"
+         "code": "WH",
+         "campus": "STORRS"
       },
       "room": "004B",
       "techType": "FULL",
@@ -3964,7 +4186,8 @@
       "name": "WITE209",
       "building": {
          "name": "White Building",
-         "code": "WITE"
+         "code": "WITE",
+         "campus": "STORRS"
       },
       "room": "209",
       "techType": "FULL",
@@ -3983,7 +4206,8 @@
       "name": "WSRH112",
       "building": {
          "name": "Wilson Residence Hall",
-         "code": "WSRH"
+         "code": "WSRH",
+         "campus": "STORRS"
       },
       "room": "112",
       "techType": "FULL",
@@ -4001,7 +4225,8 @@
       "name": "WSRH113",
       "building": {
          "name": "Wilson Residence Hall",
-         "code": "WSRH"
+         "code": "WSRH",
+         "campus": "STORRS"
       },
       "room": "113",
       "techType": "FULL",
@@ -4019,7 +4244,8 @@
       "name": "YNG100",
       "building": {
          "name": "W.B. Young",
-         "code": "YNG"
+         "code": "YNG",
+         "campus": "STORRS"
       },
       "room": "100",
       "techType": "FULL",
@@ -4051,7 +4277,8 @@
       "name": "YNG128",
       "building": {
          "name": "W.B. Young",
-         "code": "YNG"
+         "code": "YNG",
+         "campus": "STORRS"
       },
       "room": "128",
       "techType": "FULL",
@@ -4068,7 +4295,8 @@
       "name": "YNG132",
       "building": {
          "name": "W.B. Young",
-         "code": "YNG"
+         "code": "YNG",
+         "campus": "STORRS"
       },
       "room": "132",
       "techType": "FULL",
@@ -4087,7 +4315,8 @@
       "name": "YNG138",
       "building": {
          "name": "W.B. Young",
-         "code": "YNG"
+         "code": "YNG",
+         "campus": "STORRS"
       },
       "room": "138",
       "techType": "BASIC",
@@ -4118,7 +4347,8 @@
       "name": "YNG327",
       "building": {
          "name": "W.B. Young",
-         "code": "YNG"
+         "code": "YNG",
+         "campus": "STORRS"
       },
       "room": "327",
       "techType": "FULL",
@@ -4132,5 +4362,2493 @@
       "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://live.staticflickr.com/65535/46984570045_4754be40d4_o_d.jpg"
+   },
+   {
+      "name": "HPL139",
+      "building": {
+         "name": "UConn at Hartford Public Library",
+         "code": "HPL",
+         "campus": "HARTFORD"
+      },
+      "room": "139",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 32,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HPL18",
+      "building": {
+         "name": "UConn at Hartford Public Library",
+         "code": "HPL",
+         "campus": "HARTFORD"
+      },
+      "room": "18",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 0
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HPL25",
+      "building": {
+         "name": "UConn at Hartford Public Library",
+         "code": "HPL",
+         "campus": "HARTFORD"
+      },
+      "room": "25",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 48,
+         "full": 18
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HPL26",
+      "building": {
+         "name": "UConn at Hartford Public Library",
+         "code": "HPL",
+         "campus": "HARTFORD"
+      },
+      "room": "26",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 30,
+         "full": 11
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB138",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "138",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 40,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vk19p"
+   },
+   {
+      "name": "HTB142",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "142",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 28,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB145",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "145",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 71,
+         "full": 22
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vr9ar"
+   },
+   {
+      "name": "HTB146",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "146",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 57,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/kelyn"
+   },
+   {
+      "name": "HTB147",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "147",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 42,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vbsqz"
+   },
+   {
+      "name": "HTB208",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "208",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 50,
+         "full": 17
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/nei0q"
+   },
+   {
+      "name": "HTB210",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "210",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 36,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB212",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "212",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 46,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB214",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "214",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 46,
+         "full": 15
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vhz5x"
+   },
+   {
+      "name": "HTB217",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "217",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 40,
+         "full": 15
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/rppus"
+   },
+   {
+      "name": "HTB219",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "219",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 48,
+         "full": 18
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/y6qv7"
+   },
+   {
+      "name": "HTB220",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "220",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 36,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB223",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "223",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 30,
+         "full": 9
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB226",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "226",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 48,
+         "full": 17
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/uxwi2"
+   },
+   {
+      "name": "HTB227",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "227",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 42,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB228",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "228",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 42,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/kylej"
+   },
+   {
+      "name": "HTB229",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "229",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 46,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/l8chh"
+   },
+   {
+      "name": "HTB317",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "317",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 46,
+         "full": 18
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z5gmi"
+   },
+   {
+      "name": "HTB318",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "318",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 45,
+         "full": 18
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/nqfec"
+   },
+   {
+      "name": "HTB320",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "320",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB321",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "321",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB323",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "323",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 8
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB325",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "325",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB326",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "326",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "HTB508",
+      "building": {
+         "name": "Hartford Times Building",
+         "code": "HTB",
+         "campus": "HARTFORD"
+      },
+      "room": "508",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 3
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "SSW101",
+      "building": {
+         "name": "School of Social Work",
+         "code": "SSW",
+         "campus": "HARTFORD"
+      },
+      "room": "101",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 4
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "SSW104",
+      "building": {
+         "name": "School of Social Work",
+         "code": "SSW",
+         "campus": "HARTFORD"
+      },
+      "room": "104",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 7
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "SSW107",
+      "building": {
+         "name": "School of Social Work",
+         "code": "SSW",
+         "campus": "HARTFORD"
+      },
+      "room": "107",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 32,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "SSW113",
+      "building": {
+         "name": "School of Social Work",
+         "code": "SSW",
+         "campus": "HARTFORD"
+      },
+      "room": "113",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 32,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN107",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "107",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 6,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN108 (MPR)",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "108",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 30,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/u9223"
+   },
+   {
+      "name": "DWTN109 (A1)",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "109",
+      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 36,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/xt7fm"
+   },
+   {
+      "name": "DWTN129",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "129",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 11,
+         "full": 45
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN131",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "131",
+      "seatingType": "FIXED_TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN132",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "132",
+      "seatingType": "FIXED_TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN133",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "133",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 15,
+         "full": 46
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ybnt9"
+   },
+   {
+      "name": "DWTN134",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "134",
+      "seatingType": "FIXED_TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN135",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "135",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 15,
+         "full": 59
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN137",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "137",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 15,
+         "full": 48
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN138",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "138",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 8,
+         "full": 23
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN209",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "209",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 6,
+         "full": 23
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN215",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "215",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 10,
+         "full": 33
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN216",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "216",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN218",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "218",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 7,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN220 (A2)",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "220",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "capacity": {
+         "covid": 15,
+         "full": 70
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ndl7k"
+   },
+   {
+      "name": "DWTN222",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "222",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 8,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN224",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "224",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 9,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN225",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "225",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 15,
+         "full": 51
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN226",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "226",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 10,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN229",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "229",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN233",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "233",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 6,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN234",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "234",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 12,
+         "full": 41
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN237",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "237",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 9,
+         "full": 26
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN239",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "239",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 9,
+         "full": 31
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN240",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "240",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 9,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN242",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "242",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 8,
+         "full": 25
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN245",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "245",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 8,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN257",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "257",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 16,
+         "full": 49
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN258",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "258",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 15,
+         "full": 48
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN259",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "259",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 12,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN305",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "305",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 15,
+         "full": 60
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN307",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "307",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 6,
+         "full": 19
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN308",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "308",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 6,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN3117 (Rotunda)",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "3117",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 25,
+         "full": 50
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vqugz"
+   },
+   {
+      "name": "DWTN312",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "312",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "capacity": {
+         "covid": 9,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN3126",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "3126",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 4,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "DWTN317A",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "317A",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 12,
+         "full": 33
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "USRHA",
+      "building": {
+         "name": "UConn Stamford Residence Hall",
+         "code": "USRH",
+         "campus": "STAMFORD"
+      },
+      "room": "A",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "capacity": {
+         "covid": 17,
+         "full": 68
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "USRHB",
+      "building": {
+         "name": "UConn Stamford Residence Hall",
+         "code": "USRH",
+         "campus": "STAMFORD"
+      },
+      "room": "B",
+      "seatingType": "FIXED_LEVELED_TABLES",
+      "capacity": {
+         "covid": 19,
+         "full": 68
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Rectory202",
+      "building": {
+         "name": "Waterbury Rectory Building",
+         "code": "RECTORY",
+         "campus": "WATERBURY"
+      },
+      "room": "202",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 8,
+         "full": 33
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Rectory203",
+      "building": {
+         "name": "Waterbury Rectory Building",
+         "code": "RECTORY",
+         "campus": "WATERBURY"
+      },
+      "room": "203",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 11,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Rectory204",
+      "building": {
+         "name": "Waterbury Rectory Building",
+         "code": "RECTORY",
+         "campus": "WATERBURY"
+      },
+      "room": "204",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 40
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Rectory302",
+      "building": {
+         "name": "Waterbury Rectory Building",
+         "code": "RECTORY",
+         "campus": "WATERBURY"
+      },
+      "room": "3020",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Rectory303",
+      "building": {
+         "name": "Waterbury Rectory Building",
+         "code": "RECTORY",
+         "campus": "WATERBURY"
+      },
+      "room": "303",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Rectory304",
+      "building": {
+         "name": "Waterbury Rectory Building",
+         "code": "RECTORY",
+         "campus": "WATERBURY"
+      },
+      "room": "304",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Rectory402",
+      "building": {
+         "name": "Waterbury Rectory Building",
+         "code": "RECTORY",
+         "campus": "WATERBURY"
+      },
+      "room": "402",
+      "techType": "FULL",
+      "seatingType": "TABLES_AND_ARMCHAIRS",
+      "capacity": {
+         "covid": 37,
+         "full": 165
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/y7eqd"
+   },
+   {
+      "name": "Waterbury113/116",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "113/116",
+      "techType": "FULL",
+      "seatingType": "TABLES_AND_ARMCHAIRS",
+      "capacity": {
+         "covid": 34,
+         "full": 120
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/usqce"
+   },
+   {
+      "name": "Waterbury119",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "119",
+      "techType": "FULL",
+      "seatingType": "TABLES_AND_ARMCHAIRS",
+      "capacity": {
+         "covid": 20,
+         "full": 60
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury201",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "201",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 45
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/wfoby"
+   },
+   {
+      "name": "Waterbury203",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "203",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury204",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "204",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ynx22"
+   },
+   {
+      "name": "Waterbury207",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "207",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 30
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury210",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "210",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury213",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "213",
+      "techType": "BASIC",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 3,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Seminar Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": false,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury217",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "217",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury218",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "218",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury224",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "224",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 16,
+         "full": 31
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/mtocp"
+   },
+   {
+      "name": "Waterbury225",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "225",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 27
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ptm46"
+   },
+   {
+      "name": "Waterbury301",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "301",
+      "seatingType": "LAB_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 22
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury309",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "309",
+      "techType": "FULL",
+      "seatingType": "LAB_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 13,
+         "full": 22
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury316",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "316",
+      "techType": "FULL",
+      "seatingType": "LAB_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 9,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury317",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "317",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 8,
+         "full": 18
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury318",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "318",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 4,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury323",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "323",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 30
+      },
+      "byodTesting": true,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/i8gdm"
+   },
+   {
+      "name": "Waterbury324",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "324",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 7,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury326",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "326",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 11,
+         "full": 38
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "Waterbury327",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "327",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 17,
+         "full": 67
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ki654"
+   },
+   {
+      "name": "Waterbury333",
+      "building": {
+         "name": "Waterbury Downtown",
+         "code": "WTBY",
+         "campus": "WATERBURY"
+      },
+      "room": "333",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 99
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/j2lyc"
+   },
+   {
+      "name": "ACD106",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "106",
+      "techType": "FULL",
+      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 42,
+         "full": 18
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z3q9a"
+   },
+   {
+      "name": "ACD200",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "200",
+      "techType": "FULL",
+      "capacity": {
+         "covid": 325,
+         "full": 44
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/m9my4"
+   },
+   {
+      "name": "ACD201",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "201",
+      "seatingType": "LAB_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 6
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ltg1k"
+   },
+   {
+      "name": "ACD204",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "204",
+      "techType": "FULL",
+      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "seatingType": "LAB_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 6
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ACD205",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "205",
+      "techType": "FULL",
+      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 28,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/r4kyf"
+   },
+   {
+      "name": "ACD206",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "206",
+      "techType": "FULL",
+      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "seatingType": "ACTIVE",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 42,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ACD207",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "207",
+      "techType": "FULL",
+      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 32,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ACD208",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "208",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 38,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ACD211",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "211",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 48,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ACD301",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "301",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 36,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/rwz6z"
+   },
+   {
+      "name": "ACD303",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "303",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 43,
+         "full": 21
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z8190"
+   },
+   {
+      "name": "ACD304",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "304",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 28,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ACD308",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "308",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 201,
+         "full": 32
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/u4xl8"
+   },
+   {
+      "name": "ACD309",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "309",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 9
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ACD311",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "311",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 26,
+         "full": 9
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "ACD314",
+      "building": {
+         "name": "Academic Building",
+         "code": "ACD",
+         "campus": "AVERY_POINT"
+      },
+      "room": "314",
+      "techType": "FULL",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 12
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "CPB210",
+      "building": {
+         "name": "Community and Professional Studies",
+         "code": "CPB",
+         "campus": "AVERY_POINT"
+      },
+      "room": "210",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "CPB212",
+      "building": {
+         "name": "Community and Professional Studies",
+         "code": "CPB",
+         "campus": "AVERY_POINT"
+      },
+      "room": "212",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 10,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "CPB302",
+      "building": {
+         "name": "Community and Professional Studies",
+         "code": "CPB",
+         "campus": "AVERY_POINT"
+      },
+      "room": "302",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 10,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "MARN103",
+      "building": {
+         "name": "Marine Science",
+         "code": "MARN",
+         "campus": "AVERY_POINT"
+      },
+      "room": "103",
+      "techType": "FULL",
+      "capacity": {
+         "covid": 70,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/zb1ox"
+   },
+   {
+      "name": "MARN104",
+      "building": {
+         "name": "Marine Science",
+         "code": "MARN",
+         "campus": "AVERY_POINT"
+      },
+      "room": "104",
+      "techType": "FULL",
+      "capacity": {
+         "covid": 24,
+         "full": 10
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "MARN105",
+      "building": {
+         "name": "Marine Science",
+         "code": "MARN",
+         "campus": "AVERY_POINT"
+      },
+      "room": "105",
+      "techType": "FULL",
+      "seatingType": "LAB_TABLES",
+      "capacity": {
+         "covid": 20,
+         "full": 10
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "MARN107",
+      "building": {
+         "name": "Marine Science",
+         "code": "MARN",
+         "campus": "AVERY_POINT"
+      },
+      "room": "107",
+      "seatingType": "LAB_TABLES",
+      "capacity": {
+         "covid": 20,
+         "full": 10
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "MARN122",
+      "building": {
+         "name": "Marine Science",
+         "code": "MARN",
+         "campus": "AVERY_POINT"
+      },
+      "room": "122",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 24,
+         "full": 10
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "MARN123",
+      "building": {
+         "name": "Marine Science",
+         "code": "MARN",
+         "campus": "AVERY_POINT"
+      },
+      "room": "24",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "capacity": {
+         "covid": 24,
+         "full": 10
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "videoConference": {
+         "name": "Full Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": true,
+            "presentMediaFrontOfRoom": true,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": true,
+            "connectToWebex": true
+         }
+      },
+      "lectureCapture": "NONE"
+   },
+   {
+      "name": "MARN124",
+      "building": {
+         "name": "Marine Science",
+         "code": "MARN",
+         "campus": "AVERY_POINT"
+      },
+      "room": "124",
+      "techType": "FULL",
+      "seatingType": "TABLET_ARMCHAIRS",
+      "capacity": {
+         "covid": 24,
+         "full": 10
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE"
    }
 ]
