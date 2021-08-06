@@ -115,7 +115,8 @@ let arj105 = ClassroomMappings.find(room => room.name === 'ARJ105');
     "name": "ARJ105",
     "building": {
         "name": "Arjona",
-        "code": "ARJ"
+        "code": "ARJ",
+        "campus": "STORRS",
     },
     "room": "105",
     "techType": "FULL",
