@@ -171,6 +171,7 @@ export type Classroom = {
     building: {
         name: string;
         code: string;
+        campus: string;
     };
     room: string;
     techType: string;
