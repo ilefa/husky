@@ -51,7 +51,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.uconn.edu/wp-content/uploads/sites/748/2020/08/image_0-16-scaled.jpg"
    },
    {
       "name": "ARJ139",
@@ -71,7 +72,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.uconn.edu/wp-content/uploads/sites/748/2020/08/image_1-11-scaled.jpg"
    },
    {
       "name": "ARJ143",
@@ -301,7 +303,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.uconn.edu/wp-content/uploads/sites/748/2014/06/aust163r.jpg"
    },
    {
       "name": "AUST164",
@@ -2549,7 +2552,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/lywag"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/lywag",
+      "threeSixtyView": ""
    },
    {
       "name": "MCHU205",
@@ -3893,7 +3897,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.uconn.edu/wp-content/uploads/sites/748/2019/12/IMG_0428-scaled.jpg"
    },
    {
       "name": "STRS117",
@@ -4379,7 +4384,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HPL_139_1.jpg"
    },
    {
       "name": "HPL18",
@@ -4397,7 +4403,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HPL_018_1.jpg"
    },
    {
       "name": "HPL25",
@@ -4415,7 +4422,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HPL_026_1.jpg"
    },
    {
       "name": "HPL26",
@@ -4433,7 +4441,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HPL_025_2.jpg"
    },
    {
       "name": "HTB138",
@@ -4465,7 +4474,8 @@
          }
       },
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/vk19p"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vk19p",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_138_2.jpg"
    },
    {
       "name": "HTB142",
@@ -4483,7 +4493,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_142_1.jpg"
    },
    {
       "name": "HTB145",
@@ -4515,7 +4526,8 @@
          }
       },
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/vr9ar"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vr9ar",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_145_2.jpg"
    },
    {
       "name": "HTB146",
@@ -4534,7 +4546,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/kelyn"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/kelyn",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_146_2.jpg"
    },
    {
       "name": "HTB147",
@@ -4553,7 +4566,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/vbsqz"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vbsqz",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_147_1.jpg"
    },
    {
       "name": "HTB208",
@@ -4585,7 +4599,8 @@
          }
       },
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/nei0q"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/nei0q",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_206_1.jpg"
    },
    {
       "name": "HTB210",
@@ -4603,7 +4618,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_210_2.jpg"
    },
    {
       "name": "HTB212",
@@ -4621,7 +4637,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_212_1.jpg"
    },
    {
       "name": "HTB214",
@@ -4640,7 +4657,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/vhz5x"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vhz5x",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_214_1.jpg"
    },
    {
       "name": "HTB217",
@@ -4658,7 +4676,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/rppus"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/rppus",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_217_2.jpg"
    },
    {
       "name": "HTB219",
@@ -4677,7 +4696,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/y6qv7"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/y6qv7",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_219_2.jpg"
    },
    {
       "name": "HTB220",
@@ -4695,7 +4715,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_220_2.jpg"
    },
    {
       "name": "HTB223",
@@ -4713,7 +4734,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_223_1.jpg"
    },
    {
       "name": "HTB226",
@@ -4732,7 +4754,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/uxwi2"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/uxwi2",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_226_1.jpg"
    },
    {
       "name": "HTB227",
@@ -4750,7 +4773,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_227_1.jpg"
    },
    {
       "name": "HTB228",
@@ -4769,7 +4793,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/kylej"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/kylej",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_228_2.jpg"
    },
    {
       "name": "HTB229",
@@ -4788,7 +4813,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/l8chh"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/l8chh",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_229_2.jpg"
    },
    {
       "name": "HTB317",
@@ -4807,7 +4833,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/z5gmi"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z5gmi",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_317_2.jpg"
    },
    {
       "name": "HTB318",
@@ -4826,7 +4853,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/nqfec"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/nqfec",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_318_1.jpg"
    },
    {
       "name": "HTB320",
@@ -4844,7 +4872,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_320_2.jpg"
    },
    {
       "name": "HTB321",
@@ -4862,7 +4891,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_321_1.jpg"
    },
    {
       "name": "HTB323",
@@ -4880,7 +4910,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_323_2.jpg"
    },
    {
       "name": "HTB325",
@@ -4898,7 +4929,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_325_2.jpg"
    },
    {
       "name": "HTB326",
@@ -4916,7 +4948,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_326_1.jpg"
    },
    {
       "name": "HTB508",
@@ -4934,7 +4967,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_508_1.jpg"
    },
    {
       "name": "SSW101",
@@ -4952,7 +4986,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/SSW_101_1.jpg"
    },
    {
       "name": "SSW104",
@@ -4970,7 +5005,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/SSW_104_2.jpg"
    },
    {
       "name": "SSW107",
@@ -4988,7 +5024,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/SSW_107_2.jpg"
    },
    {
       "name": "SSW113",
@@ -5019,7 +5056,8 @@
             "connectToWebex": true
          }
       },
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2020/08/SSW_113_2.jpg"
    },
    {
       "name": "DWTN107",
@@ -5036,10 +5074,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-1-scaled.jpg"
    },
    {
-      "name": "DWTN108 (MPR)",
+      "name": "DWTN108",
       "building": {
          "name": "Downtown",
          "code": "DWTN",
@@ -5054,10 +5093,11 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/u9223"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/u9223",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/2020-08-28-13.55.57-scaled.jpg"
    },
    {
-      "name": "DWTN109 (A1)",
+      "name": "DWTN109",
       "building": {
          "name": "Downtown",
          "code": "DWTN",
@@ -5073,7 +5113,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/xt7fm"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/xt7fm",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN_109-scaled.jpg"
    },
    {
       "name": "DWTN129",
@@ -5090,7 +5131,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-2-scaled.jpg"
    },
    {
       "name": "DWTN131",
@@ -5107,7 +5149,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_4-scaled.jpg"
    },
    {
       "name": "DWTN132",
@@ -5124,7 +5167,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_4-1-scaled.jpg"
    },
    {
       "name": "DWTN133",
@@ -5142,7 +5186,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/ybnt9"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ybnt9",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_3-scaled.jpg"
    },
    {
       "name": "DWTN134",
@@ -5159,7 +5204,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN134.jpeg"
    },
    {
       "name": "DWTN135",
@@ -5176,7 +5222,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_3-1-scaled.jpg"
    },
    {
       "name": "DWTN137",
@@ -5193,7 +5240,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN137.jpeg"
    },
    {
       "name": "DWTN138",
@@ -5210,7 +5258,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-3-scaled.jpg"
    },
    {
       "name": "DWTN209",
@@ -5227,7 +5276,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-4.jpg"
    },
    {
       "name": "DWTN215",
@@ -5257,7 +5307,8 @@
             "connectToWebex": true
          }
       },
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_3-2-scaled.jpg"
    },
    {
       "name": "DWTN216",
@@ -5274,7 +5325,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN216.jpeg"
    },
    {
       "name": "DWTN218",
@@ -5291,10 +5343,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN218.jpeg"
    },
    {
-      "name": "DWTN220 (A2)",
+      "name": "DWTN220",
       "building": {
          "name": "Downtown",
          "code": "DWTN",
@@ -5309,7 +5362,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/ndl7k"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ndl7k",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/a2-scaled.jpg"
    },
    {
       "name": "DWTN222",
@@ -5326,7 +5380,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/2020-08-28-15.35.22-scaled.jpg"
    },
    {
       "name": "DWTN224",
@@ -5343,7 +5398,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-5-scaled.jpg"
    },
    {
       "name": "DWTN225",
@@ -5360,7 +5416,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN225.jpeg"
    },
    {
       "name": "DWTN226",
@@ -5377,7 +5434,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN226.jpeg"
    },
    {
       "name": "DWTN229",
@@ -5394,7 +5452,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN229-scaled.jpg"
    },
    {
       "name": "DWTN233",
@@ -5411,7 +5470,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-6-scaled.jpg"
    },
    {
       "name": "DWTN234",
@@ -5428,7 +5488,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN234-scaled.jpg"
    },
    {
       "name": "DWTN237",
@@ -5445,7 +5506,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": ""
    },
    {
       "name": "DWTN239",
@@ -5462,7 +5524,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN239-scaled.jpg"
    },
    {
       "name": "DWTN240",
@@ -5479,7 +5542,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN240-scaled.jpg"
    },
    {
       "name": "DWTN242",
@@ -5496,7 +5560,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-7-scaled.jpg"
    },
    {
       "name": "DWTN245",
@@ -5513,7 +5578,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/245-scaled.jpg"
    },
    {
       "name": "DWTN257",
@@ -5530,7 +5596,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/257-scaled.jpg"
    },
    {
       "name": "DWTN258",
@@ -5547,7 +5614,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/258-scaled.jpg"
    },
    {
       "name": "DWTN259",
@@ -5564,7 +5632,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/259-scaled.jpg"
    },
    {
       "name": "DWTN305",
@@ -5581,7 +5650,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/305-scaled.jpg"
    },
    {
       "name": "DWTN307",
@@ -5598,7 +5668,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/307-scaled.jpg"
    },
    {
       "name": "DWTN308",
@@ -5615,10 +5686,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/308-scaled.jpg"
    },
    {
-      "name": "DWTN3117 (Rotunda)",
+      "name": "DWTN3117",
       "building": {
          "name": "Downtown",
          "code": "DWTN",
@@ -5633,7 +5705,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/vqugz"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/vqugz",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/IMG_0400-scaled.jpg"
    },
    {
       "name": "DWTN312",
@@ -5663,7 +5736,8 @@
             "connectToWebex": true
          }
       },
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/312-scaled.jpg"
    },
    {
       "name": "DWTN3126",
@@ -5680,7 +5754,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/2020-08-28-15.32.17-scaled.jpg"
    },
    {
       "name": "DWTN317A",
@@ -5697,7 +5772,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/317a-scaled.jpg"
    },
    {
       "name": "USRHA",
@@ -5714,7 +5790,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/usrha-scaled.jpg"
    },
    {
       "name": "USRHB",
@@ -5731,10 +5808,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/usrhb.jpg"
    },
    {
-      "name": "Rectory202",
+      "name": "RECTORY202",
       "building": {
          "name": "Waterbury Rectory Building",
          "code": "RECTORY",
@@ -5749,10 +5827,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-scaled.jpg"
    },
    {
-      "name": "Rectory203",
+      "name": "RECTORY203",
       "building": {
          "name": "Waterbury Rectory Building",
          "code": "RECTORY",
@@ -5767,10 +5846,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_1-2-scaled.jpg"
    },
    {
-      "name": "Rectory204",
+      "name": "RECTORY204",
       "building": {
          "name": "Waterbury Rectory Building",
          "code": "RECTORY",
@@ -5786,10 +5866,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-2-scaled.jpg"
    },
    {
-      "name": "Rectory302",
+      "name": "RECTORY302",
       "building": {
          "name": "Waterbury Rectory Building",
          "code": "RECTORY",
@@ -5805,10 +5886,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_3-2-scaled.jpg"
    },
    {
-      "name": "Rectory303",
+      "name": "RECTORY303",
       "building": {
          "name": "Waterbury Rectory Building",
          "code": "RECTORY",
@@ -5824,10 +5906,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_2-2-scaled.jpg"
    },
    {
-      "name": "Rectory304",
+      "name": "RECTORY304",
       "building": {
          "name": "Waterbury Rectory Building",
          "code": "RECTORY",
@@ -5843,10 +5926,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_3-3-scaled.jpg"
    },
    {
-      "name": "Rectory402",
+      "name": "RECTORY402",
       "building": {
          "name": "Waterbury Rectory Building",
          "code": "RECTORY",
@@ -5862,10 +5946,11 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/y7eqd"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/y7eqd",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_1-3-scaled.jpg"
    },
    {
-      "name": "Waterbury113/116",
+      "name": "WTBY113",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -5881,10 +5966,11 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/usqce"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/usqce",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-3-scaled.jpg"
    },
    {
-      "name": "Waterbury119",
+      "name": "WTBY119",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -5899,10 +5985,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-4-scaled.jpg"
    },
    {
-      "name": "Waterbury201",
+      "name": "WTBY201",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -5919,10 +6006,11 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/wfoby"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/wfoby",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-5-scaled.jpg"
    },
    {
-      "name": "Waterbury203",
+      "name": "WTBY203",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -5938,10 +6026,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-6-scaled.jpg"
    },
    {
-      "name": "Waterbury204",
+      "name": "WTBY204",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -5958,10 +6047,11 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/ynx22"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ynx22",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_3-4-scaled.jpg"
    },
    {
-      "name": "Waterbury207",
+      "name": "WTBY207",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -5977,10 +6067,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_2-3-scaled.jpg"
    },
    {
-      "name": "Waterbury210",
+      "name": "WTBY210",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -5995,10 +6086,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_2-4-scaled.jpg"
    },
    {
-      "name": "Waterbury213",
+      "name": "WTBY213",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6027,10 +6119,11 @@
             "connectToWebex": true
          }
       },
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_1-4-scaled.jpg"
    },
    {
-      "name": "Waterbury217",
+      "name": "WTBY217",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6046,10 +6139,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/IMG_20200730_104511-scaled.jpg"
    },
    {
-      "name": "Waterbury218",
+      "name": "WTBY218",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6065,10 +6159,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/IMG_20200730_093648-rotated.jpg"
    },
    {
-      "name": "Waterbury224",
+      "name": "WTBY224",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6085,10 +6180,11 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/mtocp"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/mtocp",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_1-5-scaled.jpg"
    },
    {
-      "name": "Waterbury225",
+      "name": "WTBY225",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6105,10 +6201,11 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/ptm46"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ptm46",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_3-5-scaled.jpg"
    },
    {
-      "name": "Waterbury301",
+      "name": "WTBY301",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6123,10 +6220,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_1-6.jpg"
    },
    {
-      "name": "Waterbury309",
+      "name": "WTBY309",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6142,10 +6240,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-7-scaled.jpg"
    },
    {
-      "name": "Waterbury316",
+      "name": "WTBY316",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6161,10 +6260,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/IMG_20200730_090813-scaled.jpg"
    },
    {
-      "name": "Waterbury317",
+      "name": "WTBY317",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6180,10 +6280,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-8-scaled.jpg"
    },
    {
-      "name": "Waterbury318",
+      "name": "WTBY318",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6198,10 +6299,11 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-8-1-scaled.jpg"
    },
    {
-      "name": "Waterbury323",
+      "name": "WTBY323",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6217,10 +6319,11 @@
       "byodTesting": true,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/i8gdm"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/i8gdm",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/IMG_20200730_112816-scaled.jpg"
    },
    {
-      "name": "Waterbury324",
+      "name": "WTBY324",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6248,10 +6351,11 @@
             "connectToWebex": true
          }
       },
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_1-7-scaled.jpg"
    },
    {
-      "name": "Waterbury326",
+      "name": "WTBY326",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6267,10 +6371,11 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_0-9-scaled.jpg"
    },
    {
-      "name": "Waterbury327",
+      "name": "WTBY327",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6287,10 +6392,11 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/ki654"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ki654",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_1-8-scaled.jpg"
    },
    {
-      "name": "Waterbury333",
+      "name": "WTBY333",
       "building": {
          "name": "Waterbury Downtown",
          "code": "WTBY",
@@ -6307,7 +6413,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/j2lyc"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/j2lyc",
+      "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/image_3-6-scaled.jpg"
    },
    {
       "name": "ACD106",
@@ -6327,7 +6434,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/z3q9a"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z3q9a",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/acd106-1024x669-1.jpg"
    },
    {
       "name": "ACD200",
@@ -6345,7 +6453,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/m9my4"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/m9my4",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/IMG_20200619_154959-scaled.jpg"
    },
    {
       "name": "ACD201",
@@ -6364,7 +6473,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/ltg1k"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ltg1k",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_2-5-scaled.jpg"
    },
    {
       "name": "ACD204",
@@ -6384,7 +6494,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_2-6-scaled.jpg"
    },
    {
       "name": "ACD205",
@@ -6405,7 +6516,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/r4kyf"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/r4kyf",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2014/07/acd205.jpg"
    },
    {
       "name": "ACD206",
@@ -6425,7 +6537,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_2-7-scaled.jpg"
    },
    {
       "name": "ACD207",
@@ -6445,7 +6558,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2014/07/acd207.jpg"
    },
    {
       "name": "ACD208",
@@ -6464,7 +6578,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-10-scaled.jpg"
    },
    {
       "name": "ACD211",
@@ -6483,7 +6598,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-11-scaled.jpg"
    },
    {
       "name": "ACD301",
@@ -6503,7 +6619,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/rwz6z"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/rwz6z",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-12-scaled.jpg"
    },
    {
       "name": "ACD303",
@@ -6523,7 +6640,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/z8190"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z8190",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-13-scaled.jpg"
    },
    {
       "name": "ACD304",
@@ -6542,7 +6660,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_1-9-scaled.jpg"
    },
    {
       "name": "ACD308",
@@ -6574,7 +6693,8 @@
          }
       },
       "lectureCapture": "NONE",
-      "liveStreamUrl": "http://www.kaltura.com/tiny/u4xl8"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/u4xl8",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_1-10-scaled.jpg"
    },
    {
       "name": "ACD309",
@@ -6606,7 +6726,8 @@
             "connectToWebex": true
          }
       },
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-14-scaled.jpg"
    },
    {
       "name": "ACD311",
@@ -6625,7 +6746,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_2-8-scaled.jpg"
    },
    {
       "name": "ACD314",
@@ -6643,7 +6765,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-15.jpg"
    },
    {
       "name": "CPB210",
@@ -6675,7 +6798,8 @@
             "connectToWebex": true
          }
       },
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_1-1-scaled.jpg"
    },
    {
       "name": "CPB212",
@@ -6694,7 +6818,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-scaled.jpg"
    },
    {
       "name": "CPB302",
@@ -6712,7 +6837,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/IMG_20190807_154028-scaled.jpg"
    },
    {
       "name": "MARN103",
@@ -6765,7 +6891,8 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-1-scaled.jpg"
    },
    {
       "name": "MARN107",
@@ -6782,7 +6909,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-2-scaled.jpg"
    },
    {
       "name": "MARN122",
@@ -6800,7 +6928,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-3-scaled.jpg"
    },
    {
       "name": "MARN123",
@@ -6831,7 +6960,8 @@
             "connectToWebex": true
          }
       },
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-5-scaled.jpg"
    },
    {
       "name": "MARN124",
@@ -6849,6 +6979,7 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://academicservices.averypoint.uconn.edu/wp-content/uploads/sites/780/2020/08/image_0-6-scaled.jpg"
    }
 ]

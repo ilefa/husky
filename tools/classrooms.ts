@@ -46,11 +46,20 @@ const remoteLinkNames: CampusType[] = [
     'avery_point'
 ];
 
+enum CampusSorting {
+    STORRS,
+    HARTFORD,
+    STAMFORD,
+    WATERBURY,
+    AVERY_POINT
+}
+
 const realRoomCodes = {
     'CHM': 'CHEM',
     'WIDM': 'STRSWW',
     'WOOD': 'WH',
-    'WREC': 'RECTORY'
+    'WATERBURY': 'WTBY',
+    'WREC': 'RECTORY',
 }
 
 const generateClassroomMappings = async () => {
@@ -98,7 +107,12 @@ const generateClassroomMappings = async () => {
         }));
     }));
 
-    let rooms = [].concat.apply([], all);
+    let rooms = []
+        .concat
+        .apply([], all)
+        .sort((a: Classroom, b: Classroom) => a.building.code.localeCompare(b.building.code))
+        .sort((a: Classroom, b: Classroom) => CampusSorting[a.building.campus] - CampusSorting[b.building.campus]);
+
     fs.writeFileSync('./classrooms.json', JSON.stringify(rooms, null, 3));
     
     if (failed.length > 0) {
@@ -135,11 +149,11 @@ const lookup = async (link: string, failed: string[], campus: string): Promise<C
     let conference = $('.classroom-info-video > span').text();
     let lectureType = $('.classroom-info-lecture > span.lecture_type').text();
     let liveStream = $('span.live-stream > a').attr('href');
-    let threeSixty = $('.classroom-info-360viewurl > span > a').attr('href');
+    let threeSixty = $('.classroom-info-360viewurl > span > a').attr('href') || $('.classroom-photo').attr('src');
     let airConditioning = $('.classroom-info-aircondition > span').text();
 
     return {
-        name: name.replace(/\s/, ''),
+        name: (realRoomCodes[name.split(' ')[0].toUpperCase()] || name.split(' ')[0]).toUpperCase() + name.split(' ')[1].split('/')[0],
         building: {
             name: building,
             code: !buildingCode
