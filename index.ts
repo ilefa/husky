@@ -485,7 +485,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
         }
     }
 
-    let target = `https://catalog.uconn.edu/directory-of-courses/course/${prefix}/${number}/`;
+    let target = `https://catalog.uconn.edu/directory-of-courses/course/${prefix}/${number.length === 3 ? ' ' + number : number}/`;
     let res = await axios
         .get(target)
         .then(res => res.data)
