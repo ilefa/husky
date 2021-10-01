@@ -22,7 +22,7 @@
     "homepage": "https://github.com/ilefa/husky#readme",
     "dependencies": {
         "@types/node": "^15.0.0",
-        "axios": "^0.21.1",
+        "axios": "^0.21.2",
         "cheerio": "^1.0.0-rc.6",
         "cheerio-tableparser": "^1.0.1",
         "html-entities": "^2.3.2",
