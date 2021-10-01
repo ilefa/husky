@@ -26,7 +26,7 @@ import tableparse from 'cheerio-tableparser';
 
 import { decode as decodeEntity } from 'html-entities';
 
-export const COURSE_IDENTIFIER = /^[a-zA-Z]{2,4}\d{4}(Q|E|W)*$/;
+export const COURSE_IDENTIFIER = /^[a-zA-Z]{2,4}\d{3,4}(Q|E|W)*$/;
 export const SECTION_IDENTIFIER = /^(H|Z|W|N)*\d{2,3}(L|D|X)*$/;
 
 export type CompleteCoursePayload = {
