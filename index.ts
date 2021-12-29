@@ -559,10 +559,14 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
         let campus = decodeEntity(data[2][i]);
         let mode = decodeEntity(data[3][i]);
         let instructor = data[4][i]
-            .replace('&nbsp;', ' ')
-            .split(', ')
-            .reverse()
-            .join(' ');
+            .replace(/\&nbsp;/g, ' ')
+            .replace(/<br\s*\/*>/, ' | ')
+            .split(' | ')
+            .map(ent => ent
+                .split(', ')
+                .reverse()
+                .join(' '))
+            .join(' & ');
 
         let section = data[5][i];
         let schedule = data[7][i];
@@ -611,9 +615,8 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             notes
         }
 
-        if (virtual.campus.toLowerCase() === 'off-campus') {
+        if (virtual.campus.toLowerCase() === 'off-campus')
             continue;
-        }
 
         sections.push(virtual);
     }
@@ -638,32 +641,33 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
     }
 
     for (let section of sections) {
-        let prof = section.instructor;
-        if (professors.some(p => p.name === prof)) {
-            continue;
-        }
-
-        let rmp = await searchRMP(prof);
-        let teaching = sections
-            .filter(section => section.instructor === prof)
-            .sort((a, b) => a.section.localeCompare(b.section));
-
-        prof = decodeEntity(replaceAll(prof, '<br>', ' '));
-
-        if (!rmp) {
+        let profs = section.instructor.split(' & ');
+        for (let prof of profs) {        
+            if (professors.some(p => p.name === prof))
+                continue;
+            
+            let rmp = await searchRMP(prof);
+            let teaching = sections
+                .filter(section => section.instructor.split(' & ').includes(prof))
+                .sort((a, b) => a.section.localeCompare(b.section));
+    
+            prof = decodeEntity(replaceAll(prof, '<br>', ' '));
+    
+            if (!rmp) {
+                professors.push({
+                    name: prof,
+                    sections: teaching,
+                    rmpIds: []
+                });
+                continue;
+            }
+    
             professors.push({
                 name: prof,
                 sections: teaching,
-                rmpIds: []
+                rmpIds: rmp.rmpIds
             });
-            continue;
         }
-
-        professors.push({
-            name: prof,
-            sections: teaching,
-            rmpIds: rmp.rmpIds
-        });
     }
 
     professors = professors.filter(prof => !!prof.name.trim())
