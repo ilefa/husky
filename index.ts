@@ -560,7 +560,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
         let mode = decodeEntity(data[3][i]);
         let instructor = data[4][i]
             .replace(/\&nbsp;/g, ' ')
-            .replace(/<br\s*\/*>/, ' | ')
+            .replace(/<br\s*\/*>/g, ' | ')
             .split(' | ')
             .map(ent => ent
                 .split(', ')
