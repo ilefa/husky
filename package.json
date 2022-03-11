@@ -1,6 +1,6 @@
 {
     "name": "@ilefa/husky",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "author": "ILEFA Labs",
     "license": "GPL-3.0",
     "description": "A collection of utilities pertaining to UConn services.",
@@ -10,6 +10,7 @@
         "build": "tsc",
         "prepare": "rm -rf dist && npm run build",
         "mappings": "ts-node tools/mappings",
+        "merge": "ts-node tools/merge",
         "classrooms": "ts-node tools/classrooms"
     },
     "repository": {

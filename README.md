@@ -91,7 +91,8 @@ let geog1700 = CourseMappings.find(course => course.name === 'GEOG1700');
         "contentAreas": [
             "CA2",
             "CA4INT"
-        ]
+        ],
+        "graduate": false
     },
     "credits": 3,
     "grading": "Graded",

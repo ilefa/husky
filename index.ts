@@ -437,6 +437,13 @@ const DEFAULT_PREREQS = 'There are no prerequisites for this course.';
 const DEFAULT_DESC = 'There is no description provided for this course.';
 const DEFAULT_SEARCH_PARTS = [SearchParts.SECTIONS, SearchParts.PROFESSORS];
 
+const getCatalogUrl = (prefix: string, number: string) => {
+    let num = parseInt(number.replace(/[^0-9]/g, ''));
+    if (num > 5000 && (prefix !== 'PHRX' || (prefix === 'PHRX' && num < 5199)))
+        return `https://gradcatalog.uconn.edu/course-descriptions/course/${prefix}/${number}/`;
+    return `https://catalog.uconn.edu/directory-of-courses/course/${prefix}/${number.length === 3 ? ' ' + number : number}/`;
+}
+
 /**
  * Attempts to retrieve data regarding
  * a specific UConn course, and returns
@@ -467,7 +474,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
     let number = identifier.split(/[a-zA-Z]{2,4}/)[1];
 
     if (useMappings) {
-        let mapping = CourseMappings.find(ent => ent.name === identifier);
+        let mapping = (CourseMappings as any).find(ent => ent.name === identifier);
         if (!mapping) return await searchCourse(identifier, campus, false, []);
         let marker = moment().isBefore(new Date().setHours(6))
             ? moment(new Date().setHours(-6))
@@ -485,19 +492,18 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
         }
     }
 
-    let target = `https://catalog.uconn.edu/directory-of-courses/course/${prefix}/${number.length === 3 ? ' ' + number : number}/`;
+    let target = getCatalogUrl(prefix, number);
     let res = await axios
         .get(target)
         .then(res => res.data)
         .catch(_ => null);
 
-    if (!res) {
+    if (!res)
         return null;
-    }
 
     let $ = cheerio.load(res);
     tableparse($);
-
+        
     let name = $('.single-course > h3:nth-child(2)')
         .text()
         .split(/\d{4}(?:Q|E|W)*\.\s/)[1];
@@ -528,9 +534,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
     }
 
     let lastDataRaw = $('.last-refresh').text() || moment().format('DD-MMM-YY h.mm.ss.[123456] a').toUpperCase();
-    if (lastDataRaw.includes('.')) {
-        lastDataRaw = replaceAll(lastDataRaw, '.', ':');
-    }
+    if (lastDataRaw.includes('.')) lastDataRaw = replaceAll(lastDataRaw, '.', ':');
 
     let lastDataMarker = new Date(lastDataRaw.split(/:\d{6}/).join(''));
     let description = $('.description').text() || DEFAULT_DESC;
@@ -551,14 +555,15 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
         sections: [],
         professors: []
     };
-
+    
+    let grad = target.includes('gradcatalog');
     let sectionCount = data[0].length - 1;
     for (let i = 0; i < sectionCount + 1; i++) {
         let internalData = cheerio.load(data[0][i].trim());
         let term = data[1][i];
-        let campus = decodeEntity(data[2][i]);
-        let mode = decodeEntity(data[3][i]);
-        let instructor = data[4][i]
+        let campus = decodeEntity(data[grad ? 3 : 2][i]);
+        let mode = decodeEntity(data[grad ? 4 : 3][i]);
+        let instructor = data[grad ? 5 : 4][i]
             .replace(/\&nbsp;/g, ' ')
             .replace(/<br\s*\/*>/g, ' | ')
             .split(' | ')
@@ -568,11 +573,11 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
                 .join(' '))
             .join(' & ');
 
-        let section = data[5][i];
-        let schedule = data[7][i];
+        let section = data[grad ? 6 : 5][i];
+        let schedule = data[grad ? 8 : 7][i];
         schedule = schedule.substring(0, schedule.length - 4);
 
-        let location: string | any = data[8][i];
+        let location: string | any = data[grad ? 10 : 8][i];
         let locationPayload = {} as any;
         if (location?.includes('classrooms.uconn.edu')) {
             location = cheerio.load(location);
@@ -595,7 +600,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             ? enrollment.split('Waitlist Spaces: ')[1] 
             : null;
 
-        let notes = data[10][i];
+        let notes = data[grad ? 13 : 10][i];
         
         let virtual: SectionData = {
             internal: {
@@ -903,7 +908,7 @@ export const getRawEnrollment = async (term: string, classNumber: string, sectio
 
 /**
  * Attempts to lookup service statuses from
- * the UConn IT Status page (https://itstatus.uconn.edu)
+ * the [UConn IT Status page](https://itstatus.uconn.edu)
  * and return them as UConnServiceReport objects.
  * 
  * @param services [optional] the services to lookup

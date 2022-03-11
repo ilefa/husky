@@ -47,6 +47,7 @@ type CourseAttributes = {
     quantitative: boolean;
     environmental: boolean;
     contentAreas: ContentArea[];
+    graduate: boolean;
 }
 
 enum ContentArea {
@@ -126,7 +127,8 @@ const generateCourseMappings = async () => {
                         ? 'CA3'
                         : attrib)
                     .filter(attrib => attrib.startsWith('CA'))
-                    .map(attrib => ContentArea[attrib.toUpperCase()])
+                    .map(attrib => ContentArea[attrib.toUpperCase()]),
+                graduate: false
             },
             credits: parseInt(res.credits),
             grading: res.grading,
