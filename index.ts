@@ -629,7 +629,9 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             section,
             session,
             schedule,
-            location: locations.filter((ent, i) => locations.findIndex(ent2 => ent2.name === ent.name) === i),
+            location: locations
+                .filter((ent, i) => locations.findIndex(ent2 => ent2.name === ent.name) === i)
+                .filter(ent => ent.name),
             enrollment: enrollmentPayload,
             notes
         }
