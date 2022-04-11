@@ -106,11 +106,9 @@ export type SectionData = {
     campus: string;
     instructor: string;
     section: string;
+    session: string;
     schedule: string;
-    location: {
-        name: string;
-        url?: string;
-    };
+    location: SectionLocationData[];
     enrollment: {
         max: number;
         current: number;
@@ -118,6 +116,11 @@ export type SectionData = {
         full: boolean;
     }
     notes: string;
+}
+
+export type SectionLocationData = {
+    name: string;
+    url?: string;
 }
 
 export type ProfessorData = {
@@ -558,6 +561,7 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
     
     let grad = target.includes('gradcatalog');
     let sectionCount = data[0].length - 1;
+
     for (let i = 0; i < sectionCount + 1; i++) {
         let internalData = cheerio.load(data[0][i].trim());
         let term = data[1][i];
@@ -574,17 +578,26 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             .join(' & ');
 
         let section = data[grad ? 6 : 5][i];
+        let session = data[grad ? 7 : 6][i].split('</a>')[0].split('>')[1];
         let schedule = data[grad ? 8 : 7][i];
         schedule = schedule.substring(0, schedule.length - 4);
 
         let location: string | any = data[grad ? 10 : 8][i];
-        let locationPayload = {} as any;
+        let locations: SectionLocationData[] = [];
         if (location?.includes('classrooms.uconn.edu')) {
             location = cheerio.load(location);
-            locationPayload.name = location('a').text();
-            locationPayload.url = location('a').attr('href');
+            if (!location.html().includes('<br>')) {
+                let locationPayload: SectionLocationData = { name: location('a').text(), url: location('a').attr('href') };
+                locations.push(locationPayload);
+            } else {
+                location('a').each((_, el) => {
+                    let locationPayload: SectionLocationData = { name: $(el).text(), url: $(el).attr('href') };
+                    locations.push(locationPayload);
+                });
+            }
         } else {
-            locationPayload.name = location;
+            let locationPayload: SectionLocationData = { name: location };
+            locations.push(locationPayload);
         }
 
         let enrollment = data[9][i];
@@ -614,8 +627,9 @@ export const searchCourse = async (identifier: string, campus: CampusType = 'any
             campus,
             instructor,
             section,
+            session,
             schedule,
-            location: locationPayload,
+            location: locations.filter((ent, i) => locations.findIndex(ent2 => ent2.name === ent.name) === i),
             enrollment: enrollmentPayload,
             notes
         }
