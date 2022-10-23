@@ -19,7 +19,7 @@ const DEFAULT_DESC = 'There is no description provided for this course.';
 const start = Date.now();
 
 // Open all files that start with 'courses' and read them into memory.
-const courseFiles = fs.readdirSync('.').filter(file => file.startsWith('courses') && file.endsWith('.json'));
+const courseFiles = fs.readdirSync('.').filter(file => file.startsWith('courses') && !/courses-\d+.json/.test(file) && file.endsWith('.json'));
 if (!courseFiles.length) {
     console.warn('[!] Exited with status code 1, could not find any course mapping files.');
     process.exit(1);

@@ -70,8 +70,7 @@ const generateCourseMappings = async () => {
         .then(res => cheerio.load(res))
         .catch(_ => null);
 
-    if (!$)
-        return console.error('Failed to retrieve data from the web.');
+    if (!$) return console.error('Failed to retrieve data from the web.');
 
     tableparse($);
 
@@ -87,7 +86,14 @@ const generateCourseMappings = async () => {
         
         let date = Date.now();
         console.log(`[*] Existing mappings saved to [courses-${date}.json]`);
-        console.log(`[*] Origin: ${table[3].length}, local: ${existing.length}, delta: ${table[3].length - existing.length}`);
+        console.log(`[*] Remote: ${table[3].length}, local: ${existing.length}, delta: ${table[3].length - existing.length}`);
+        
+        let remoteCourses = table[3].slice(1).map((val, i) => `${val}${table[4][i]}`);
+        let delta = existing.filter((course: Course) => !remoteCourses.find((val: string) => val === course.name));
+
+        courses = [...delta];
+        console.log(`[*] Imported ${delta.length.toLocaleString()} legacy course mappings.`);
+        
         fs.copyFileSync('./courses.json', `./courses-${date}.json`);
     }
 
@@ -144,7 +150,7 @@ const generateCourseMappings = async () => {
         courses.push(course);
     }
 
-    fs.writeFileSync('./courses.json', JSON.stringify(courses, null, 3));
+    fs.writeFileSync('./courses.json', JSON.stringify(courses.sort((a, b) => a.name.localeCompare(b.name)), null, 3));
     console.log(`\n[*] Finished generating mappings for ${courses.length} courses in ${getLatestTimeValue(Date.now() - start)}.`);
 }
 
