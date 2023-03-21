@@ -381,6 +381,7 @@ export enum BuildingCode {
     PU1 = "Poultry Farm Unit 1",
     RHBA = "Ratcliffe Hicks",
     ROWE = "John W. Rowe Center",
+    SCI1 = 'Science One Research Center',
     SCHN = "Andre Schenker",
     SHA = "Storrs Hall Annex",
     SPRH = "Shipee Hall",

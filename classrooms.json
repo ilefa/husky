@@ -16,43 +16,9 @@
       },
       "byodTesting": true,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/rw5g6",
       "threeSixtyView": "https://live.staticflickr.com/65535/47864045151_3b4af52c27_o_d.jpg"
-   },
-   {
-      "name": "ARJ119",
-      "building": {
-         "name": "Arjona",
-         "code": "ARJ",
-         "campus": "STORRS"
-      },
-      "room": "119",
-      "techType": "FULL",
-      "techDescription": "Document Camera, Windows 10 PC, Projector",
-      "seatingType": "TABLET_ARMCHAIRS",
-      "boardType": "WHITEBOARD",
-      "capacity": {
-         "covid": 12,
-         "full": 43
-      },
-      "byodTesting": false,
-      "airConditioned": true,
-      "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.uconn.edu/wp-content/uploads/sites/748/2020/08/image_0-16-scaled.jpg"
    },
    {
       "name": "ARJ139",
@@ -63,7 +29,7 @@
       },
       "room": "139",
       "techType": "FULL",
-      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "techDescription": "Document Camera, UConn PC, Projector",
       "seatingType": "TABLET_ARMCHAIRS",
       "boardType": "WHITEBOARD",
       "capacity": {
@@ -73,7 +39,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.uconn.edu/wp-content/uploads/sites/748/2020/08/image_1-11-scaled.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51371915926_192c5877b5_o_d.jpg"
    },
    {
       "name": "ARJ143",
@@ -92,19 +58,6 @@
       },
       "byodTesting": true,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/r5f3g",
       "threeSixtyView": "https://live.staticflickr.com/65535/32919938857_a05f8e3763_o_d.jpg"
@@ -127,7 +80,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/48600390326_d8cea6443c_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372145143_c448961f58_o_d.jpg"
    },
    {
       "name": "ARTB107",
@@ -147,7 +100,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/48600525207_e0e96587ca_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372919745_bae93c60b7_o_d.jpg"
    },
    {
       "name": "ATWRA001",
@@ -166,19 +119,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Seminar Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": false,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "threeSixtyView": "https://live.staticflickr.com/7892/46780200351_f8952de56c_o_d.jpg"
    },
@@ -200,6 +140,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0jds0",
       "threeSixtyView": "https://live.staticflickr.com/65535/31800558207_30723907e9_o_d.jpg"
    },
    {
@@ -304,7 +245,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.uconn.edu/wp-content/uploads/sites/748/2014/06/aust163r.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941915928_58e352158b_o_d.jpg"
    },
    {
       "name": "AUST164",
@@ -404,7 +345,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4838/31800557137_611c3ae351_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941831071_d484e21cba_o_d.jpg"
    },
    {
       "name": "AUST434",
@@ -463,7 +404,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4908/32879920268_314e86ee8c_o_d.jpg"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0u5gw",
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941831036_cebc9bb7cf_o_d.jpg"
    },
    {
       "name": "BCH317",
@@ -478,12 +420,13 @@
       "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 18,
-         "full": 66
+         "full": 49
       },
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7825/46755484221_d24f5f90d9_o_d.jpg"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/izmfw",
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942152664_b93b67afc5_o_d.jpg"
    },
    {
       "name": "BCH443",
@@ -502,7 +445,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7818/32879920058_ff94e26116_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51940842517_2641da1ea8_o_d.jpg"
    },
    {
       "name": "BISH006",
@@ -580,7 +523,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/33986788158_572e7ae407_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51371155912_d8eef59e63_o_d.jpg"
    },
    {
       "name": "BOUSA105",
@@ -600,6 +543,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0oup9",
       "threeSixtyView": "https://live.staticflickr.com/4887/46790625601_1b73a9b10a_o_d.jpg"
    },
    {
@@ -619,19 +563,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/lg2d6",
       "threeSixtyView": "https://live.staticflickr.com/7863/31848943447_0555b3dfe5_o_d.jpg"
@@ -653,19 +584,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/ikbyk",
       "threeSixtyView": "https://live.staticflickr.com/4893/46780199301_d07a96c859_o_d.jpg"
@@ -687,22 +605,9 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/po77j",
-      "threeSixtyView": "https://www.flickr.com/photos/163649633@N04/46780199101/sizes/l/"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942447320_5e60cd75ea_o_d.jpg"
    },
    {
       "name": "BRON124",
@@ -741,22 +646,9 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/l519a",
-      "threeSixtyView": "https://live.staticflickr.com/4863/46753259521_1116f989d5_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51310309329_8135d17765_o_d.jpg"
    },
    {
       "name": "BUSN112",
@@ -816,7 +708,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://www.flickr.com/photos/163649633@N04/39787783463/sizes/l/"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51685083809_d87a02bdb1_o_d.jpg"
    },
    {
       "name": "BUSN202",
@@ -836,6 +728,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/03z9v",
       "threeSixtyView": "https://live.staticflickr.com/65535/46753259191_332fc12406_o_d.jpg"
    },
    {
@@ -856,6 +749,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0y871",
       "threeSixtyView": "https://live.staticflickr.com/65535/46700310602_7506e7a8b8_o_d.jpg"
    },
    {
@@ -898,7 +792,7 @@
       "airConditioned": true,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/wepfk",
-      "threeSixtyView": "https://live.staticflickr.com/7806/46780198231_021995e990_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51685085514_41f9eeca7e_o_d.jpg"
    },
    {
       "name": "BUSN215",
@@ -937,22 +831,9 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/pmbo8",
-      "threeSixtyView": "https://live.staticflickr.com/1922/44453984705_dd39208b4f_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51309587231_7fe19312bb_o_d.jpg"
    },
    {
       "name": "BUSN226",
@@ -972,6 +853,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/txtdj",
       "threeSixtyView": "https://live.staticflickr.com/65535/31811546037_6d5b5621d0_o_d.jpg"
    },
    {
@@ -1049,19 +931,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/oq2g8",
       "threeSixtyView": "https://live.staticflickr.com/4857/46755485761_3e9def1ce1_o_d.jpg"
@@ -1083,22 +952,9 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/r6oad",
-      "threeSixtyView": "https://live.staticflickr.com/4845/46780197391_99882222ec_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941915698_c8258b21ae_o_d.jpg"
    },
    {
       "name": "CHEMA203",
@@ -1117,22 +973,9 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/vxwui",
-      "threeSixtyView": "https://live.staticflickr.com/7854/46780197131_e64e845cc0_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942152544_640a1b128b_o_d.jpg"
    },
    {
       "name": "CHEMT112",
@@ -1152,7 +995,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4891/46780196871_a5066cfc36_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942152509_858c680c34_o_d.jpg"
    },
    {
       "name": "CHEMT113",
@@ -1192,7 +1035,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4871/46727553272_879cb46dbf_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942447160_40639b5981_o_d.jpg"
    },
    {
       "name": "CHEMT212",
@@ -1212,7 +1055,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4881/31838391517_6947bfaa17_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941830731_28bb85590c_o_d.jpg"
    },
    {
       "name": "CHEMT213",
@@ -1232,7 +1075,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4902/46780196281_8b3121ab3b_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51940842307_5b466ef6f8_o_d.jpg"
    },
    {
       "name": "CHEMT215",
@@ -1253,7 +1096,7 @@
       "airConditioned": true,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/yhzi5",
-      "threeSixtyView": "https://live.staticflickr.com/4879/46780202801_323023e0cf_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941915478_5ce447b2c8_o_d.jpg"
    },
    {
       "name": "CHEMT309",
@@ -1274,7 +1117,7 @@
       "airConditioned": true,
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/z78u5",
-      "threeSixtyView": "https://live.staticflickr.com/4880/46780202571_999fa45c7c_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942152389_4e3c215b8a_o_d.jpg"
    },
    {
       "name": "E2321",
@@ -1377,6 +1220,26 @@
       "threeSixtyView": "https://live.staticflickr.com/65535/48592818666_1de7621eff_o_d.jpg"
    },
    {
+      "name": "FSB018",
+      "building": {
+         "name": "Family Studies Building",
+         "code": "FSB",
+         "campus": "STORRS"
+      },
+      "room": "18",
+      "techType": "FULL",
+      "seatingType": "TABLES",
+      "boardType": "CHALKBOARD",
+      "capacity": {
+         "covid": 12,
+         "full": 19
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372145118_11288f57d1_o_d.jpg"
+   },
+   {
       "name": "FSB025",
       "building": {
          "name": "Family Studies Building",
@@ -1414,7 +1277,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7877/46755482291_89ca9228f4_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51371915806_56596ba40d_o_d.jpg"
    },
    {
       "name": "FSB103",
@@ -1434,26 +1297,6 @@
       "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://live.staticflickr.com/4890/32879919708_c75dd74c59_o_d.jpg"
-   },
-   {
-      "name": "FSB18",
-      "building": {
-         "name": "Family Studies Building",
-         "code": "FSB",
-         "campus": "STORRS"
-      },
-      "room": "18",
-      "techType": "FULL",
-      "seatingType": "TABLES",
-      "boardType": "CHALKBOARD",
-      "capacity": {
-         "covid": 12,
-         "full": 20
-      },
-      "byodTesting": false,
-      "airConditioned": false,
-      "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4912/46755483311_56fb857fb0_o_d.jpg"
    },
    {
       "name": "FSB202",
@@ -1488,7 +1331,7 @@
       "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 11,
-         "full": 49
+         "full": 42
       },
       "byodTesting": false,
       "airConditioned": false,
@@ -1507,7 +1350,7 @@
       "seatingType": "TABLET_ARMCHAIRS",
       "capacity": {
          "covid": 20,
-         "full": 60
+         "full": 63
       },
       "byodTesting": false,
       "airConditioned": false,
@@ -1532,7 +1375,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/1799/44017894111_2cfa32ee74_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51371915746_21d0b6b270_o_d.jpg"
    },
    {
       "name": "GENT103",
@@ -1551,7 +1394,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/1839/43299028354_13029989ff_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372919570_cfc53bb30d_o_d.jpg"
    },
    {
       "name": "GENT119E",
@@ -1571,7 +1414,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/1837/44017893401_260f59fe0e_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51371155597_1e42ca7b03_o_d.jpg"
    },
    {
       "name": "GENT131",
@@ -1589,22 +1432,9 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/kj663",
-      "threeSixtyView": "https://live.staticflickr.com/1789/43969298762_56e27e2fc9_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942152339_87583f7678_o_d.jpg"
    },
    {
       "name": "GENT140",
@@ -1624,7 +1454,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/32919938487_8ebb1be922_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51254690597_55c761412f_o_d.jpg"
    },
    {
       "name": "GENT140C",
@@ -1644,7 +1474,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/1773/43969298052_8539f492a0_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372919410_270c0e0000_o_d.jpg"
    },
    {
       "name": "GENT201",
@@ -1704,7 +1534,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/32919938317_b6a7b6929c_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51371915711_ba79c4c0a0_o_d.jpg"
    },
    {
       "name": "GENT225",
@@ -1724,7 +1554,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/1811/44017896721_3a7a048fa8_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372144973_4db31b5d1e_o_d.jpg"
    },
    {
       "name": "GENT232",
@@ -1744,7 +1574,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/33986787678_b7f4b580bc_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51256168924_8cebbeed15_o_d.jpg"
    },
    {
       "name": "GENT246",
@@ -1764,7 +1594,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/1813/43299032884_6aa9a45182_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51256168879_0395f83d8f_o_d.jpg"
    },
    {
       "name": "GENT319",
@@ -1784,7 +1614,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/1833/44017895281_3b7938c49f_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51256168849_8dfd2782b8_o_d.jpg"
    },
    {
       "name": "GENT425",
@@ -1804,7 +1634,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/1831/43299029914_3f677c140c_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372144883_fa33e3cc94_o_d.jpg"
    },
    {
       "name": "GENT430",
@@ -1824,7 +1654,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/46984571215_fc45a011da_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51371155637_b269edab44_o_d.jpg"
    },
    {
       "name": "GENT436",
@@ -1844,7 +1674,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/32919938087_d91638e313_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372144948_2c78feebc5_o_d.jpg"
    },
    {
       "name": "GN20",
@@ -1882,7 +1712,9 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0sewl",
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941830591_c0681c071d_o_d.jpg"
    },
    {
       "name": "GW002",
@@ -1901,7 +1733,8 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7816/46780201331_f117b96dd0_o_d.jpg"
+      "liveStreamUrl": "http://www.kaltura.com/tiny/ov4ig",
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942152244_7d472b5273_o_d.jpg"
    },
    {
       "name": "HALL104",
@@ -1940,19 +1773,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Seminar Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": false,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "threeSixtyView": "https://live.staticflickr.com/7901/46755484841_f35bb0729c_o_d.jpg"
    },
@@ -1991,19 +1811,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Seminar Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": false,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "threeSixtyView": "https://live.staticflickr.com/65535/48592995877_cb8475f533_o_d.jpg"
    },
@@ -2084,19 +1891,6 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/y6qcp",
       "threeSixtyView": "https://live.staticflickr.com/4820/31848942847_970d99f1a0_o_d.jpg"
@@ -2117,19 +1911,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/qy5xw",
       "threeSixtyView": "https://live.staticflickr.com/4911/46790624571_3159399723_o_d.jpg"
@@ -2152,7 +1933,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/48593332061_3bbc6e6985_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51940842087_c32197e5d4_o_d.jpg"
    },
    {
       "name": "JRB204",
@@ -2171,19 +1952,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/gjred",
       "threeSixtyView": "https://live.staticflickr.com/65535/47864044371_494defcea8_o_d.jpg"
@@ -2241,12 +2009,12 @@
       "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 8,
-         "full": 34
+         "full": 30
       },
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7866/32879920878_501f9f833a_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942152174_41b5c873a1_o_d.jpg"
    },
    {
       "name": "KNS116",
@@ -2261,12 +2029,12 @@
       "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 7,
-         "full": 34
+         "full": 30
       },
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4888/46755486751_22c3fb92a2_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51940841992_7f1fcd28b2_o_d.jpg"
    },
    {
       "name": "KNS201",
@@ -2280,12 +2048,12 @@
       "seatingType": "TABLET_ARMCHAIRS",
       "capacity": {
          "covid": 11,
-         "full": 40
+         "full": 30
       },
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/49391070557_fc0307f4a0_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941915168_56d26f5e8b_o_d.jpg"
    },
    {
       "name": "KNS202",
@@ -2299,12 +2067,12 @@
       "seatingType": "TABLET_ARMCHAIRS",
       "capacity": {
          "covid": 11,
-         "full": 40
+         "full": 30
       },
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7886/32879920728_4d9f14ce82_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941830426_8cbf76f760_o_d.jpg"
    },
    {
       "name": "LAFAC110",
@@ -2343,19 +2111,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/y3ahs",
       "threeSixtyView": "https://live.staticflickr.com/7919/46780200941_a67eb7c00f_o_d.jpg"
@@ -2377,19 +2132,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/nel92",
       "threeSixtyView": "https://live.staticflickr.com/1778/28990611357_7d358f3c34_o_d.jpg"
@@ -2412,6 +2154,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/03946",
       "threeSixtyView": "https://live.staticflickr.com/4894/46689257122_43b0cb4d8f_o_d.jpg"
    },
    {
@@ -2532,6 +2275,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0ch2b",
       "threeSixtyView": "https://live.staticflickr.com/7922/46689256852_65e7e5dc72_o_d.jpg"
    },
    {
@@ -2553,7 +2297,7 @@
       "airConditioned": true,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/lywag",
-      "threeSixtyView": ""
+      "threeSixtyView": "https://live.staticflickr.com/65535/51310309244_22c8712fab_o_d.jpg"
    },
    {
       "name": "MCHU205",
@@ -2573,6 +2317,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/zfy02",
       "threeSixtyView": "https://live.staticflickr.com/7885/31800555767_4e371c65f5_o_d.jpg"
    },
    {
@@ -2653,6 +2398,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/uhpin",
       "threeSixtyView": "https://live.staticflickr.com/7897/31800554747_9564b09bcb_o_d.jpg"
    },
    {
@@ -2693,7 +2439,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4818/46790624061_c4b1b4fc57_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51309587156_90bc8092df_o_d.jpg"
    },
    {
       "name": "MCHU308",
@@ -2752,19 +2498,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/z1muh",
       "threeSixtyView": "https://live.staticflickr.com/7924/31800558777_f5ae227b8d_o_d.jpg"
@@ -2807,6 +2540,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0ups6",
       "threeSixtyView": "https://live.staticflickr.com/4826/32866890758_bb9a6a36b5_o_d.jpg"
    },
    {
@@ -2827,6 +2561,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0y5tw",
       "threeSixtyView": "https://live.staticflickr.com/7920/31800558897_90b225990e_o_d.jpg"
    },
    {
@@ -2867,6 +2602,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/049um",
       "threeSixtyView": "https://live.staticflickr.com/4887/32866891508_59ff27ee2e_o_d.jpg"
    },
    {
@@ -2887,6 +2623,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/kdii4",
       "threeSixtyView": "https://live.staticflickr.com/65535/49390873876_acb1dbcedc_o_d.jpg"
    },
    {
@@ -3087,19 +2824,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/rx006",
       "threeSixtyView": "https://live.staticflickr.com/7853/46688717331_f3e332a092_o_d.jpg"
@@ -3163,7 +2887,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4849/46635920692_98854e6a59_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/52265542590_e9e3861045_o_d.jpg"
    },
    {
       "name": "OAK107",
@@ -3183,7 +2907,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4884/32813823318_20c630c41f_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51310587530_5c296b0f14_o_d.jpg"
    },
    {
       "name": "OAK108",
@@ -3243,7 +2967,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4823/46635921122_082c763c56_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51310309199_e2d495ff82_o_d.jpg"
    },
    {
       "name": "OAK111",
@@ -3283,7 +3007,7 @@
       "airConditioned": true,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/qcpkc",
-      "threeSixtyView": "https://live.staticflickr.com/4865/46635921602_cd7a19f043_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51309786818_f416660bee_o_d.jpg"
    },
    {
       "name": "OAK117",
@@ -3304,7 +3028,7 @@
       "airConditioned": true,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/rf6c3",
-      "threeSixtyView": "https://live.staticflickr.com/4853/32813824208_01110dd2ef_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51309786848_56294eee92_o_d.jpg"
    },
    {
       "name": "OAK201",
@@ -3364,7 +3088,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7868/46635922082_81a27d09d7_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51310587425_4223f7c6e1_o_d.jpg"
    },
    {
       "name": "OAK267",
@@ -3384,6 +3108,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0ptjp",
       "threeSixtyView": "https://live.staticflickr.com/7823/31747253037_d34d088360_o_d.jpg"
    },
    {
@@ -3523,19 +3248,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/5z63r",
       "threeSixtyView": "https://live.staticflickr.com/65535/49391070837_d8cb3cf2e0_o_d.jpg"
@@ -3557,19 +3269,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/qj5cz",
       "threeSixtyView": "https://live.staticflickr.com/7802/46780200611_37d4c72408_o_d.jpg"
@@ -3612,7 +3311,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/47848535172_89a6e4d724_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51958873000_6e68b72d96_o_d.jpg"
    },
    {
       "name": "RHBA201",
@@ -3630,7 +3329,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "lectureCapture": "NONE"
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://live.staticflickr.com/65535/51958583324_d92a4551dc_o_d.jpg"
    },
    {
       "name": "ROWE122",
@@ -3649,19 +3349,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/r1t9e",
       "threeSixtyView": "https://live.staticflickr.com/4868/31811545537_dca73197a4_o_d.jpg"
@@ -3684,7 +3371,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4842/46753258351_011b7e9011_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941830381_362fbdb6a7_o_d.jpg"
    },
    {
       "name": "ROWE132",
@@ -3707,39 +3394,6 @@
       "threeSixtyView": "https://live.staticflickr.com/7834/31811545057_fb0069f1b8_o_d.jpg"
    },
    {
-      "name": "ROWE213",
-      "building": {
-         "name": "Rowe/CUE",
-         "code": "ROWE",
-         "campus": "STORRS"
-      },
-      "room": "213",
-      "techType": "BASIC",
-      "seatingType": "TABLES",
-      "boardType": "WHITEBOARD",
-      "capacity": {
-         "covid": 4,
-         "full": 13
-      },
-      "byodTesting": false,
-      "airConditioned": false,
-      "videoConference": {
-         "name": "Seminar Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": false,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
-      "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7848/46753257961_784bf9cbef_o_d.jpg"
-   },
-   {
       "name": "ROWE318",
       "building": {
          "name": "Rowe/CUE",
@@ -3756,19 +3410,6 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/o4n1u",
       "threeSixtyView": "https://live.staticflickr.com/7885/39787780403_7bc792680a_o_d.jpg"
@@ -3789,19 +3430,6 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/z1d9k",
       "threeSixtyView": "https://live.staticflickr.com/65535/32919937297_ef977df5d6_o_d.jpg"
@@ -3823,22 +3451,29 @@
       },
       "byodTesting": true,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/8eos8",
       "threeSixtyView": "https://live.staticflickr.com/65535/47811844112_e333691e17_o_d.jpg"
+   },
+   {
+      "name": "SCI1G01",
+      "building": {
+         "name": "Science 1",
+         "code": "SCI1",
+         "campus": "STORRS"
+      },
+      "room": "G01",
+      "techType": "FULL",
+      "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 50,
+         "full": 205
+      },
+      "byodTesting": false,
+      "airConditioned": true,
+      "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0anmx"
    },
    {
       "name": "STRS001",
@@ -3858,7 +3493,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7810/39776912813_2ca0321d41_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942151989_4c7859127d_o_d.jpg"
    },
    {
       "name": "STRS002",
@@ -3878,7 +3513,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/49390874181_ef963295e0_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942151964_181cfea587_o_d.jpg"
    },
    {
       "name": "STRS011",
@@ -3898,7 +3533,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.uconn.edu/wp-content/uploads/sites/748/2019/12/IMG_0428-scaled.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942446630_761cb47429_o_d.jpg"
    },
    {
       "name": "STRS117",
@@ -3918,7 +3553,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4863/39776913133_019c790bfc_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942151909_057423eaca_o_d.jpg"
    },
    {
       "name": "STRS303",
@@ -3938,7 +3573,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/4815/45826561315_b2c863233b_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941830166_c13a69ffbc_o_d.jpg"
    },
    {
       "name": "STRSWW01",
@@ -3957,19 +3592,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/o7er4",
       "threeSixtyView": "https://live.staticflickr.com/65535/49094901318_3bc060d0e8_o_d.jpg"
@@ -3991,19 +3613,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/za6xc",
       "threeSixtyView": "https://live.staticflickr.com/4917/39776912343_9043195f9e_o_d.jpg"
@@ -4025,19 +3634,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/iry5o",
       "threeSixtyView": "https://live.staticflickr.com/4835/46790626751_932cfb5a9c_o_d.jpg"
@@ -4059,27 +3655,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7864/31848944437_ae0b1332c4_o_d.jpg"
-   },
-   {
-      "name": "TLS79",
-      "building": {
-         "name": "Torrey Life Sciences",
-         "code": "TLS",
-         "campus": "STORRS"
-      },
-      "room": "79",
-      "techType": "FULL",
-      "seatingType": "TABLET_ARMCHAIRS",
-      "boardType": "WHITEBOARD",
-      "capacity": {
-         "covid": 7,
-         "full": 23
-      },
-      "byodTesting": false,
-      "airConditioned": false,
-      "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/7847/31848945127_53b8361af0_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51942446510_b17271f710_o_d.jpg"
    },
    {
       "name": "UTEB150",
@@ -4098,19 +3674,6 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/v82l6",
       "threeSixtyView": "https://live.staticflickr.com/1890/44568854142_9b9ef7e09f_o_d.jpg"
@@ -4132,19 +3695,6 @@
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Teach From Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": false,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": false,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/jrikg",
       "threeSixtyView": "https://live.staticflickr.com/65535/49390397433_7e6ba97cec_o_d.jpg"
@@ -4180,7 +3730,7 @@
       "seatingType": "TABLES",
       "capacity": {
          "covid": 5,
-         "full": 16
+         "full": 13
       },
       "byodTesting": false,
       "airConditioned": false,
@@ -4205,7 +3755,8 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/48593483247_f8755f6f3e_o_d.jpg"
+      "liveStreamUrl": "https://www.kaltura.com/index.php/extwidget/preview/partner_id/2090521/uiconf_id/33803311/entry_id/1_0vvqpzok/embed/dynamic?",
+      "threeSixtyView": "https://live.staticflickr.com/65535/51941830091_05d275a9f7_o_d.jpg"
    },
    {
       "name": "WSRH112",
@@ -4224,7 +3775,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/47864043341_7bd3797892_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51371915876_8b8eebaf4c_o_d.jpg"
    },
    {
       "name": "WSRH113",
@@ -4243,7 +3794,7 @@
       "byodTesting": false,
       "airConditioned": true,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://live.staticflickr.com/65535/32919936867_d5b5bf46bf_o_d.jpg"
+      "threeSixtyView": "https://live.staticflickr.com/65535/51372145198_c90dc964ab_o_d.jpg"
    },
    {
       "name": "YNG100",
@@ -4261,19 +3812,6 @@
       },
       "byodTesting": true,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "ALL",
       "liveStreamUrl": "http://www.kaltura.com/tiny/i2eeq",
       "threeSixtyView": "https://live.staticflickr.com/65535/47900588181_8d5fc00e25_o_d.jpg"
@@ -4332,19 +3870,6 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Seminar Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": false,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": false,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "threeSixtyView": "https://live.staticflickr.com/65535/47848534122_7e4e98e1f3_o_d.jpg"
    },
@@ -4377,6 +3902,7 @@
       },
       "room": "139",
       "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 32,
@@ -4423,7 +3949,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HPL_026_1.jpg"
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2020/08/HPL_025_2.jpg"
    },
    {
       "name": "HPL26",
@@ -4442,7 +3968,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HPL_025_2.jpg"
+      "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HPL_026_1.jpg"
    },
    {
       "name": "HTB138",
@@ -4460,19 +3986,6 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/vk19p",
       "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_138_2.jpg"
@@ -4507,24 +4020,11 @@
       "techType": "FULL",
       "boardType": "WHITEBOARD",
       "capacity": {
-         "covid": 71,
+         "covid": 72,
          "full": 22
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/vr9ar",
       "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_145_2.jpg"
@@ -4585,19 +4085,6 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/nei0q",
       "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_206_1.jpg"
@@ -4613,7 +4100,7 @@
       "techType": "FULL",
       "boardType": "WHITEBOARD",
       "capacity": {
-         "covid": 36,
+         "covid": 40,
          "full": 12
       },
       "byodTesting": false,
@@ -4716,6 +4203,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/06bjb",
       "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2018/12/HTB_220_2.jpg"
    },
    {
@@ -4748,7 +4236,7 @@
       "techType": "FULL",
       "boardType": "WHITEBOARD",
       "capacity": {
-         "covid": 48,
+         "covid": 50,
          "full": 17
       },
       "byodTesting": false,
@@ -4787,7 +4275,7 @@
       "techType": "FULL",
       "boardType": "WHITEBOARD",
       "capacity": {
-         "covid": 42,
+         "covid": 46,
          "full": 12
       },
       "byodTesting": false,
@@ -4905,7 +4393,7 @@
       "techType": "FULL",
       "boardType": "WHITEBOARD",
       "capacity": {
-         "covid": 20,
+         "covid": 16,
          "full": 8
       },
       "byodTesting": false,
@@ -5043,20 +4531,8 @@
       },
       "byodTesting": false,
       "airConditioned": false,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/0f93s",
       "threeSixtyView": "https://classrooms.hartford.uconn.edu/wp-content/uploads/sites/2487/2020/08/SSW_113_2.jpg"
    },
    {
@@ -5067,13 +4543,16 @@
          "campus": "STAMFORD"
       },
       "room": "107",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 6,
-         "full": 30
+         "full": 23
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-1-scaled.jpg"
    },
@@ -5085,16 +4564,19 @@
          "campus": "STAMFORD"
       },
       "room": "108",
-      "seatingType": "TABLET_ARMCHAIRS",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 30,
-         "full": 30
+         "full": 75
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/u9223",
-      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/2020-08-28-13.55.57-scaled.jpg"
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/MPR.jpg"
    },
    {
       "name": "DWTN109",
@@ -5104,11 +4586,11 @@
          "campus": "STAMFORD"
       },
       "room": "109",
-      "techDescription": "Document Camera, Windows 10 PC, Projector",
-      "seatingType": "TABLET_ARMCHAIRS",
+      "techType": "FULL",
+      "techDescription": "Document Camera, UConn PC, Projector",
       "capacity": {
          "covid": 36,
-         "full": 36
+         "full": 290
       },
       "byodTesting": false,
       "airConditioned": true,
@@ -5124,13 +4606,16 @@
          "campus": "STAMFORD"
       },
       "room": "129",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 11,
-         "full": 45
+         "full": 48
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-2-scaled.jpg"
    },
@@ -5142,13 +4627,16 @@
          "campus": "STAMFORD"
       },
       "room": "131",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 10,
-         "full": 50
+         "full": 44
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_4-scaled.jpg"
    },
@@ -5160,10 +4648,13 @@
          "campus": "STAMFORD"
       },
       "room": "132",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "FIXED_TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 10,
-         "full": 50
+         "full": 44
       },
       "byodTesting": false,
       "airConditioned": false,
@@ -5178,13 +4669,16 @@
          "campus": "STAMFORD"
       },
       "room": "133",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 15,
-         "full": 46
+         "full": 49
       },
       "byodTesting": false,
-      "airConditioned": false,
+      "airConditioned": true,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/ybnt9",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_3-scaled.jpg"
@@ -5197,13 +4691,15 @@
          "campus": "STAMFORD"
       },
       "room": "134",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "FIXED_TABLES",
       "capacity": {
          "covid": 10,
-         "full": 50
+         "full": 44
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN134.jpeg"
    },
@@ -5215,13 +4711,15 @@
          "campus": "STAMFORD"
       },
       "room": "135",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
       "capacity": {
          "covid": 15,
-         "full": 59
+         "full": 56
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_3-1-scaled.jpg"
    },
@@ -5233,13 +4731,15 @@
          "campus": "STAMFORD"
       },
       "room": "137",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
       "capacity": {
          "covid": 15,
-         "full": 48
+         "full": 50
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN137.jpeg"
    },
@@ -5251,15 +4751,78 @@
          "campus": "STAMFORD"
       },
       "room": "138",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLET_ARMCHAIRS",
       "capacity": {
          "covid": 8,
-         "full": 23
+         "full": 24
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-3-scaled.jpg"
+   },
+   {
+      "name": "DWTN139",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "139",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 48,
+         "full": 48
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/09/139.jpg"
+   },
+   {
+      "name": "DWTN205",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "205",
+      "techType": "FULL",
+      "techDescription": "Monitor, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "seatingType": "LAB_TABLES",
+      "capacity": {
+         "covid": 24,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/205-scaled.jpg"
+   },
+   {
+      "name": "DWTN208",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "208",
+      "techType": "FULL",
+      "techDescription": "Monitor, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "seatingType": "LAB_TABLES",
+      "capacity": {
+         "covid": 16,
+         "full": 16
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/208-scaled.jpg"
    },
    {
       "name": "DWTN209",
@@ -5269,15 +4832,38 @@
          "campus": "STAMFORD"
       },
       "room": "209",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLET_ARMCHAIRS",
       "capacity": {
          "covid": 6,
-         "full": 23
+         "full": 25
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-4.jpg"
+   },
+   {
+      "name": "DWTN212",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "212",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "seatingType": "ACTIVE",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 18,
+         "full": 48
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/212-scaled.jpg"
    },
    {
       "name": "DWTN215",
@@ -5287,26 +4873,15 @@
          "campus": "STAMFORD"
       },
       "room": "215",
+      "techDescription": "Projector, Monitor, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 10,
-         "full": 33
+         "full": 35
       },
       "byodTesting": false,
       "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_3-2-scaled.jpg"
    },
@@ -5318,13 +4893,16 @@
          "campus": "STAMFORD"
       },
       "room": "216",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 10,
          "full": 36
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN216.jpeg"
    },
@@ -5336,7 +4914,10 @@
          "campus": "STAMFORD"
       },
       "room": "218",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 7,
          "full": 25
@@ -5344,7 +4925,7 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN218.jpeg"
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/218.jpg"
    },
    {
       "name": "DWTN220",
@@ -5354,13 +4935,16 @@
          "campus": "STAMFORD"
       },
       "room": "220",
+      "techType": "FULL",
+      "techDescription": "Projector, Monitor, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 15,
          "full": 70
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/ndl7k",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/a2-scaled.jpg"
@@ -5373,10 +4957,13 @@
          "campus": "STAMFORD"
       },
       "room": "222",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 8,
-         "full": 35
+         "full": 30
       },
       "byodTesting": false,
       "airConditioned": false,
@@ -5391,7 +4978,10 @@
          "campus": "STAMFORD"
       },
       "room": "224",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 9,
          "full": 20
@@ -5409,10 +4999,13 @@
          "campus": "STAMFORD"
       },
       "room": "225",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 15,
-         "full": 51
+         "full": 56
       },
       "byodTesting": false,
       "airConditioned": false,
@@ -5427,13 +5020,16 @@
          "campus": "STAMFORD"
       },
       "room": "226",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 10,
-         "full": 30
+         "full": 35
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN226.jpeg"
    },
@@ -5445,10 +5041,13 @@
          "campus": "STAMFORD"
       },
       "room": "229",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 10,
-         "full": 30
+         "full": 32
       },
       "byodTesting": false,
       "airConditioned": false,
@@ -5463,13 +5062,16 @@
          "campus": "STAMFORD"
       },
       "room": "233",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 6,
-         "full": 25
+         "full": 24
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-6-scaled.jpg"
    },
@@ -5481,15 +5083,39 @@
          "campus": "STAMFORD"
       },
       "room": "234",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 12,
-         "full": 41
+         "full": 40
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN234-scaled.jpg"
+   },
+   {
+      "name": "DWTN236",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "236",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "seatingType": "ACTIVE",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 36,
+         "full": 36
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/236-scaled.jpg"
    },
    {
       "name": "DWTN237",
@@ -5499,15 +5125,40 @@
          "campus": "STAMFORD"
       },
       "room": "237",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 9,
-         "full": 26
+         "full": 35
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": ""
+      "liveStreamUrl": "http://www.kaltura.com/tiny/z0ip3",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/237.jpg"
+   },
+   {
+      "name": "DWTN238",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "238",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
+      "seatingType": "LAB_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/238_pic.png"
    },
    {
       "name": "DWTN239",
@@ -5517,13 +5168,16 @@
          "campus": "STAMFORD"
       },
       "room": "239",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 9,
-         "full": 31
+         "full": 32
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN239-scaled.jpg"
    },
@@ -5535,13 +5189,16 @@
          "campus": "STAMFORD"
       },
       "room": "240",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 9,
-         "full": 30
+         "full": 40
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/DWTN240-scaled.jpg"
    },
@@ -5553,15 +5210,38 @@
          "campus": "STAMFORD"
       },
       "room": "242",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 8,
-         "full": 25
+         "full": 24
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/image_0-7-scaled.jpg"
+   },
+   {
+      "name": "DWTN243",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "243",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
+      "seatingType": "LAB_TABLES",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 24,
+         "full": 24
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/243_pic.png"
    },
    {
       "name": "DWTN245",
@@ -5571,13 +5251,16 @@
          "campus": "STAMFORD"
       },
       "room": "245",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 8,
-         "full": 40
+         "full": 24
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/245-scaled.jpg"
    },
@@ -5589,14 +5272,18 @@
          "campus": "STAMFORD"
       },
       "room": "257",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 16,
-         "full": 49
+         "full": 48
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
+      "liveStreamUrl": "http://www.kaltura.com/tiny/tiv6u",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/257-scaled.jpg"
    },
    {
@@ -5607,13 +5294,16 @@
          "campus": "STAMFORD"
       },
       "room": "258",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 15,
-         "full": 48
+         "full": 40
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/258-scaled.jpg"
    },
@@ -5625,13 +5315,16 @@
          "campus": "STAMFORD"
       },
       "room": "259",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLET_ARMCHAIRS",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 12,
-         "full": 35
+         "full": 32
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/259-scaled.jpg"
    },
@@ -5643,7 +5336,10 @@
          "campus": "STAMFORD"
       },
       "room": "305",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 15,
          "full": 60
@@ -5651,7 +5347,67 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/305-scaled.jpg"
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/305-1.jpg"
+   },
+   {
+      "name": "DWTN305A",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "305A",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 28,
+         "full": 28
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/305A-scaled.jpg"
+   },
+   {
+      "name": "DWTN305F",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "305F",
+      "techType": "FULL",
+      "techDescription": "Monitor, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 20,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/305F-scaled.jpg"
+   },
+   {
+      "name": "DWTN305G",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "305G",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "boardType": "WHITEBOARD",
+      "capacity": {
+         "covid": 35,
+         "full": 35
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/305G-scaled.jpg"
    },
    {
       "name": "DWTN307",
@@ -5661,25 +5417,10 @@
          "campus": "STAMFORD"
       },
       "room": "307",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
-      "capacity": {
-         "covid": 6,
-         "full": 19
-      },
-      "byodTesting": false,
-      "airConditioned": true,
-      "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/307-scaled.jpg"
-   },
-   {
-      "name": "DWTN308",
-      "building": {
-         "name": "Downtown",
-         "code": "DWTN",
-         "campus": "STAMFORD"
-      },
-      "room": "308",
-      "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 6,
          "full": 16
@@ -5687,7 +5428,27 @@
       "byodTesting": false,
       "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/308-scaled.jpg"
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/307-scaled.jpg"
+   },
+   {
+      "name": "DWTN3114",
+      "building": {
+         "name": "Downtown",
+         "code": "DWTN",
+         "campus": "STAMFORD"
+      },
+      "room": "3114",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
+      "seatingType": "ACTIVE",
+      "capacity": {
+         "covid": 20,
+         "full": 20
+      },
+      "byodTesting": false,
+      "airConditioned": false,
+      "lectureCapture": "NONE",
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2021/10/3.114-Mac-Lab-scaled.jpg"
    },
    {
       "name": "DWTN3117",
@@ -5697,13 +5458,15 @@
          "campus": "STAMFORD"
       },
       "room": "3117",
-      "seatingType": "TABLET_ARMCHAIRS",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
+      "seatingType": "TABLES",
       "capacity": {
          "covid": 25,
-         "full": 50
+         "full": 48
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/vqugz",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/IMG_0400-scaled.jpg"
@@ -5716,46 +5479,17 @@
          "campus": "STAMFORD"
       },
       "room": "312",
-      "seatingType": "FIXED_LEVELED_TABLES",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 9,
-         "full": 16
-      },
-      "byodTesting": false,
-      "airConditioned": true,
-      "videoConference": {
-         "name": "Full Video Conference",
-         "attributes": {
-            "shareContent": true,
-            "instructorFacingCamera": true,
-            "studentFacingCamera": true,
-            "presentMediaFrontOfRoom": true,
-            "presentMediaBackOfRoom": true,
-            "instructorMicrophone": true,
-            "studentMicrophone": true,
-            "connectToWebex": true
-         }
-      },
-      "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/312-scaled.jpg"
-   },
-   {
-      "name": "DWTN3126",
-      "building": {
-         "name": "Downtown",
-         "code": "DWTN",
-         "campus": "STAMFORD"
-      },
-      "room": "3126",
-      "seatingType": "TABLES",
-      "capacity": {
-         "covid": 4,
          "full": 20
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/2020-08-28-15.32.17-scaled.jpg"
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/312-scaled.jpg"
    },
    {
       "name": "DWTN317A",
@@ -5765,49 +5499,58 @@
          "campus": "STAMFORD"
       },
       "room": "317A",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop HDMI, Document Camera",
       "seatingType": "TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 12,
-         "full": 33
+         "full": 32
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
-      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/317a-scaled.jpg"
+      "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/317A-1.jpg"
    },
    {
-      "name": "USRHA",
+      "name": "WBRHA",
       "building": {
-         "name": "UConn Stamford Residence Hall",
+         "name": "Washington Blvd Residence Hall",
          "code": "USRH",
          "campus": "STAMFORD"
       },
       "room": "A",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 17,
-         "full": 68
+         "full": 70
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/usrha-scaled.jpg"
    },
    {
-      "name": "USRHB",
+      "name": "WBRHB",
       "building": {
-         "name": "UConn Stamford Residence Hall",
+         "name": "Washington Blvd Residence Hall",
          "code": "USRH",
          "campus": "STAMFORD"
       },
       "room": "B",
+      "techType": "FULL",
+      "techDescription": "Projector, UConn PC, Laptop USB-C, Laptop HDMI, Document Camera",
       "seatingType": "FIXED_LEVELED_TABLES",
+      "boardType": "WHITEBOARD",
       "capacity": {
          "covid": 19,
-         "full": 68
+         "full": 70
       },
       "byodTesting": false,
-      "airConditioned": true,
+      "airConditioned": false,
       "lectureCapture": "NONE",
       "threeSixtyView": "https://classrooms.stamford.uconn.edu/wp-content/uploads/sites/3113/2020/08/usrhb.jpg"
    },
@@ -6318,6 +6061,19 @@
       },
       "byodTesting": true,
       "airConditioned": false,
+      "videoConference": {
+         "name": "Teach From Video Conference",
+         "attributes": {
+            "shareContent": true,
+            "instructorFacingCamera": true,
+            "studentFacingCamera": false,
+            "presentMediaFrontOfRoom": false,
+            "presentMediaBackOfRoom": true,
+            "instructorMicrophone": true,
+            "studentMicrophone": false,
+            "connectToWebex": true
+         }
+      },
       "lectureCapture": "NONE",
       "liveStreamUrl": "http://www.kaltura.com/tiny/i8gdm",
       "threeSixtyView": "https://classrooms.waterbury.uconn.edu/wp-content/uploads/sites/3114/2020/08/IMG_20200730_112816-scaled.jpg"
@@ -6425,10 +6181,10 @@
       },
       "room": "106",
       "techType": "FULL",
-      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "techDescription": "Document Camera, UConn PC, Projector",
       "seatingType": "TABLES",
       "capacity": {
-         "covid": 42,
+         "covid": 38,
          "full": 18
       },
       "byodTesting": false,
@@ -6485,7 +6241,7 @@
       },
       "room": "204",
       "techType": "FULL",
-      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "techDescription": "Document Camera, UConn PC, Projector",
       "seatingType": "LAB_TABLES",
       "boardType": "WHITEBOARD",
       "capacity": {
@@ -6506,7 +6262,7 @@
       },
       "room": "205",
       "techType": "FULL",
-      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "techDescription": "Document Camera, UConn PC, Projector",
       "seatingType": "TABLES",
       "boardType": "WHITEBOARD",
       "capacity": {
@@ -6528,11 +6284,11 @@
       },
       "room": "206",
       "techType": "FULL",
-      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "techDescription": "Document Camera, UConn PC, Projector",
       "seatingType": "ACTIVE",
       "boardType": "WHITEBOARD",
       "capacity": {
-         "covid": 42,
+         "covid": 36,
          "full": 16
       },
       "byodTesting": false,
@@ -6549,7 +6305,7 @@
       },
       "room": "207",
       "techType": "FULL",
-      "techDescription": "Document Camera, Windows 10 PC, Projector",
+      "techDescription": "Document Camera, UConn PC, Projector",
       "seatingType": "TABLES",
       "boardType": "WHITEBOARD",
       "capacity": {
@@ -6573,7 +6329,7 @@
       "seatingType": "TABLET_ARMCHAIRS",
       "boardType": "WHITEBOARD",
       "capacity": {
-         "covid": 38,
+         "covid": 36,
          "full": 16
       },
       "byodTesting": false,
@@ -6634,7 +6390,7 @@
       "seatingType": "TABLES",
       "boardType": "WHITEBOARD",
       "capacity": {
-         "covid": 43,
+         "covid": 36,
          "full": 21
       },
       "byodTesting": false,
