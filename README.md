@@ -1,8 +1,6 @@
 # Husky
 
 ![version badge](https://img.shields.io/github/package-json/v/ilefa/husky?color=2573bc)
-![vuln badge](https://img.shields.io/snyk/vulnerabilities/github/ilefa/husky)
-![codeql badge](https://img.shields.io/github/workflow/status/ilefa/husky/CodeQL?label=codeql%20analysis)
 
 Husky is a TypeScript library that contains several useful utilities for interfacing with UConn services.
 
@@ -12,12 +10,6 @@ Use npm to install Husky.
 
 ```bash
 npm install @ilefa/husky
-```
-
-Since Husky is currently hosted on GitHub packages, you will need to make a ``.npmrc`` file in the root of your project, and insert the following:
-
-```env
-@ilefa:registry=https://npm.pkg.github.com
 ```
 
 ## Usage

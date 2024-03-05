@@ -1,6 +1,6 @@
 {
     "name": "@ilefa/husky",
-    "version": "1.3.3",
+    "version": "1.4",
     "author": "ILEFA Labs",
     "license": "GPL-3.0",
     "description": "A collection of utilities pertaining to UConn services.",
@@ -39,8 +39,5 @@
         "@types/string-similarity": "^4.0.0",
         "ts-node": "^9.1.1",
         "typescript": "^4.2.4"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
     }
 }
