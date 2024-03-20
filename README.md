@@ -62,13 +62,14 @@ If you do not, you may have a problem importing the JSON file directly.
 Husky offers a complete static set of "course mappings" aka course information from the course catalog.
 
 The data stored in the course mappings JSON file is sorted alphabetically by course name (ABCD1234Q),
-and is wrapped in an array. It can be can be imported via ``@ilefa/husky/courses.json``:
+and is wrapped in an array. It can be can be imported via ``@ilefa/husky/courses.json`` or can be fetched
+using the set of mapping helper functions: [getMappings](./src/index.ts#L344), [getMappingByAttribute](./src/index.ts#L352), and [getMappingMatches](./src/index.ts#L360).
 
 ```ts
-import CourseMappings from '@ilefa/husky/courses.json';
+import { getMappingByAttribute, getMappingMatches } from '@ilefa/husky';
 
 // For example, retrieving GEOG1700 will yield the following data:
-let geog1700 = CourseMappings.find(course => course.name === 'GEOG1700');
+let geog1700 = getMappingByAttribute('name', 'GEOG1700');
 
 {
     "name": "GEOG1700",
@@ -90,19 +91,44 @@ let geog1700 = CourseMappings.find(course => course.name === 'GEOG1700');
     "grading": "Graded",
     "description": "Study of geographic relationships among natural and cultural environments that help to distinguish one part of the world from another. Analysis of selected countries as well as larger regions, with specific reference to the non-western world. CA 2. CA 4-INT."
 }
+
+// Or, how about we get all CSE courses:
+let cseCourses = getMappingMatches('name', name => name.startsWith('CSE'));
+
+[
+    ...
+    {
+        name: 'CSE1010',
+        catalogName: 'Introduction to Computing for Engineers',
+        catalogNumber: '1010',
+        prerequisites: 'May not be taken out of sequence after passing CSE 1729 or 2050.',
+        attributes: {
+            lab: false,
+            writing: false,
+            quantitative: false,
+            environmental: false,
+            contentAreas: [],
+            graduate: false
+        },
+        credits: 3,
+        grading: 'Graded',
+        description: 'Introduction to computing logic, algorithmic thinking, computing processes, a programming language and computing environment. Knowledge obtained in this course enables use of the computer as an instrument to solve computing problems. Representative problems from science, mathematics, and engineering will be solved.'
+    },
+    ...
+]
 ```
 
 ## Classroom Mappings
 Husky also offers a complete static set of "classroom mappings" aka classroom information from the [classroom viewer website](https://classrooms.uconn.edu/classroom/).
 
 The data stored in the classroom mappings JSON file is sorted alphabetically by room name (BLDG1234),
-and is wrapped in an array. It can be can be imported via ``@ilefa/husky/classrooms.json``:
+and is wrapped in an array. It can be can be imported via ``@ilefa/husky/classrooms.json`` or can be fetched using the set of helper functions: [getClassrooms](./src/index#L369), [getClassroomsForBuilding](./src/index.ts#L377), [getClassroomByAttribute](./src/index.ts#L385), [getClassroomMatches](./src/index.ts#L398).
 
 ```ts
-import ClassroomMappings from '@ilefa/husky/classrooms.json';
+import { getClassroomByAttribute, getClassroomsForBuilding } from '@ilefa/husky';
 
 // For example, retrieving ARJ105 will yield the following data:
-let arj105 = ClassroomMappings.find(room => room.name === 'ARJ105');
+let arj105 = getClassroomByAttribute('name', 'ARJ105');
 
 {
     "name": "ARJ105",
@@ -139,19 +165,17 @@ let arj105 = ClassroomMappings.find(room => room.name === 'ARJ105');
     "liveStreamUrl": "http://www.kaltura.com/tiny/rw5g6",
     "threeSixtyView": "https://live.staticflickr.com/65535/47864045151_3b4af52c27_o_d.jpg"
 }
+
+// You can also lookup all classrooms for a given building or campus:
+let arjRooms = getClassroomsForBuilding('code', 'ARJ')
+             = getClassroomsForBuilding('name', 'Arjona')
+             = getClassroomsForBuilding('campus', 'STORRS');
+
+// Lastly, you can also lookup classrooms by their attributes
+let auditoriums = getClassroomMatches('seatingType', type => type === 'FIXED_AUDITORIUM');
 ```
 
 In the case that classrooms are updated, added, or removed over time, you may execute ``npm run classrooms`` to regenerate the mappings.
-
-## RMP Mappings
-Husky also offers a complete static set of mappings for RateMyProfessors IDs for all UConn campuses and professors.
-
-The data is stored in the RMP mappings file, and sorted alphabetically by professor name in the form of an array.
-It can either be queried by using the [searchRMP](index.ts#L437) function, or directly by importing ``@ilefa/husky/rmpIds.json``.
-
-Also, do note that the functionality of the [searchRMP](index.ts#L437) function has been changed - now, it will search for RMP IDs locally, and then falls back to creating a request to RMP if the data is not found locally.
-
-Regardless of how this data is queried, it will return a payload in the form of a [RateMyProfessorResponse](index.ts#L85). Additionally, we have all of the campus IDs stored in the [RmpCampusIds](index.ts#L149) enum in case you need them for anything.
 
 ## Manually finding internal course information
 *Please note this information is included for your convience within the [searchCourse](index.ts#L144) response under [SectionData#internal](index.ts#L51)*

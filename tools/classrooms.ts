@@ -28,7 +28,7 @@ import {
     LectureCaptureType,
     SeatingType,
     TechType
-} from '..';
+} from '../src';
 
 const remoteLinks = [
     'https://classrooms.uconn.edu/classroom',

@@ -3,7 +3,7 @@ import axios from 'axios';
 import cheerio from 'cheerio';
 import progress from 'progress';
 
-import { searchCourse } from '..';
+import { searchCourse } from '../src';
 
 const PREFIXES = [
     "ACCT",

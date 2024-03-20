@@ -1,6 +1,6 @@
 import fs from 'fs';
 
-import { CourseAttributes } from '..';
+import { CourseAttributes } from '../src';
 
 type Course = {
     name: string;

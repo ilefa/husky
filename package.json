@@ -1,11 +1,11 @@
 {
     "name": "@ilefa/husky",
-    "version": "1.4.0",
+    "version": "1.6.0",
     "author": "ILEFA Labs",
     "license": "GPL-3.0",
     "description": "A collection of utilities pertaining to UConn services.",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
+    "main": "dist/src/index.js",
+    "types": "dist/src/index.d.ts",
     "scripts": {
         "build": "tsc",
         "prepare": "rm -rf dist && npm run build",
@@ -20,24 +20,23 @@
     "bugs": {
         "url": "https://github.com/ilefa/husky/issues"
     },
-    "homepage": "https://github.com/a/husky#readme",
+    "homepage": "https://github.com/ilefa/husky#readme",
     "dependencies": {
-        "@types/node": "^15.0.0",
         "axios": "^1.6.5",
         "cheerio": "^1.0.0-rc.6",
         "cheerio-tableparser": "^1.0.1",
         "html-entities": "^2.3.2",
         "moment": "^2.29.1",
-        "progress": "^2.0.3",
-        "qs": "^6.10.1",
-        "string-similarity": "^4.0.4",
-        "yesno": "^0.3.1"
+        "qs": "^6.10.1"
     },
     "devDependencies": {
+        "@types/node": "^20.11.30",
         "@types/progress": "^2.0.3",
         "@types/qs": "^6.9.6",
         "@types/string-similarity": "^4.0.0",
+        "progress": "^2.0.3",
         "ts-node": "^9.1.1",
-        "typescript": "^4.2.4"
+        "typescript": "^4.2.4",
+        "yesno": "^0.3.1"
     }
 }
