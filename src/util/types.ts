@@ -114,16 +114,11 @@ export type RateMyProfessorResponse = {
     rmpIds: string[];
 }
 
-export type RmpReport = {
-    name: string;
-    results: RmpReportComponent[];
-}
-
 export type RmpGraphQlEdge<T> = {
     edges: Array<{ node: T }>;
 }
 
-export type RmpReportComponent = {
+export type RmpReport = {
     avgRating: number;
     avgDifficultyRounded: number;
     wouldTakeAgainPercent: number;
