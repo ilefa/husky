@@ -131,10 +131,22 @@ export type RmpReport = {
 }
 
 export type RmpRating = {
+    attendanceMandatory: string;
+    clarityRating: number;
     class: string;
     comment: string;
     date: string;
     difficultyRating: number;
+    grade: string;
+    helpfulRating: number;
+    id: string;
+    isForCredit: boolean;
+    isForOnlineClass: boolean;
+    legacyId: number;
+    ratingTags: string;
+    thumbsDownTotal: number;
+    thumbsUpTotal: number;
+    wouldTakeAgain: number;
 }
 
 export enum UConnService {

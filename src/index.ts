@@ -480,10 +480,22 @@ export const getRmpReport = async (id: string): Promise<RmpReport> => {
                                 ratings(first: 1000) {
                                     edges {
                                         node {
+                                            id
+                                            legacyId
                                             class
                                             comment
                                             date
                                             difficultyRating
+                                            helpfulRating
+                                            clarityRating
+                                            thumbsUpTotal
+                                            thumbsDownTotal
+                                            wouldTakeAgain
+                                            attendanceMandatory
+                                            grade
+                                            isForCredit
+                                            isForOnlineClass
+                                            ratingTags
                                         }
                                     }
                                 }
