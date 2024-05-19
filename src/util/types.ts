@@ -156,8 +156,9 @@ export enum UConnService {
     KFS = 'KFS',
     NETID = 'NetID',
     NETWORK = 'Network',
+    ONEDRIVE = 'OneDrive/SharePoint',
     STUDENT_ADMIN = 'Student Admin',
-    WEBEX = 'Webex',
+    TEAMS = 'Teams',
     UNKNOWN = 'Unknown'
 }
 
